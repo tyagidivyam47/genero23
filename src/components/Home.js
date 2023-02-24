@@ -54,7 +54,7 @@ function Home() {
         <h1>Find Workers for your Task</h1>
         <input placeholder='Enter a Location' onChange={(e)=>{
            
-            if(e.target.value==''){
+            if(e.target.value===''){
                 setArr(res)
             }else{
                 var k=arr.filter(s=>{
@@ -65,7 +65,7 @@ function Home() {
         }} />
         <input placeholder='Enter a Task' onChange={(e)=>{
             console.log(e)
-            if(e.target.value==''){
+            if(e.target.value===''){
                 setArr(res)
             }else{
                 var k=arr.filter(s=>{

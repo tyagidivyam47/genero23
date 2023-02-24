@@ -1,5 +1,17 @@
 import React, { useState } from 'react'
 
+const ServiceCard=(props)=>{
+    return(
+        <div className='bg-light rounded border my-2 p-3 mx-3 col-3'>
+            <div style={{width:'30vw'}}>
+                        <h2 className='' style={{width:'fit-content'}}>{props.obj.worker}</h2>
+                        <p style={{width:'fit-content'}}><i className='fa fa-tasks'></i>   {props.obj.task}</p>
+                        <p style={{width:'fit-content'}}><i className='fa fa-location'></i>   {props.obj.location}</p>
+                        <p style={{width:'fit-content'}}><i className='fa fa-location'></i>   {props.obj.location}</p>
+            </div>
+        </div>
+    )
+}
 function Home() {
     const res=[
         {
@@ -51,8 +63,10 @@ function Home() {
     ])
   return (
     <div>
+        <div className='w-25 mx-auto'>
+
         <h1>Find Workers for your Task</h1>
-        <input placeholder='Enter a Location' onChange={(e)=>{
+        <input className='form-control my-2' placeholder='Enter a Location' onChange={(e)=>{
            
             if(e.target.value===''){
                 setArr(res)
@@ -63,7 +77,7 @@ function Home() {
                 setArr(k)
             }
         }} />
-        <input placeholder='Enter a Task' onChange={(e)=>{
+        <input className='form-control my-2' placeholder='Enter a Task' onChange={(e)=>{
             console.log(e)
             if(e.target.value===''){
                 setArr(res)
@@ -74,16 +88,11 @@ function Home() {
                 setArr(k)
             }
         }}/>
-        <div>
+        </div>
+        <div className='row justify-content-around w-100'>
             {
                 arr.map(e=>{
-                    return <div style={{width:'30vw'}}>
-                        <h1>{e.worker}</h1>
-                        <div style={{display:'flex', justifyContent:'space-between', textAlign:'left'}}>
-                            <p>{e.task}</p>
-                            <p>{e.location}</p>
-                        </div>
-                    </div>
+                    return <ServiceCard obj={e} />
                 })
             }
         </div>

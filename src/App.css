@@ -4,6 +4,7 @@
 body{
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
 *{
@@ -14,3 +15,4 @@ body{
 button:hover{
   opacity: 0.7;
 }
+

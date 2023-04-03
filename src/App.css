@@ -4,7 +4,6 @@
 body{
   background-color:#f0f4e5;
   color: white;
-  overflow: hidden;
 }
 
 *{
@@ -15,6 +14,10 @@ body{
 
 #home-carousel{
   background: url('./assets/generobg.png');
+  background-size: contain;
+  /* background-repeat: no-repeat;
+  background-position: bottom; */
+  width: 100%;
 }
 button:hover{
   opacity: 0.7;
@@ -40,4 +43,65 @@ button:hover{
   /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
+}
+
+
+#navbarNavAltMarkup{
+  display: flex;
+  justify-content: end;
+}
+
+
+@media screen and (max-width:768px) {
+  #home-carousel{
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+ }
+  100% {
+    transform: translateX(calc(-250px * 7));
+ }
+}
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
 }

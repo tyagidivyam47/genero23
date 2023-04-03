@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body{
-  background-color: black;
+  background-color:#f0f4e5;
   color: white;
   overflow: hidden;
 }
@@ -12,7 +12,32 @@ body{
 }
 
 
+
+#home-carousel{
+  background: url('./assets/generobg.png');
+}
 button:hover{
   opacity: 0.7;
 }
 
+.btn-grad {
+  background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
+  margin: 10px auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: 0;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

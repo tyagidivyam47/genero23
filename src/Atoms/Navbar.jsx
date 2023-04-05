@@ -10,10 +10,10 @@ function Navbar() {
             <div class="collapse navbar-collapse d-none" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="/">About</a>
-                    <a class="nav-item nav-link" href="/">Past</a>
-                    <a class="nav-item nav-link" href="/">Schedule</a>
-                    <a class="nav-item nav-link" href="/">Team</a>
+                    <a class="nav-item nav-link" href="#about">About</a>
+                    <a class="nav-item nav-link" href="#eventPage">Past</a>
+                    <a class="nav-item nav-link" href="#queries">FAQ</a>
+                    <a class="nav-item nav-link" href="#team">Team</a>
                     <button className='btn btn-dark'>Register Now</button>
                 </div>
             </div>

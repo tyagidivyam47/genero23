@@ -1,85 +1,107 @@
 import React from 'react'
 import './Events.css'
+
+import im1 from './events/img (1).jpeg'
+import im2 from './events/img (2).jpeg'
+import im3 from './events/img (3).jpeg'
+import im4 from './events/img (4).jpeg'
+import im5 from './events/img (5).jpeg'
+import im6 from './events/img (6).jpeg'
+import im7 from './events/img (7).jpeg'
+import im8 from './events/img (8).jpeg'
+import im9 from './events/img (9).jpeg'
+import im10 from './events/img (10).jpeg'
+import im11 from './events/img (11).jpeg'
+import im12 from './events/img (12).jpeg'
+import im13 from './events/img (13).jpeg'
+import im14 from './events/img (14).jpeg'
+import im15 from './events/img (15).jpeg'
+import im16 from './events/img (16).jpeg'
+import im17 from './events/img (17).jpeg'
+// import im18 from './events/img (18).jpeg'
+// import im19 from './events/img (19).jpeg'
+// import im20 from './events/img (20).jpeg'
+// import im21 from './events/img (21).jpeg'
 function Events() {
     return (
         <div id='eventPage'>
 
 
                 <div className=''>
-                    <h1 className='fixText'>#PastEvents</h1>
+                    <h1 className='fixText text-black'>#Genero'19</h1>
                 </div>
                 <div className="containera col-4">
                     <div className="child-container">
-                        <img src="https://picsum.photos/100" alt="pic 1" />
+                        <img src={im1} alt="pic 1" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/200" alt="pic 2" />
+                        <img src={im2} alt="pic 2" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/300" alt="pic 3" />
+                        <img src={im3} alt="pic 3" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/400" alt="pic 4" />
+                        <img src={im4} alt="pic 4" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/500" alt="pic 5" />
+                        <img src={im5} alt="pic 5" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/600" alt="pic 6" />
+                        <img src={im1} alt="pic 6" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/150" alt="pic 7" />
+                        <img src={im6} alt="pic 7" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/250" alt="pic 8" />
+                        <img src={im7} alt="pic 8" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/350" alt="pic 9" />
+                        <img src={im8} alt="pic 9" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/450" alt="pic 10" />
+                        <img src={im2} alt="pic 10" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/550" alt="pic 11" />
+                        <img src={im9} alt="pic 11" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/650" alt="pic 12" />
+                        <img src={im10} alt="pic 12" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/110" alt="pic 13" />
+                        <img src={im3} alt="pic 13" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/210" alt="pic 14" />
+                        <img src={im11} alt="pic 14" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/310" alt="pic 15" />
+                        <img src={im12} alt="pic 15" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/410" alt="pic 16" />
+                        <img src={im4} alt="pic 16" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/510" alt="pic 17" />
+                        <img src={im13} alt="pic 17" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/610" alt="pic 18" />
+                        <img src={im14} alt="pic 18" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/125" alt="pic 19" />
+                        <img src={im5} alt="pic 19" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/225" alt="pic 20" />
+                        <img src={im15} alt="pic 20" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/325" alt="pic 21" />
+                        <img src={im16} alt="pic 21" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/425" alt="pic 22" />
+                        <img src={im6} alt="pic 22" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/525" alt="pic 23" />
+                        <img src={im17} alt="pic 23" />
                     </div>
                     <div className="child-container">
-                        <img src="https://picsum.photos/625" alt="pic 24" />
+                        <img src={im7} alt="pic 24" />
                     </div>
                 
             </div>

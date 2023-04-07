@@ -19,9 +19,9 @@ const Footer = () => {
 
             <footer className="footer">
                 <div className="row">
-                    <div className='des' style={{flexBasis:"25%"}}>
+                    <div className='des' style={{ flexBasis: "25%" }}>
                         <img src="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" width="100px" alt="generoLogo" />
-                        <p style={{textAlign:"justify"}} className="para">
+                        <p style={{ textAlign: "justify" }} className="para">
                             Ullamco aliquip nostrud sint fugiat occaecat adipisicing excepteur duis qui amet ex anim
                             incididunt. Cupidatat exercitation elit irure eiusmod est sit commodo labore sint minim sunt
                             incididunt tempor.
@@ -29,17 +29,19 @@ const Footer = () => {
                     </div>
 
                     <div className="col">
-                        <h3>Contact us</h3>
-                        <p>ABES Engineering College</p>
-                        <p>19th KM Stone ,
-                            NH-09 GHAZIABAD, 201009</p>
-                        <p className="email">studentsupport@abes.ac.in</p>
-                        <p className="contactNo">01207135112</p>
+                        <h4>Contact us</h4>
+                        <div style={{ marginTop: "1rem" }}>
+                            <p>ABES Engineering College</p>
+                            <p>19th KM Stone ,
+                                NH-09 GHAZIABAD, 201009</p>
+                            <p className="email">studentsupport@abes.ac.in</p>
+                            <p className="contactNo">01207135112</p>
+                        </div>
                     </div>
 
                     <div className="col">
-                        <h3>Links</h3>
-                        <ul>
+                        <h4>Links</h4>
+                        <ul style={{ marginTop: "1rem" }}>
                             <a
                                 href="/#about"
                                 style={{ textDecoration: "none", color: "white" }}
@@ -86,7 +88,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col">
-                        <h3>Follow us on</h3>
+                        <h4>Follow us on</h4>
                         <div className="socialIcons">
                             <a
                                 href="https://www.instagram.com/genero.abesec/"

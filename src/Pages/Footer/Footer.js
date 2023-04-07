@@ -1,6 +1,4 @@
 import React from 'react'
-// import './Footer.css';
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faFacebook,
@@ -12,114 +10,44 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div>
-            {/* <FontAwesomeIcon className="icons" icon={faInstagram} />
-            <FontAwesomeIcon className="icons" icon={faFacebook} />
-            <FontAwesomeIcon className="icons" icon={faYoutube} /> */}
+        <div class="footer">
+            <div class=" col-lg-7 col-12">
+                <div className='w-100 d-flex'>
 
-            <footer className="footer">
-                <div className="row">
-                    <div className='des' style={{ flexBasis: "25%" }}>
-                        <img src="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" width="100px" alt="generoLogo" />
-                        <p style={{ textAlign: "justify" }} className="para">
-                            Ullamco aliquip nostrud sint fugiat occaecat adipisicing excepteur duis qui amet ex anim
-                            incididunt. Cupidatat exercitation elit irure eiusmod est sit commodo labore sint minim sunt
-                            incididunt tempor.
-                        </p>
+                    <div className='footer-about col-lg-5 col-md 11 mx-auto'>
+                        <div className='w-100 d-flex'>
+                            <img src='https://ccict.abes.ac.in/assets/img/logo1.png' height={90} className='mx-2'></img>
+                        <img src="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" height={90} className='mx-2' />
+                        </div>
+                        <p className='smallFont'>This is the official website of the annual Techno-cultural Fest of ABES Engineering College, Ghaziabad</p>
                     </div>
-
-                    <div className="col">
-                        <h4>Contact us</h4>
-                        <div style={{ marginTop: "1rem" }}>
-                            <p>ABES Engineering College</p>
-                            <p>19th KM Stone ,
-                                NH-09 GHAZIABAD, 201009</p>
-                            <p className="email">studentsupport@abes.ac.in</p>
-                            <p className="contactNo">01207135112</p>
+                    <div class="foot-list col-lg-3 col-md-11">
+                        <h3 className='ulhead'>Links</h3>
+                        <div>
+                        
+                            <a>Sponsorship Brochure</a>
+                            <a href="https://drive.google.com/file/d/1O05zyCmPEg-muoht9DzlBuTJDyAP7lB3/view?usp=share_link">Cultural Rules</a>
+                            <a href="https://drive.google.com/file/d/1K1qs5Er882QJR5Rq48n1UuUscbelfz96/view?usp=share_link">Event Details</a>
+                            <a>Contact</a>
                         </div>
                     </div>
 
-                    <div className="col">
-                        <h4>Links</h4>
-                        <ul style={{ marginTop: "1rem" }}>
-                            <a
-                                href="/#about"
-                                style={{ textDecoration: "none", color: "white" }}
-                            >
-                                <li>About</li>
-                            </a>
+                    <div class="foot-cta col-lg-3 col-md-11">
+                        <h3 className='ulhead'>Follow us on</h3>
 
-                            <a
-                                href="https://docs.google.com/document/d/1SLxIXjaH15v9YmGicoukbGvZyE_W8_Efvn4lJ0mgutc/edit?usp=sharing"
-                                rel="noreferrer"
-                                target="_blank"
-                                style={{ textDecoration: "none", color: "white" }}
-                            >
-                                <li>Rules</li>
-                            </a>
-
-                            <a
-                                href="https://www.google.com/maps/place/ABES+Engineering+College/@28.6337236,77.4451838,17z/data=!4m14!1m7!3m6!1s0x390cee22c60837b7:0x7c35343eceb7bde0!2sABES+Engineering+College!8m2!3d28.6337236!4d77.4473725!16s%2Fm%2F0jk_wyv!3m5!1s0x390cee22c60837b7:0x7c35343eceb7bde0!8m2!3d28.6337236!4d77.4473725!16s%2Fm%2F0jk_wyv"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{ textDecoration: "none", color: "white" }}
-                            >
-                                <li>Location</li>
-                            </a>
-
-                            <a
-                                href="https://docs.google.com/document/d/1VjecQnW9YD_Kw4jMvMiKLHyHGK151uaUhKyzN1u-rP4/edit?usp=sharing"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{ textDecoration: "none", color: "white" }}
-                            >
-                                <li>Terms and condition</li>
-                            </a>
-
-                            <a
-                                href="https://docs.google.com/document/d/10hMVoCzz6poGWf1g-47alPsj4dt5C1ghUN7M-xAnAT8/edit?usp=sharing"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{ textDecoration: "none", color: "white" }}
-                            >
-                                <li>Refund & Cancellation Policy</li>
-                            </a>
-                        </ul>
-                    </div>
-
-                    <div className="col">
-                        <h4>Follow us on</h4>
-                        <div className="socialIcons">
-                            <a
-                                href="https://www.instagram.com/genero.abesec/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FontAwesomeIcon className="icons" icon={faInstagram} />
-                            </a>
-                            <a
-                                href="https://www.youtube.com/channel/UC2FRToMrgAHFEKkCIgZS2Uw"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FontAwesomeIcon className="icons" icon={faYoutube} />
-                            </a>
-                            <a
-                                href="https://www.facebook.com/genero.abesec/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FontAwesomeIcon className="icons" icon={faFacebook} />
-                            </a>
+                        <div className='d-flex align-items-center justify-content-start'>
+                            <a href='https://instagram.com/genero.abesec'><FontAwesomeIcon className='socialIcon' icon={faInstagram} /></a>
+                            <a href='https://instagram.com/genero.abesec'><FontAwesomeIcon className='socialIcon' icon={faYoutube} /></a>
+                            <a href='https://www.facebook.com/genero.abesec/'><FontAwesomeIcon className='socialIcon' icon={faFacebook} /></a>
                         </div>
                     </div>
                 </div>
-                <hr className="hr" />
-                <p className="copyright">
-                    Genero'23 | Copyright &#169; All rights reserved.
-                </p>
-            </footer>
 
+                {/* <p className=' mt-auto smallFont text-center mx-auto'>2023 Genero All rights reserved</p> */}
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <iframe title='abes' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.8889002703554!2d77.4437602149526!3d28.633091682417557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee3d2df45167%3A0xe0ac343085e12a8f!2sABES%20ENGINEERING%20COLLEGE%2C%20NH%2024%2C%20Chipiyana%20Buzurg%2C%20Ghaziabad%2C%20Uttar%20Pradesh%20201009!5e0!3m2!1sen!2sin!4v1666931394472!5m2!1sen!2sin" width="100%" height="200px" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     )
 }

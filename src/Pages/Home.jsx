@@ -1,7 +1,7 @@
 import React from 'react'
 function Home() {
   return (
-    <div className='d-flex justify-content-center align-items-center text-dark ' id="home-carousel" style={{height:'90vh'}}>
+    <div className='d-flex justify-content-center align-items-center text-dark ' id="home-carousel" style={{height:'100vh'}}>
         
         <div className='text-center' style={{height:'90%'}}>
         

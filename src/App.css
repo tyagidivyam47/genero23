@@ -4,14 +4,28 @@
 body{
   background-color:#f0f4e5;
   color: white;
+  z-index: 1;
+}
+
+
+.navbar{
+  position: fixed;
+  background-color:#f0f4e5;
+  width: 100%;
+  top: 0;
+  z-index: 100 !important;
 }
 
 *{
   font-family: 'Poppins';
 }
 
-
-
+#home-carousel{
+  margin-top: 50px !important;
+}
+a{
+  text-decoration: none;
+}
 /* CSS */
 .button-82-pushable {
   position: relative;

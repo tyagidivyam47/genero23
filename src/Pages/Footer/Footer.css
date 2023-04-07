@@ -1,147 +1,142 @@
-.footer {
-    overflow: hidden;
-    height: 24rem;
-    /* background: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%); */
-    background: black;
-    color: #fff;
-    padding: 2rem 0rem;
-    /* border-radius: 25px 25px 0 0; */
-    font-family: 'Poppins';
-    font-size: 0.8rem;
-    line-height: 1.8rem;
-    position: relative;
+
+/*Footer*/
+a{
+    color: white;
 }
 
-.row {
-    width: 85%;
-    margin: auto;
+a:hover{
+    color: white;
+    opacity: 0.7 !important;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-top: 30px;
     display: flex;
+    justify-content: center;
+}
+
+.footer-about p{
+    line-height: 25px;
+    margin: 10px 0px;
+}
+
+.mt-auto{
+    
+}
+
+.socialIcon{
+    font-size: 20px;
+    margin-right: 15px;
+}
+.foot-top{
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
     flex-wrap: wrap;
-    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.smallFont{
+    font-size: 13px;
+}
+
+.foot-list h3{
+    font-size: 15px;
+}
+.ulhead{
+    border-bottom: 1.5px solid red;
+    width: 50%;
+    padding: 5px 0px;
+}
+
+.foot-list div a{
+    font-size: 12px;
+    display: block;
+    line-height: 30px;
+    opacity: 0.7;
+}
+
+
+.foot-cta h3{
+    font-size: 15px;
+}
+
+
+
+.foot-cta div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.foot-cta div input{
+    padding: 10px;
+    border-radius: 8px;
+    width: 70%;
+    border: none;
+    margin: 10px 0px;
+}
+
+.foot-bottom{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.col {
-    flex-basis: 25%;
-    /* margin-left: -20px; */
-    /* text-align: left; */
-    padding-left: 8rem;
+.foot-bottom p{
+    font-size: 12px;
+    width: 20%;
+}
+.foot-bottom div{
+    display: flex;
+    font-size: 12px;
+    width: 65%;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.karma {
-    padding-bottom: 2rem;
-    width: 22rem;
-}
-
-.col h3 {
+.foot-bottom div p{
     width: fit-content;
-    margin-bottom: 1rem;
+    opacity: 0.8;
 }
 
-.col ul li  {
-    list-style: none;
-    margin-left: -2rem;
-}
 
-.para {
-    color: #ccc;
-    font-weight: 300;
-    font-size: 0.8rem;
-}
-
-.email {
-    margin-top: 1rem;
-    /* margin-bottom: 2rem; */
-    width: fit-content;
-}
-
-.links  {
-    flex-basis: 15%;
-}
-
-.links ul li  {
-    list-style: none;
-    margin-left: -2rem;
-}
-
-/* .col ul li {
-    list-style: none;
-    margin-bottom: 12px;
-} */
+/*Responsive*/
 
 
-ul li a {
-    /* list-style: none; */
-    text-decoration: none;
-    cursor: pointer;
-}
+@media screen and (max-width:990px) {
 
-ul li a:hover {
-    color: #ccc;
-}
-
-.icons {
-    font-size: 2.5rem;
-    margin-right: 3rem;
-    text-align: center;
-}
-
-.socialIcons{
-    margin-top: 3rem;
-}
-
-.socialIcons a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.icons:hover {
-    color: #ccc;
-}
-
-.hr {
-    width: 95%;
-    border: 0;
-    border-bottom: 1px solid #ccc;
-    margin: 2rem auto;
-}
-
-.copyright {
-    text-align: center;
-    color: #ccc;
-}
-
-@media screen and (max-width: 480px) {
-
-    .footer{
-        height:auto
+    .foot-list{
+        width: 50%;
+    }
+    .foot-cta{
+        width: 100%;
+    }
+    .foot-cta div{
+        justify-content: left;
+    }
+    .foot-bottom p{
+        width: 100%;
+        text-align: left;
+    }
+    .foot-bottom div{
+        width: 100%;
+        text-align: left;
     }
 
-    .des{
-        flex-basis: 100% !important;
+    .foot-top .foot-bottom{
+        width: 100%;
     }
 
-
-    .col {
-        flex-basis: 25%;
-        padding: 1rem;
-    }
-
-    .col:nth-child(1) {
-        margin-bottom: 1rem;
-    }
-
-    .col:nth-child(2) {
-        margin-bottom: 1.5rem;
-    }
-
-    .para {
-        font-size: 1.6rem;
-    }
-
-    .col:nth-child(2),
-    .col:nth-child(3),
-    .col:nth-child(4) {
-        flex-basis: 100%;
-    }
 }
+
+
+

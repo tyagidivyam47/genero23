@@ -37,7 +37,6 @@
     justify-content: flex-end;
     height: 100vh;
     overflow: hidden;
-    /* background-color: black; */
 }
 .containera {
     margin: 0px;
@@ -46,6 +45,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
+    z-index: -1;
     animation: move 4.5s linear infinite alternate;
 }
 
@@ -53,6 +53,7 @@
     width: 150px;
     height: 150px;
     border-radius: 5px;
+    z-index: -1;
     background-color: transparent;
     text-align: center;
 }

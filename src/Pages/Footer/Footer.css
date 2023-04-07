@@ -1,0 +1,143 @@
+.footer {
+    overflow: hidden;
+    height: 24rem;
+    /* background: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%); */
+    background: black;
+    color: #fff;
+    padding: 2rem 0rem;
+    border-radius: 50px 50px 0 0;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    line-height: 1.8rem;
+    position: relative;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    /* margin-left: -20px; */
+    /* text-align: left; */
+    padding-left: 8rem;
+}
+
+.karma {
+    padding-bottom: 2rem;
+    width: 22rem;
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+
+.col ul li  {
+    list-style: none;
+    margin-left: -2rem;
+}
+
+.para {
+    color: #ccc;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.email {
+    margin-top: 1rem;
+    /* margin-bottom: 2rem; */
+    width: fit-content;
+}
+
+.links  {
+    flex-basis: 15%;
+}
+
+.links ul li  {
+    list-style: none;
+    margin-left: -2rem;
+}
+
+/* .col ul li {
+    list-style: none;
+    margin-bottom: 12px;
+} */
+
+
+ul li a {
+    /* list-style: none; */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    color: #ccc;
+}
+
+.icons {
+    font-size: 2.5rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons:hover {
+    color: #ccc;
+}
+
+.hr {
+    width: 95%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 2rem auto;
+}
+
+.copyright {
+    text-align: center;
+    color: #ccc;
+}
+
+@media screen and (max-width: 480px) {
+
+    .footer{
+        height:auto
+    }
+
+    .des{
+        flex-basis: 100% !important;
+    }
+
+
+    .col {
+        flex-basis: 25%;
+        padding: 1rem;
+    }
+
+    .col:nth-child(1) {
+        margin-bottom: 1rem;
+    }
+
+    .col:nth-child(2) {
+        margin-bottom: 1.5rem;
+    }
+
+    .para {
+        font-size: 1.6rem;
+    }
+
+    .col:nth-child(2),
+    .col:nth-child(3),
+    .col:nth-child(4) {
+        flex-basis: 100%;
+    }
+}

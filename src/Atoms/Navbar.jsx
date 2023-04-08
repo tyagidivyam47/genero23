@@ -14,7 +14,7 @@ function Navbar() {
                     <a class="nav-item nav-link" href="#eventPage">Past</a>
                     <a class="nav-item nav-link" href="#queries">FAQ</a>
                     <a class="nav-item nav-link" href="#team">Team</a>
-                    <button className='btn btn-dark'>Register Now</button>
+                    <button class='btn btn-dark'>Register Now</button>
                 </div>
             </div>
         </nav>

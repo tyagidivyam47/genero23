@@ -6,6 +6,7 @@ import {
     faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -29,6 +30,7 @@ const Footer = () => {
                             <a href="https://drive.google.com/file/d/1O05zyCmPEg-muoht9DzlBuTJDyAP7lB3/view?usp=share_link">Cultural Rules</a>
                             <a href="https://drive.google.com/file/d/1K1qs5Er882QJR5Rq48n1UuUscbelfz96/view?usp=share_link">Event Details</a>
                             <a href='/'>Contact</a>
+                            <Link to="/cultural">Events</Link>
                         </div>
                     </div>
 

@@ -1,4 +1,6 @@
+/* eslint-disable */
 import React from 'react'
+/* eslint-disable-next-line */
 
 function Navbar() {
     return (

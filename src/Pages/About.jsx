@@ -13,14 +13,15 @@ function About() {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia commodi id alias incidunt fugit esse expedita maiores quas exercitationem facilis nisi, delectus aspernatur quidem sit est natus autem. Quo harum alias, quasi necessitatibus reiciendis ab perferendis laboriosam minus optio non. Quam pariatur earum eveniet repellat repellendus nisi laborum. Eaque, accusantium.</p>
         <button class="button-82-pushable">
           <a href="https://youtu.be/3Er4V2mwHPw">
-          <span class="button-82-shadow"></span>
-          <span class="button-82-edge"></span>
-          <span class="button-82-front text">
-            Watch AfterMovie
-          </span>
+            <span class="button-82-shadow"></span>
+            <span class="button-82-edge"></span>
+            <span class="button-82-front text">
+              Watch AfterMovie
+            </span>
           </a>
-         
-        </button>      </div>
+
+        </button>
+      </div>
 
     </div>
   )

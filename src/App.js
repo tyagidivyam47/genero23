@@ -16,6 +16,7 @@ function App() {
       <Events />
       <Sponsors />
       <FAQ />
+      {/* <CulturalList /> */}
       <Footer />
     </div>
   );

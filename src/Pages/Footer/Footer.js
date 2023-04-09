@@ -6,6 +6,7 @@ import {
     faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -16,19 +17,20 @@ const Footer = () => {
 
                     <div className='footer-about col-lg-5 col-md 11 mx-auto'>
                         <div className='w-100 d-flex'>
-                            <img src='https://ccict.abes.ac.in/assets/img/logo1.png' height={90} className='mx-2'></img>
-                        <img src="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" height={90} className='mx-2' />
+                            <img src='https://ccict.abes.ac.in/assets/img/logo1.png' alt='abes' height={90} className='mx-2'></img>
+                            <img src="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" alt='logo' height={90} className='mx-2' />
                         </div>
                         <p className='smallFont'>This is the official website of the annual Techno-cultural Fest of ABES Engineering College, Ghaziabad</p>
                     </div>
                     <div class="foot-list col-lg-3 col-md-11">
                         <h3 className='ulhead'>Links</h3>
                         <div>
-                        
-                            <a>Sponsorship Brochure</a>
+
+                            <a href='/'>Sponsorship Brochure</a>
                             <a href="https://drive.google.com/file/d/1O05zyCmPEg-muoht9DzlBuTJDyAP7lB3/view?usp=share_link">Cultural Rules</a>
                             <a href="https://drive.google.com/file/d/1K1qs5Er882QJR5Rq48n1UuUscbelfz96/view?usp=share_link">Event Details</a>
-                            <a>Contact</a>
+                            <a href='/'>Contact</a>
+                            <Link to="/cultural">Events</Link>
                         </div>
                     </div>
 

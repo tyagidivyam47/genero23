@@ -14,21 +14,23 @@ const CulturalList = () => {
     // console.log(CulturalData);
 
     return (
-        <div className="cultural">
-            <div style={{width:"100vw"}} >
-                <h1 style={{ color: "black", textAlign:"center" }}>Cultural</h1>
+        <div className="">
+            <div style={{ width: "100vw" }} >
+                <h1 style={{ color: "black", textAlign: "center" }}>Cultural</h1>
             </div>
-            {CulturalData.map((list) => {
-                // {console.log(list.heading)}
-                return (
-                    <EventCard
-                        key={list.id}
-                        imgSrc={list.imgSrc}
-                        heading={list.heading}
-                        redirectLink={list.redirectLink}
-                    />
-                );
-            })}
+            <div className=" eventSlider d-flex justify-content-center">
+                {CulturalData.map((list) => {
+                    // {console.log(list.heading)}
+                    return (
+                        <EventCard
+                            key={list.id}
+                            imgSrc={list.imgSrc}
+                            heading={list.heading}
+                            redirectLink={list.redirectLink}
+                        />
+                    );
+                })}
+            </div>
         </div>
     );
 };

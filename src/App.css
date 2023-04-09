@@ -5,6 +5,15 @@ body{
   background-color:#f0f4e5;
   color: white;
   z-index: 1;
+  overflow-x: hidden;
+}
+
+div {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+div::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
 }
 
 

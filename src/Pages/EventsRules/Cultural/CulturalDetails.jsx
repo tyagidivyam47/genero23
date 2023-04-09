@@ -40,11 +40,12 @@ const CulturalDetails = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <button className="btn_2">Register Now !</button>
+                                <button className="btn_2 btn btn-primary">Register Now !</button>
                             </a>
                         </div>
                     </div>
                 </div>
+                        <p className=' p-2 text-center text-dark'>scroll to view more</p>
             </div>
         </section>
     )

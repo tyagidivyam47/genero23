@@ -10,7 +10,7 @@ import Footer from './Pages/Footer/Footer';
 import PreLoader from './Pages/PreLoader/PreLoader';
 import { useEffect, useState } from 'react';
 function App() {
-  const [showSite, setSite]=useState(true)
+  const [showSite, setSite]=useState(false)
   useEffect(()=>{
     setTimeout(()=>{
       setSite(true)

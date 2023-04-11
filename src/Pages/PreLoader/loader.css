@@ -4,7 +4,6 @@
 	--bg: hsl(var(--hue),90%,90%);
 	--fg: hsl(var(--hue),90%,10%);
 	--trans-dur: 0.3s;
-	font-size: calc(16px + (20 - 16) * (100vw - 320px) / (1280 - 320));
 }
 .loaderContainer {
 	background-color: black;

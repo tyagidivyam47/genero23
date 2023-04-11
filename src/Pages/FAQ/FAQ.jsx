@@ -4,7 +4,7 @@ function FAQ() {
     return (
         <div id="queries" className='d-flex justify-content-center align-items-center' style={{height:'100vh'}}><div class="container text-black">
 
-            <h1>#questions</h1>
+            <h1>Frequently asked Questions</h1>
 
             <div class="faq-drawer">
                 <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer">What is the theme of the college fest?</label>

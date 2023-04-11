@@ -1,16 +1,25 @@
 import React from 'react'
-
+import sideImage from '../assets/generoImg.png'
 function About() {
   return (
     <div id="about" className='col-11 mx-auto text-dark d-lg-flex align-items-center justify-content-center' style={{ height: '100vh' }}>
-      <div className='col-lg-5 col-11 mx-auto'>
+      
 
-        <img className="rounded w-100" src="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" alt="" />
-      </div>
+      <div className='col-lg-6 col-11 mx-lg-0 mx-auto'>
+        <div className='w-75 mx-auto'>
 
-      <div className='col-lg-6 col-11 mx-auto'>
-        <h1 className='text-black'>#AboutGenero</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia commodi id alias incidunt fugit esse expedita maiores quas exercitationem facilis nisi, delectus aspernatur quidem sit est natus autem. Quo harum alias, quasi necessitatibus reiciendis ab perferendis laboriosam minus optio non. Quam pariatur earum eveniet repellat repellendus nisi laborum. Eaque, accusantium.</p>
+        <h1 className='text-light'>About Genero</h1>
+        <p className='generoAbout'>Genero is a two-day fiesta
+          that calls in for various
+          cultural, informal, literary, egaming, and photography
+          events, wrapped up with an
+          exclusive event for each day.
+          ABES has been organizing
+          Genero for over a decade
+          now, and with a foot fall of
+          6000+ students from different
+          colleges in Delhi NCR, Genero
+          has been a success story</p>
         <button class="button-82-pushable">
           <a href="https://youtu.be/3Er4V2mwHPw">
             <span class="button-82-shadow"></span>
@@ -21,6 +30,12 @@ function About() {
           </a>
 
         </button>
+        </div>
+      </div>
+      <div className='col-lg-6 col-11 mx-lg-0 mx-auto'>
+
+        {/* <img className="rounded w-100" src="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" alt="" /> */}
+        <img className="rounded w-100" src={sideImage} alt="" />
       </div>
 
     </div>

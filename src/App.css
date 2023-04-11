@@ -1,153 +1,139 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 
-body{
-  background-color:#f0f4e5;
+body {
+  background-color: #f0f4e5;
   color: white;
   z-index: 1;
   overflow-x: hidden;
 }
 
-div {
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
-}
-div::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
-}
-
-
-.navbar{
-  position: fixed;
-  background-color:#f0f4e5;
-  width: 100%;
-  top: 0;
-  z-index: 100 !important;
-}
-
 *{
-  font-family: 'Poppins';
+  color: white !important;
 }
 
-#home-carousel{
-  margin-top: 50px !important;
-}
-a{
-  text-decoration: none;
-}
-/* CSS */
-.button-82-pushable {
-  position: relative;
-  border: none;
-  background: transparent;
-  padding: 0;
-  cursor: pointer;
-  outline-offset: 4px;
-  transition: filter 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-82-shadow {
+.generoOverlay{
   position: absolute;
-  top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-  background: hsl(0deg 0% 0% / 0.25);
-  will-change: transform;
-  transform: translateY(2px);
-  transition:
-    transform
-    600ms
-    cubic-bezier(.3, .7, .4, 1);
+  top:200px
+}
+div {
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
-.button-82-edge {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-  background: linear-gradient(
-    to left,
-    hsl(340deg 100% 16%) 0%,
-    hsl(340deg 100% 32%) 8%,
-    hsl(340deg 100% 32%) 92%,
-    hsl(340deg 100% 16%) 100%
-  );
+div::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
 }
 
-.button-82-front {
-  display: block;
+#gallery {
+  padding: 60px;
+  overflow: hidden;
+
+}
+
+#gallery .swiper-pagination {
+  margin-top: 20px;
   position: relative;
-  padding: 12px 27px;
-  border-radius: 12px;
-  font-size: 1.1rem;
-  color: white;
-  background: hsl(345deg 100% 47%);
-  will-change: transform;
-  transform: translateY(-4px);
-  transition:
-    transform
-    600ms
-    cubic-bezier(.3, .7, .4, 1);
 }
 
-@media (min-width: 768px) {
-  .button-82-front {
-    font-size: 1.25rem;
-    padding: 12px 42px;
+#gallery .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #ff0000;
+}
+
+#gallery .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ff0000;
+}
+
+#gallery .swiper-slide-active {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #gallery .swiper-wrapper {
+    padding: 40px 0;
+  }
+
+  #gallery .swiper-slide-active {
+    border: 5px solid #ff0000;
+    padding: 4px;
+    background: #fff;
+    z-index: 1;
+    transform: scale(1.15);
+    margin-top: 6px;
   }
 }
 
-.button-82-pushable:hover {
-  filter: brightness(110%);
-  -webkit-filter: brightness(110%);
+
+.navbar {
+  position: fixed;
+  /* background-color: #f0f4e5; */
+  background-color: transparent;
+  width: 100%;
+  top: 0;
+  color: white !important;
+  z-index: 100 !important;
 }
 
-.button-82-pushable:hover .button-82-front {
-  transform: translateY(-6px);
-  transition:
-    transform
-    250ms
-    cubic-bezier(.3, .7, .4, 1.5);
+* {
+  font-family: 'Poppins';
 }
 
-.button-82-pushable:active .button-82-front {
-  transform: translateY(-2px);
-  transition: transform 34ms;
+#home-carousel {
+  /* margin-top: 50px !important; */
 }
 
-.button-82-pushable:hover .button-82-shadow {
-  transform: translateY(4px);
-  transition:
-    transform
-    250ms
-    cubic-bezier(.3, .7, .4, 1.5);
+.generoText{
+  font-family: 'Marck Script', cursive;
 }
 
-.button-82-pushable:active .button-82-shadow {
-  transform: translateY(1px);
-  transition: transform 34ms;
+.generoTopText{
+  letter-spacing: 10px;
+  font-weight: 700;
 }
 
-.button-82-pushable:focus:not(:focus-visible) {
-  outline: none;
+.generoAbout{
+  line-height: 30px
 }
 
+button{
+  background-color: yellow !important;
+  background: rgb(255, 232, 26) !important;
+  box-shadow: rgba(255, 176, 25, 0.4) 0px 0px 10px, rgba(255, 255, 255, 0.2) 0px 1px 0px inset, rgba(0, 0, 0, 0.15) 0px -3px 0px inset, rgb(255, 135, 25) 0px 0px 15px inset !important;
+  padding:5px 20px;
+  border-radius: 5px;
+  color: black !important;
+  border: 0 !important;
+  font-weight: bold;
+  font-size: 14px !important;
 
-#home-carousel{
+}
+
+.generoBottomText{
+  text-transform:uppercase;
+  letter-spacing: 10px;
+  font-weight: 700;
+}
+
+.genero
+
+a {
+  text-decoration: none;
+}
+#home-carousel,#about,#queries,#eventPage {
   background: url('./assets/generobg.png');
-  background-size: contain;
-  /* background-repeat: no-repeat;
-  background-position: bottom; */
+  background-size: cover;
   width: 100%;
 }
-button:hover{
+
+button:hover {
   opacity: 0.7;
 }
 
@@ -174,14 +160,14 @@ button:hover{
 }
 
 
-#navbarNavAltMarkup{
+#navbarNavAltMarkup {
   display: flex;
   justify-content: flex-end;
 }
 
 
 @media screen and (max-width:768px) {
-  #home-carousel{
+  #home-carousel {
     background-repeat: no-repeat;
     background-position: bottom;
   }
@@ -193,11 +179,13 @@ button:hover{
 @keyframes scroll {
   0% {
     transform: translateX(0);
- }
+  }
+
   100% {
     transform: translateX(calc(-250px * 7));
- }
+  }
 }
+
 .slider {
   background: white;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
@@ -207,7 +195,9 @@ button:hover{
   position: relative;
   width: 960px;
 }
-.slider::before, .slider::after {
+
+.slider::before,
+.slider::after {
   background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
   height: 100px;
@@ -215,20 +205,24 @@ button:hover{
   width: 200px;
   z-index: 2;
 }
+
 .slider::after {
   right: 0;
   top: 0;
   transform: rotateZ(180deg);
 }
+
 .slider::before {
   left: 0;
   top: 0;
 }
+
 .slider .slide-track {
   animation: scroll 40s linear infinite;
   display: flex;
   width: calc(250px * 14);
 }
+
 .slider .slide {
   height: 100px;
   width: 250px;

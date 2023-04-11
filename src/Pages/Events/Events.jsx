@@ -28,7 +28,7 @@ function Events() {
 
 
                 <div className=''>
-                    <h1 className='fixText text-black'>#Genero'19</h1>
+                    <h1 className='fixText text-light'>#Genero'19</h1>
                 </div>
                 <div className="containera col-4">
                     <div className="child-container">
@@ -110,3 +110,4 @@ function Events() {
 }
 
 export default Events
+

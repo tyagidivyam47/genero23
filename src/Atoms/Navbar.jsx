@@ -11,11 +11,11 @@ function Navbar() {
             </button>
             <div class="collapse navbar-collapse d-none" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#about">About</a>
-                    <a class="nav-item nav-link" href="#eventPage">Past</a>
-                    <a class="nav-item nav-link" href="#queries">FAQ</a>
-                    <a class="nav-item nav-link" href="#team">Team</a>
+                    <a class="nav-item nav-link active text-light" href="/">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link text-light" href="#about">ABOUT</a>
+                    <a class="nav-item nav-link text-light" href="#eventPage">PAST</a>
+                    <a class="nav-item nav-link text-light" href="#queries">FAQ</a>
+                    <a class="nav-item nav-link text-light" href="#team">TEAM</a>
                     <button class='btn btn-dark'>Register Now</button>
                 </div>
             </div>

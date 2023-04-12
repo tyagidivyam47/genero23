@@ -58,3 +58,7 @@
 #thirteen {
     background-image: url(/src/assets/home/india-04.png);
 }
+
+.parallax-wrapper {
+    overflow-y: hidden;
+}

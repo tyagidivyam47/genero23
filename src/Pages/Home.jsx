@@ -20,10 +20,10 @@ function Home() {
         </div>
 
       </div>
-      <div>
+      <div className='parallax-wrapper'>
 
       <Parallax pages={2} style={{ top: '0', left: '0' }} className='animation'>
-        <ParallaxLayer offset={0} speed={0.8}>
+        <ParallaxLayer offset={0} speed={0.6}>
           <div className='animation-layer parallax' id='one'></div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.25}>

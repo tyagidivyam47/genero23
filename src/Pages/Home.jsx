@@ -15,6 +15,7 @@ function Home() {
 
           <p className='generoTopText my-0 animate__animated animate__fadeInUp'>10TH EDITION</p>
           <h1 className=' generoText display-1 my-0 animate__animated animate__fadeInUp'>Genero'23</h1>
+          {/* <h1 className='parallax-title'>Genero<span className="update Ultrabold">'23</span></h1> */}
           <p className='generoBottomText animate__animated animate__fadeInUp'>THE annual fest of ABESEC</p>
           <button className='btn-grad animate__animated animate__fadeInUp'>register now</button>
         </div>

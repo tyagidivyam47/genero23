@@ -1,5 +1,8 @@
 import React from 'react'
-import overlay from '../assets/generoOverlay.png'
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import './parallax.css'
+// import overlay from '../assets/generoOverlay.png'
+
 function Home() {
   return (
     <div  id="home-carousel" className='d-flex align-items-center justify-content-center' style={{ height: '110vh' }}>
@@ -19,7 +22,44 @@ function Home() {
       </div>
       <div>
 
-        <img src={overlay} className='generoOverlay' width={'100%'} alt="" />
+      <Parallax pages={2} style={{ top: '0', left: '0' }} className='animation'>
+        <ParallaxLayer offset={0} speed={0.1}>
+          <div className='animation-layer parallax' id='one'></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.25}>
+          <div className='animation-layer parallax' id='two'></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.4}>
+          <div className='animation-layer parallax' id='three'></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.25}>
+          <div className='animation-layer parallax' id='four'></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.25}>
+          <div className='animation-layer parallax' id='five'></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.35}>
+          <div className='animation-layer parallax' id='six'></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.5}>
+          <div className='animation-layer parallax' id='seven'></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.45}>
+          <div className='animation-layer parallax' id='eight'></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.4}>
+          <div className='animation-layer parallax' id='nine'></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.9}>
+          <div className='animation-layer parallax' id='ten'></div>
+        </ParallaxLayer>
+
+        <ParallaxLayer offset={1} speed={0.25}>
+          
+        </ParallaxLayer>
+      </Parallax>
+
+        {/* <img src={overlay} className='generoOverlay' width={'100%'} alt="" /> */}
       </div>
     </div>
     </div>

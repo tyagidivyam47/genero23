@@ -1,0 +1,51 @@
+.animation, .animation-layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.animation-layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation-layer.parallax {
+	position: fixed;
+}
+
+#one {
+    background-image: url(/src/assets/home/sparkle-night.png);
+}
+#two {
+    background-image: url(/src/assets/home/updated-monument-10.png);
+}
+#three {
+    background-image: url(/src/assets/home/updated-monument-09.png);
+}
+#four {
+    background-image: url(/src/assets/home/updated-monument-08.png);
+}
+#five {
+    background-image: url(/src/assets/home/updated-monument-07.png);
+}
+#six {
+    background-image: url(/src/assets/home/updated-monument-06.png);
+}
+#seven {
+    background-image: url(/src/assets/home/updated-monument-05.png);
+}
+#eight {
+    background-image: url(/src/assets/home/updated-monument-04.png);
+}
+#nine {
+    background-image: url(/src/assets/home/updated-monument-03.png);
+}
+#ten {
+    background-image: url(/src/assets/home/updated-monument-02.png);
+}

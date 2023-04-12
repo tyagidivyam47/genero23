@@ -185,7 +185,8 @@ button:hover {
 
   
   .homeText{
-    height: 75%;
+    height: auto;
+    margin-top: 20px;
     
   }
 
@@ -193,7 +194,13 @@ button:hover {
     flex-wrap: wrap;
 
   }
+  #home-carousel{
+    height: 100vh;
+  }
 
+  #innerHome{
+    flex-direction: column-reverse !important;
+  }
   #eventPage{
     height: auto !important;
   }

@@ -1,0 +1,64 @@
+.animation, .animation-layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.animation-layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation-layer.parallax {
+	position: fixed;
+}
+
+#one {
+    background-image: url(/src/assets/home/india-14.png);
+}
+#two {
+    background-image: url(/src/assets/home/india-03.png);
+}
+#three {
+    background-image: url(/src/assets/home/india-02.png);
+}
+#four {
+    background-image: url(/src/assets/home/india-05.png);
+}
+#five {
+    background-image: url(/src/assets/home/india-06.png);
+}
+#six {
+    background-image: url(/src/assets/home/india-07.png);
+}
+#seven {
+    background-image: url(/src/assets/home/india-08.png);
+}
+#eight {
+    background-image: url(/src/assets/home/india-09.png);
+}
+#nine {
+    background-image: url(/src/assets/home/india-10.png);
+}
+#ten {
+    background-image: url(/src/assets/home/india-11.png);
+}
+#eleven {
+    background-image: url(/src/assets/home/india-12.png);
+}
+#twelve {
+    background-image: url(/src/assets/home/india-13.png);
+}
+#thirteen {
+    background-image: url(/src/assets/home/india-04.png);
+}
+
+.parallax-wrapper {
+    overflow-y: hidden;
+}

@@ -11,7 +11,7 @@ function Navbar() {
             </button>
             <div class="collapse navbar-collapse d-none" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active text-light" href="/">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active text-light" href="#home-carousel">HOME <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link text-light" href="#about">ABOUT</a>
                     <a class="nav-item nav-link text-light" href="#eventPage">PAST</a>
                     <a class="nav-item nav-link text-light" href="#queries">FAQ</a>

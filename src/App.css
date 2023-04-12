@@ -15,7 +15,8 @@ body {
 .generoOverlay{
   position: absolute;
   left: 0;
-  top:200px
+  z-index: 1 !important;
+  top:230px
 }
 div {
   -ms-overflow-style: none;
@@ -29,6 +30,9 @@ div::-webkit-scrollbar {
   /* Safari and Chrome */
 }
 
+a{
+  text-decoration: none;
+}
 #gallery {
   padding: 60px;
   overflow: hidden;
@@ -127,7 +131,7 @@ button{
 a {
   text-decoration: none;
 }
-#home-carousel,#about,#queries,#eventPage {
+#home-carousel,#about,#queries,#eventPage, #pastEventsGrid {
   background: url('./assets/generobg.png');
   background-size: cover;
   width: 100%;
@@ -150,6 +154,7 @@ button:hover {
   border-radius: 10px;
   display: block;
   border: 0;
+  z-index: 10 !important
 }
 
 .btn-grad:hover {
@@ -186,7 +191,7 @@ button:hover {
   }
 }
 
-.slider {
+/* .slider {
   background: white;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
   height: 100px;
@@ -226,4 +231,4 @@ button:hover {
 .slider .slide {
   height: 100px;
   width: 250px;
-}
+} */

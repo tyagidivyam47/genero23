@@ -2,7 +2,7 @@ import React from 'react'
 import sideImage from '../assets/generoImg.png'
 function About() {
   return (
-    <div id="about" className='col-11 mx-auto text-dark d-lg-flex align-items-center justify-content-center' style={{ height: '100vh' }}>
+    <div id="about" className='col-11 mx-auto text-dark d-lg-flex align-items-center justify-content-center' style={{ height: '110vh' }}>
       
 
       <div className='col-lg-6 col-11 mx-lg-0 mx-auto'>
@@ -20,12 +20,12 @@ function About() {
           6000+ students from different
           colleges in Delhi NCR, Genero
           has been a success story</p>
-        <button class="button-82-pushable">
+        <button class="button-82-pushable py-2">
           <a href="https://youtu.be/3Er4V2mwHPw">
             <span class="button-82-shadow"></span>
             <span class="button-82-edge"></span>
-            <span class="button-82-front text">
-              Watch AfterMovie
+            <span class="button-82-front text-dark">
+              WATCH AFTERMOVIE
             </span>
           </a>
 

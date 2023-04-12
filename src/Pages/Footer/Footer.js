@@ -21,6 +21,7 @@ const Footer = () => {
                             <img src="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" alt='logo' height={90} className='mx-2' />
                         </div>
                         <p className='smallFont'>This is the official website of the annual Techno-cultural Fest of ABES Engineering College, Ghaziabad</p>
+
                     </div>
                     <div class="foot-list col-lg-3 col-md-11">
                         <h3 className='ulhead'>Links</h3>
@@ -29,25 +30,30 @@ const Footer = () => {
                             <a href='/'>Sponsorship Brochure</a>
                             <a href="https://drive.google.com/file/d/1O05zyCmPEg-muoht9DzlBuTJDyAP7lB3/view?usp=share_link">Cultural Rules</a>
                             <a href="https://drive.google.com/file/d/1K1qs5Er882QJR5Rq48n1UuUscbelfz96/view?usp=share_link">Event Details</a>
-                            <a href='/'>Contact</a>
                             <Link to="/cultural">Events</Link>
                         </div>
                     </div>
 
-                    <div class="foot-cta col-lg-3 col-md-11">
-                        <h3 className='ulhead'>Follow us on</h3>
+                    <div class="foot-cta col-lg-4 col-md-11 text-left">
+                        <h3 className='ulhead'>Reach us on</h3>
 
                         <div className='d-flex align-items-center justify-content-start'>
                             <a href='https://instagram.com/genero.abesec'><FontAwesomeIcon className='socialIcon' icon={faInstagram} /></a>
                             <a href='https://instagram.com/genero.abesec'><FontAwesomeIcon className='socialIcon' icon={faYoutube} /></a>
                             <a href='https://www.facebook.com/genero.abesec/'><FontAwesomeIcon className='socialIcon' icon={faFacebook} /></a>
                         </div>
+                        <div className='my-2'>
+                            <p className='my-0 d-block w-100 opacity-50' style={{textTransform:'uppercase', letterSpacing:'3px', fontSize: '12px', fontWeight:'bold' }}>Mail us at</p>
+                            <a className='my-0 d-block w-100' style={{ fontSize: '13px' }} href='mailto:genero_s2023@abes.ac.in'>genero_s2023@abes.ac.in</a>
+                            <p className='my-0 d-block w-100 opacity-50 mt-2' style={{textTransform:'uppercase', letterSpacing:'3px', fontSize: '12px', fontWeight:'bold' }}>Aditya Harsh</p>
+                            <a className='my-0 d-block w-100' style={{ fontSize: '13px' }} href='tel:+91 91693 18989'>+91 91693 18989</a>
+                        </div>
                     </div>
                 </div>
 
                 {/* <p className=' mt-auto smallFont text-center mx-auto'>2023 Genero All rights reserved</p> */}
             </div>
-            <div class="col-lg-4 col-md-12">
+            <div class="col-lg-3 col-md-12">
                 <iframe title='abes' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.8889002703554!2d77.4437602149526!3d28.633091682417557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee3d2df45167%3A0xe0ac343085e12a8f!2sABES%20ENGINEERING%20COLLEGE%2C%20NH%2024%2C%20Chipiyana%20Buzurg%2C%20Ghaziabad%2C%20Uttar%20Pradesh%20201009!5e0!3m2!1sen!2sin!4v1666931394472!5m2!1sen!2sin" width="100%" height="200px" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>

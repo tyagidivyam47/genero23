@@ -11,7 +11,7 @@ function FAQ() {
                 <div class="faq-drawer__content-wrapper">
                     <div class="faq-drawer__content">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            The theme of genero'23 is India's  Hidden Hues. It represents different type of cultures, traditions and people of india.
                         </p>
                     </div>
                 </div>
@@ -22,18 +22,18 @@ function FAQ() {
                 <div class="faq-drawer__content-wrapper">
                     <div class="faq-drawer__content">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        </p>
+                        Yes, students from other colleges can participate in genero'23.  </p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-drawer">
-                <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">What is the dress code for the college fest?</label>
+                <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">What is the date and location of the college fest?
+</label>
                 <div class="faq-drawer__content-wrapper">
                     <div class="faq-drawer__content">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        The location of the college fest is ABES Engineering college campus. Keep the excitement high, we will announce the dates soon. We recommend checking the college's website or social media pages for updates.
                         </p>
                     </div>
                 </div>

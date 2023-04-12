@@ -133,7 +133,7 @@
 }
 
 .slider {
-    height: 80vh;
+    height: 70vh;
     overflow: hidden;
 }
 
@@ -201,4 +201,8 @@
 .hidden-m {
     --delay: -20s;
     --slow: -2s
+}
+
+.pastEventsText{
+    padding-top: 100px;
 }

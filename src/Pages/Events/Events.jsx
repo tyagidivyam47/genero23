@@ -19,84 +19,87 @@ function Events() {
     useEffect(() => {
 
         document.querySelectorAll(".slider").forEach((item) => {
-          let clone = item.querySelector(".slider-items").cloneNode(true);
-          clone.classList.add("clone");
-          clone.ariaHidden = true;
-          item.append(clone);
+            let clone = item.querySelector(".slider-items").cloneNode(true);
+            clone.classList.add("clone");
+            clone.ariaHidden = true;
+            item.append(clone);
         });
 
     })
     return (
 
-        <div id='eventPage' style={{height:'100vh'}}>
-            <div className='text-center py-2'>
+        <div id='eventPage' className='d-flex align-items-end justify-content-center' style={{ height: '100vh' }}>
+            <div>
 
-            <h1 className='pastHead'>PAST EVENTS</h1>
-            <p className='pastPara'>Glimpses of Genero'19</p>
+            <div className='text-center py-2 pastEventsText'>
+
+                <h1 className='pastHead'>PAST EVENTS</h1>
+                <p className='pastPara'>Glimpses of Genero'19</p>
             </div>
-        <div id="pastEventsGrid" >
-            <div className="slider">
-                <div className="slider-items">
-                    <div className="item">
+            <div id="pastEventsGrid" >
+                <div className="slider">
+                    <div className="slider-items">
+                        <div className="item">
 
-                        <img src={im1} alt="" width="300" height="150" />
-                    </div>
-                    <div className="item">
+                            <img src={im1} alt="" width="300" height="150" />
+                        </div>
+                        <div className="item">
 
-                        <img src={im2} alt="" width="300" height="150" />
-                    </div>
-                    <div className="item">
+                            <img src={im2} alt="" width="300" height="150" />
+                        </div>
+                        <div className="item">
 
-                        <img src={im3} alt="" width="300" height="150" />
-                    </div>
-                    <div className="item">
+                            <img src={im3} alt="" width="300" height="150" />
+                        </div>
+                        <div className="item">
 
-                        <img src={im4} alt="" width="300" height="150" />
+                            <img src={im4} alt="" width="300" height="150" />
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="slider">
-                <div className="slider-items">
-                    <div className="item">
+                <div className="slider">
+                    <div className="slider-items">
+                        <div className="item">
 
-                        <img src={im5} alt="" width="300" height="150" />
-                    </div>
-                    <div className="item">
+                            <img src={im5} alt="" width="300" height="150" />
+                        </div>
+                        <div className="item">
 
-                        <img src={im6} alt="" width="300" height="150" />
-                    </div>
-                    <div className="item">
+                            <img src={im6} alt="" width="300" height="150" />
+                        </div>
+                        <div className="item">
 
-                        <img src={im7} alt="" width="300" height="150" />
-                    </div>
-                    <div className="item">
+                            <img src={im7} alt="" width="300" height="150" />
+                        </div>
+                        <div className="item">
 
-                        <img src={im8} alt="" width="300" height="150" />
+                            <img src={im8} alt="" width="300" height="150" />
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="slider hidden-m" >
-                <div className="slider-items">
-                    <div className="item">
+                <div className="slider hidden-m" >
+                    <div className="slider-items">
+                        <div className="item">
 
-                        <img src={im9} alt="" width="300" height="150" />
-                    </div>
-                    <div className="item">
+                            <img src={im9} alt="" width="300" height="150" />
+                        </div>
+                        <div className="item">
 
-                        <img src={im10} alt="" width="300" height="150" />
-                    </div>
-                    <div className="item">
+                            <img src={im10} alt="" width="300" height="150" />
+                        </div>
+                        <div className="item">
 
-                        <img src={im11} alt="" width="300" height="150" />
-                    </div>
-                    <div className="item">
+                            <img src={im11} alt="" width="300" height="150" />
+                        </div>
+                        <div className="item">
 
-                        <img src={im12} alt="" width="300" height="150" />
+                            <img src={im12} alt="" width="300" height="150" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
+            </div>
     )
 }
 

@@ -15,8 +15,7 @@ a:hover{
     color: white;
     padding: 10px;
     padding-top: 30px;
-    display: flex;
-    justify-content: center;
+
 }
 
 .footer-about p{
@@ -111,32 +110,6 @@ a:hover{
 
 /*Responsive*/
 
-
-@media screen and (max-width:990px) {
-
-    .foot-list{
-        width: 50%;
-    }
-    .foot-cta{
-        width: 100%;
-    }
-    .foot-cta div{
-        justify-content: left;
-    }
-    .foot-bottom p{
-        width: 100%;
-        text-align: left;
-    }
-    .foot-bottom div{
-        width: 100%;
-        text-align: left;
-    }
-
-    .foot-top .foot-bottom{
-        width: 100%;
-    }
-
-}
 
 
 

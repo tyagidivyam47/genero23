@@ -1,8 +1,8 @@
 import React from 'react'
 import  './team.css'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
-import InstagramIcon from '@mui/icons-material/Instagram';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import EmailIcon from '@mui/icons-material/Email';
+// import InstagramIcon from '@mui/icons-material/Instagram';
 
 export default function Team() {
   return (

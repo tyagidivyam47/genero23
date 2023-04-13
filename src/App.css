@@ -118,7 +118,7 @@ button{
   background: rgb(255, 232, 26) !important;
   box-shadow: rgba(255, 176, 25, 0.4) 0px 0px 10px, rgba(255, 255, 255, 0.2) 0px 1px 0px inset, rgba(0, 0, 0, 0.15) 0px -3px 0px inset, rgb(255, 135, 25) 0px 0px 15px inset !important;
   padding:5px 20px;
-  border-radius: 5px;
+  border-radius: 200px !important;
   color: black !important;
   border: 0 !important;
   font-weight: bold;

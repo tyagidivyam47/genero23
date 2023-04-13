@@ -8,7 +8,7 @@
     font-family: sans-serif;
 } */
 
-body { 
+/* body { 
     background: #333;
 }
 
@@ -18,7 +18,7 @@ h1 {
     margin-top: 20px;
     color: #e74c3e;
     text-align: center;
-}
+} */
 
 .main-wrapper { 
     display: flex;

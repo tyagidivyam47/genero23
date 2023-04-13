@@ -93,3 +93,11 @@
       background-position: 2000px 0;
     }
   }
+
+@media screen and (max-width: 600px) {
+    .parallax-wrapper {
+        /* width: 200px;
+        height: 200px; */
+        display: none;
+    }
+}

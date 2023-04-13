@@ -7,7 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 export default function Team() {
   return (
     <>
-    <h1>The Team</h1>
+    {/* <h1>The Team</h1>
         <div className="main-wrapper">
         
         <div className="team-card">
@@ -106,7 +106,7 @@ export default function Team() {
                 </div>
             </div>
 
-        </section>
+        </section> */}
    
     </>
   )

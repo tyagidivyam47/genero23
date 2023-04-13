@@ -137,7 +137,7 @@ button{
 a {
   text-decoration: none;
 }
-#home-carousel,#about,#queries,#eventPage, #pastEventsGrid {
+#home-carousel,#about,#queries,#eventPage, #pastEventsGrid, #register{
   background: url('./assets/generobg.png');
   background-size: cover;
   width: 100%;

@@ -9,6 +9,7 @@ import Footer from './Pages/Footer/Footer';
 // import CulturalList from './Pages/EventsRules/Cultural/CulturalList'
 import PreLoader from './Pages/PreLoader/PreLoader';
 import { useEffect, useState } from 'react';
+import Team from './components/team/Team';
 function App() {
   const [showSite, setSite]=useState(true)
   useEffect(()=>{
@@ -27,6 +28,7 @@ function App() {
       {/* <Sponsors /> */}
       <FAQ />
       {/* <CulturalList /> */}
+      <Team/>
       <Footer /></div>
       :<PreLoader />
       }

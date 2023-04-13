@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 .animation, .animation-layer {
 	height: 1000px;
 }
@@ -61,4 +63,41 @@
 
 .parallax-wrapper {
     overflow-y: hidden;
+}
+
+.parallax-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    /* font-size: 120px; */
+    /* padding-bottom: 20px; */
+
+    margin-left: 6vw;
+    margin-right: 6vw;
+    font-size: 8rem;
+    margin-bottom: 2rem;
+}
+
+/* for '23 */
+.update {
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(/src/assets/generoImg.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+  }
+  @keyframes back {
+    100% {
+      background-position: 2000px 0;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .parallax-wrapper {
+        /* width: 200px;
+        height: 200px; */
+        display: none;
+    }
 }

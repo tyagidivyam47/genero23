@@ -48,7 +48,7 @@ function Home() {
         <ParallaxLayer offset={0} speed={0.32}>
           <div className='animation-layer parallax' id='eight'></div>
         </ParallaxLayer>
-        <ParallaxLayer offset={0} speed={0.18}>
+        <ParallaxLayer offset={0} speed={-0.23}>
           <div className='animation-layer parallax' id='nine'></div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.35}>

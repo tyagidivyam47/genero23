@@ -63,6 +63,7 @@
 
 .parallax-wrapper {
     overflow-y: hidden;
+    z-index: 999;
 }
 
 .parallax-title {

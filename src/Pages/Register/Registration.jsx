@@ -2,7 +2,7 @@ import React from 'react'
 import qr1 from '../../assets/Genero Registration (ABES Students).png'
 import qr2 from '../../assets/Genero Registration (Non-ABES Students).png'
 import { Link } from 'react-router-dom'
-import TeamPage from '../TeamPage/TeamPage'
+// import TeamPage from '../TeamPage/TeamPage'
 function Registration() {
     return (
         <div id='register' className='d-flex align-items-center justify-content-center' style={{ height: '100vh' }}>

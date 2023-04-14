@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 .animation, .animation-layer {
 	height: 1000px;
@@ -92,12 +92,12 @@
     100% {
       background-position: 2000px 0;
     }
-  } 
+  }  */
 
 @media screen and (max-width: 600px) {
     .parallax-wrapper {
-        /* width: 200px;
+        width: 200px;
         height: 200px;  
         display: none;
     }
-} */
+}

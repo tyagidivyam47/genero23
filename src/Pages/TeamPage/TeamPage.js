@@ -5,7 +5,7 @@ import Team from '../../components/team/Team'
 
 export default function TeamPage() {
   return (
-    <div id='#team'>
+    <div id='team'>
       <Team/>
     </div>
   )

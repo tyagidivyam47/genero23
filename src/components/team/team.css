@@ -17,11 +17,12 @@
 }
 
 
-h1 {
+.core-team-heading {
     font-size: 40px;
     margin-top: 20px;
-    color: #e74c3e;
+    color: black;
     text-align: center;
+    padding-top: 15px;
 }
 
 .main-wrapper { 

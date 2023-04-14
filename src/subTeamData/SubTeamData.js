@@ -1,4 +1,4 @@
-import Ekansh from "../../src/assets/subTeam/Ekansh_Tyagi.jpg"
+// import Ekansh from "../../src/assets/subTeam/Ekansh_Tyagi.jpg"
 const SubTeamData = [
     {
         id: 1,

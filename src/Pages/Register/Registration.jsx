@@ -20,10 +20,12 @@ function Registration() {
                         <a href='https://pages.razorpay.com/pl_Lcoxw6DWcD2ldP/view'><button>Register Now</button></a>
                     </div>
                 </div>
+
+
                 <div className="team-button">
-                    this is team button
-                    <div className="">
-                    <Link to="/teampage">Team</Link>
+                   
+                    <div className="team-button" style={{textAlign: "center", paddingTop: "25px"}}>
+                    <Link to="/teampage">Meet the Team</Link>
                     </div>
                 </div>
             </div>

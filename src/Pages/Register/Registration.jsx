@@ -6,7 +6,7 @@ function Registration() {
         <div id='register' className='d-flex align-items-center justify-content-center' style={{ height: '100vh' }}>
             <div className='col-lg-9 col-11 mx-auto'>
                 <h2 className='text-light my-3 text-center '>Don't wait, Register Now</h2>
-                <div className="d-flex flex-lg-row flex-column align-items-center justify-content-around rounded-3 bg-light" style={{ height:'70vh'}}>
+                <div className="d-flex flex-lg-row flex-column align-items-center justify-content-around rounded-3 bg-light" id='qr-box' style={{ height:'70vh'}}>
                     <div className="col-lg-4 col-11 mx-auto text-center">
                         <h4 className='text-black'>ABESEC Students</h4>
                         <img src={qr1} alt="" className='mb-2 w-75' width={'100%'} />

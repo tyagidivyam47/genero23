@@ -137,10 +137,14 @@ button{
 a {
   text-decoration: none;
 }
-#home-carousel,#about,#queries,#eventPage, #pastEventsGrid, #register{
+#home-carousel,#about ,#team,#queries,#eventPage, #pastEventsGrid, #register{
   background: url('./assets/generobg.png');
   background-size: cover;
   width: 100%;
+}
+
+#team{
+  text-align: center;
 }
 
 button:hover {
@@ -188,6 +192,11 @@ button:hover {
     height: auto;
     margin-top: 20px;
     
+  }
+  #qr-box{
+    height: auto !important;
+    padding: 20px 10px;
+
   }
 
   #pastEventsGrid{

@@ -1,5 +1,4 @@
 import './App.css';
-import Navbar from './Atoms/Navbar';
 import About from './Pages/About';
 import Events from './Pages/Events/Events';
 import FAQ from './Pages/FAQ/FAQ';
@@ -21,13 +20,11 @@ function App() {
     <div className="App">
       {(showSite)
       ?<div>
-      <Navbar />
       <Home />
       <About />
       <Events />
       <FAQ />
       <Registration />
-      {/* <TeamPage/> */}
       <Footer /></div>
       :<PreLoader />
       }

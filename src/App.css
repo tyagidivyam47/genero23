@@ -175,9 +175,9 @@ button:hover {
 }
 
 
-#navbarNavAltMarkup {
-  display: flex;
-  justify-content: flex-end;
+#navbarNavAltarkup {
+  width: fit-content;
+  margin-left: auto;
 }
 
 

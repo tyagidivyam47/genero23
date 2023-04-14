@@ -7,8 +7,9 @@ import Home from './Pages/Home';
 import Footer from './Pages/Footer/Footer';
 import PreLoader from './Pages/PreLoader/PreLoader';
 import { useEffect, useState } from 'react';
-import Team from './components/team/Team';
+// import Team from './components/team/Team';
 import Registration from './Pages/Register/Registration';
+// import TeamPage from './Pages/TeamPage/TeamPage';
 function App() {
   const [showSite, setSite]=useState(false)
   useEffect(()=>{
@@ -25,8 +26,8 @@ function App() {
       <About />
       <Events />
       <FAQ />
-      <Team/>
       <Registration />
+      {/* <TeamPage/> */}
       <Footer /></div>
       :<PreLoader />
       }

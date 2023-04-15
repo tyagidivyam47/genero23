@@ -138,3 +138,12 @@
 /* transform: rotate(360deg); */
 /* transform: scaleX(-1); */
 
+/* styling for the subteam */
+.subteam-unique {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#subteam {
+    height: 400px;
+}

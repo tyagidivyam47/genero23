@@ -1,0 +1,6 @@
+.subteam-unique {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}

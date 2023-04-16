@@ -221,12 +221,39 @@ li{
 
 @media screen and (max-width:768px) {
     .stub{
-        display: block;
+        display: none;
     }
     .ticket{
         margin: auto;
-        scale: 0.4;
+        width: 90vw;
+        overflow: hidden;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px !important;
+        overflow: hidden;
     }
+    .check{
+        flex-direction: column;
+        height: fit-content;
+        
+    }
+    .qr-box-contain{
+        flex-direction: row;
+        height: fit-content;
+    }
+    .info section div{
+        margin: auto !important;
+        text-align: center;
+    }
+    .info section:before{
+        display: none !important;
+    }
+    .info section{
+        margin: 10px auto !important;
+    }
+
+    
+   
 
 
 

@@ -23,7 +23,7 @@ function TeamSection() {
         <div className=' w-100'>
 
           <h1 style={{ fontSize: '50px' }}>#TheTeam</h1>
-          <Link to="/teampage"><button>See All Members</button></Link>
+          <Link to="/teampage?loaded=true=query=team-navbar"><button>See All Members</button></Link>
         </div>
       </div>
       

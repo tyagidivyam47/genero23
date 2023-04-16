@@ -3,7 +3,7 @@ import React from 'react'
 import  './team.css'
 
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
+// import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 // Profile Images
@@ -42,10 +42,9 @@ export default function Team() {
                     <div className="info">
                         <h3>Utkarsh Singh</h3>
                         <span>General Secretary</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint debitis et deleniti nulla animi modi minima quod dignissimos illum.</p>
+                        <p>I am ambitious and driven. I thrive on challenge and constantly set goals for myself.</p>
                         <div className="icons">
                             <a href="s"><LinkedInIcon/></a>
-                            <a href="	utkarsh.19b211031@abes.com"><EmailIcon/></a>
                             <a href="utkarshsinghh__"><InstagramIcon/></a>
                         </div>
                     </div>
@@ -68,7 +67,6 @@ export default function Team() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint debitis et deleniti nulla animi modi minima quod dignissimos illum.</p>
                         <div className="icons">
                             <a href="s"><LinkedInIcon/></a>
-                            <a href="s"><EmailIcon/></a>
                             <a href="s"><InstagramIcon/></a>
                         </div>
                     </div>
@@ -86,7 +84,6 @@ export default function Team() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint debitis et deleniti nulla animi modi minima quod dignissimos illum.</p>
                         <div className="icons">
                             <a href="s"><LinkedInIcon/></a>
-                            <a href="s"><EmailIcon/></a>
                             <a href="s"><InstagramIcon/></a>
                         </div>
                     </div>
@@ -101,10 +98,9 @@ export default function Team() {
                     <div className="info">
                         <h3>Chanchal Malik</h3>
                         <span>Joint Secretary</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint debitis et deleniti nulla animi modi minima quod dignissimos illum.</p>
+                        <p>I'm a dynamic and versatile individual with a plethora of talents and skills.</p>
                         <div className="icons">
                             <a href="	https://www.linkedin.com/in/chanchal-malik-9a271a204"><LinkedInIcon/></a>
-                            <a href="	chanchal.19b311196@abes.ac.in"><EmailIcon/></a>
                             <a href="	https://instagram.com/_titan.nick_?igshid=ZDdkNTZiNTM="><InstagramIcon/></a>
                         </div>
                     </div>
@@ -119,10 +115,9 @@ export default function Team() {
                     <div className="info">
                         <h3>Aditya Gupta</h3>
                         <span>Joint Secretary</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint debitis et deleniti nulla animi modi minima quod dignissimos illum.</p>
+                        <p className='adityaGupta-para'>Bringing creativity to life as Joint Secretary of my college's cultural fest. Art, and literature enthusiast with a passion for creating experiences.</p>
                         <div className="icons">
                             <a href="	https://www.linkedin.com/in/i-am-aditya-gupta/"><LinkedInIcon/></a>
-                            <a href="s"><EmailIcon/></a>
                             <a href="https://www.instagram.com/aditya_harsh_official/"><InstagramIcon/></a>
                         </div>
                     </div>
@@ -142,10 +137,9 @@ export default function Team() {
                     <div className="info">
                         <h3>Aditya Kumar Singh</h3>
                         <span>Treasurer</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint debitis et deleniti nulla animi modi minima quod dignissimos illum.</p>
+                        <p>	The bigger and challenging the task, better the craze to solve it.</p>
                         <div className="icons">
                             <a href="	https://www.linkedin.com/in/aditya-singh-968a231a9"><LinkedInIcon/></a>
-                            <a href="s"><EmailIcon/></a>
                             <a href="https://instagram.com/alone13241423?igshid=ZDdkNTZiNTM="><InstagramIcon/></a>
                         </div>
                     </div>
@@ -164,7 +158,6 @@ export default function Team() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint debitis et deleniti nulla animi modi minima quod dignissimos illum.</p>
                         <div className="icons">
                             <a href="s"><LinkedInIcon/></a>
-                            <a href="s"><EmailIcon/></a>
                             <a href="something"><InstagramIcon/></a>
                         </div>
                     </div>
@@ -180,10 +173,9 @@ export default function Team() {
                     <div className="info">
                         <h3>Siddhant</h3>
                         <span>Treasurer</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint debitis et deleniti nulla animi modi minima quod dignissimos illum.</p>
+                        <p>I am a hard-working and driven individual who isn’t afraid to face a challenge. </p>
                         <div className="icons">
                             <a href="https://www.linkedin.com/in/siddhant-singh-3a56081b3"><LinkedInIcon/></a>
-                            <a href="s"><EmailIcon/></a>
                             <a href="something"><InstagramIcon/></a>
                         </div>
                     </div>

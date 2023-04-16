@@ -5,7 +5,7 @@ import overlay from '../assets/generoOverlay.png'
 
 function Home() {
   return (
-    <div  id="home-carousel" className='d-flex align-items-center justify-content-center' style={{ height: '110vh' }}>
+    <div  id="home-carousel" className='d-flex align-items-center justify-content-center fullHeight'>
 
     <div className='d-flex flex-column justify-content-start align-items-center text-light' id="innerHome">
 

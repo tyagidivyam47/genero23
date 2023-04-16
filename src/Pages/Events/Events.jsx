@@ -28,7 +28,7 @@ function Events() {
     })
     return (
 
-        <div id='eventPage' className='d-flex align-items-end justify-content-center' style={{ height: '100vh' }}>
+        <div id='eventPage' className='d-flex align-items-end justify-content-center fullHeight '>
             <div>
 
             <div className='text-center py-2 pastEventsText'>

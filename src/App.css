@@ -8,83 +8,56 @@ body {
   overflow-x: hidden;
 }
 
-*{
+* {
   color: white !important;
+  font-family: 'Poppins';
 }
 
-.generoOverlay{
+
+.fullHeight {
+  height: 100vh;
+  background: url('./assets/generobg.png');
+  background-size: cover;
+  width: 100%;
+}
+
+#team {
+  background: url('./assets/generobg.png');
+  background-size: cover;
+  width: 100%;
+}
+
+.generoOverlay {
   z-index: 1 !important;
   margin-top: -20px;
 }
 
-
-.homeText{
+.homeText {
   margin-top: 80px;
-  height:25%;
+  height: 25%;
   text-align: center;
 }
+
 div {
   -ms-overflow-style: none;
-  /* Internet Explorer 10+ */
   scrollbar-width: none;
-  /* Firefox */
 }
 
 div::-webkit-scrollbar {
   display: none;
-  /* Safari and Chrome */
 }
 
-a{
+a {
   text-decoration: none;
 }
-#gallery {
-  padding: 60px;
-  overflow: hidden;
 
-}
 
-#gallery .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
 
-#gallery .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #ff0000;
-}
 
-#gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff0000;
-}
-
-#gallery .swiper-slide-active {
-  text-align: center;
-}
-
-@media (min-width: 992px) {
-  #gallery .swiper-wrapper {
-    padding: 40px 0;
-  }
-
-  #gallery .swiper-slide-active {
-    border: 5px solid #ff0000;
-    padding: 4px;
-    background: #fff;
-    z-index: 1;
-    transform: scale(1.15);
-    margin-top: 6px;
-  }
-
-}
 
 
 .navbar {
   position: fixed;
-  /* background-color: #f0f4e5; */
   background-color: transparent;
   width: 100%;
   top: 0;
@@ -92,32 +65,26 @@ a{
   z-index: 100 !important;
 }
 
-* {
-  font-family: 'Poppins';
-}
 
-#home-carousel {
-  /* margin-top: 50px !important; */
-}
 
-.generoText{
+.generoText {
   font-family: 'Marck Script', cursive;
 }
 
-.generoTopText{
+.generoTopText {
   letter-spacing: 10px;
   font-weight: 700;
 }
 
-.generoAbout{
+.generoAbout {
   line-height: 30px
 }
 
-button{
+button {
   background-color: yellow !important;
   background: rgb(255, 232, 26) !important;
   box-shadow: rgba(255, 176, 25, 0.4) 0px 0px 10px, rgba(255, 255, 255, 0.2) 0px 1px 0px inset, rgba(0, 0, 0, 0.15) 0px -3px 0px inset, rgb(255, 135, 25) 0px 0px 15px inset !important;
-  padding:5px 20px;
+  padding: 5px 20px;
   border-radius: 200px !important;
   color: black !important;
   border: 0 !important;
@@ -126,24 +93,13 @@ button{
 
 }
 
-.generoBottomText{
-  text-transform:uppercase;
+.generoBottomText {
+  text-transform: uppercase;
   letter-spacing: 10px;
   font-weight: 700;
 }
 
-.genero
-
-a {
-  text-decoration: none;
-}
-#home-carousel,#about ,#team,#queries,#eventPage, #pastEventsGrid, #register{
-  background: url('./assets/generobg.png');
-  background-size: cover;
-  width: 100%;
-}
-
-#team{
+#team {
   text-align: center;
 }
 
@@ -151,27 +107,9 @@ button:hover {
   opacity: 0.7;
 }
 
-.btn-grad {
-  background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
-  margin: 10px auto;
-  padding: 15px 45px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  display: block;
-  border: 0;
-  z-index: 10 !important
-}
 
-.btn-grad:hover {
-  background-position: right center;
-  /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
+.navbar-nav {
+  margin-left: auto;
 }
 
 
@@ -187,38 +125,53 @@ button:hover {
     background-position: bottom;
   }
 
-  
-  .homeText{
+
+  .homeText {
     height: auto;
     margin-top: 20px;
-    
+
   }
-  #qr-box{
+
+  #qr-box {
     height: auto !important;
     padding: 20px 10px;
 
   }
 
-  #pastEventsGrid{
+  #pastEventsGrid {
     flex-wrap: wrap;
+  }
 
+  #eventPage{
+    padding: 13vw 0px;
+  }
+
+  #queries, #register{
+    padding:10vw 0px;
   }
   #home-carousel{
     height: 100vh;
   }
 
-  #innerHome{
+  #innerHome {
     flex-direction: column-reverse !important;
   }
-  #eventPage{
+
+  #eventPage {
     height: auto !important;
   }
-  #about{
+
+  #about {
     height: 90vh;
   }
-  .navbar-collapse{
+
+  .navbar-collapse {
     background-color: black;
     border-radius: 10px;
+  }
+
+  .fullHeight{
+    height: auto;
   }
 }
 
@@ -232,53 +185,3 @@ button:hover {
     transform: translateX(calc(-250px * 7));
   }
 }
-
-/* .slider {
-  background: white;
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-  height: 100px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: 960px;
-}
-
-.slider::before,
-.slider::after {
-  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-  content: "";
-  height: 100px;
-  position: absolute;
-  width: 200px;
-  z-index: 2;
-}
-
-.slider::after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
-}
-
-.slider::before {
-  left: 0;
-  top: 0;
-}
-
-.slider .slide-track {
-  animation: scroll 40s linear infinite;
-  display: flex;
-  width: calc(250px * 14);
-}
-
-.slider .slide {
-  height: 100px;
-  width: 250px;
-} */
-
-
-.navbar-nav{
-  margin-left: auto;
-}
-
-
-

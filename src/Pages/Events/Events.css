@@ -190,6 +190,9 @@
     .hidden-m {
         display: none;
     }
+    .pastPara{
+        letter-spacing: 7px;
+    }
 }
 
 

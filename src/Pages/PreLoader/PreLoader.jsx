@@ -2,7 +2,8 @@ import React from 'react'
 import './loader.css'
 function PreLoader() {
     return (
-        <div className='loaderContainer'><svg role="img" aria-label="Mouth and eyes come from 9:00 and rotate clockwise into position, right eye blinks, then all parts rotate and merge into 3:00" className="smiley" viewBox="0 0 128 128" width="128px" height="128px">
+        <div className='loaderContainer'>
+            <svg role="img" aria-label="Mouth and eyes come from 9:00 and rotate clockwise into position, right eye blinks, then all parts rotate and merge into 3:00" className="smiley" viewBox="0 0 128 128" width="128px" height="128px">
             <defs>
                 <clipPath id="smiley-eyes">
                     <circle className="smiley__eye1" cx="64" cy="64" r="8" transform="rotate(-40,64,64) translate(0,-56)" />

@@ -27,6 +27,16 @@ body {
   width: 100%;
 }
 
+.pointer{
+  cursor: pointer;
+}
+
+#register {
+  background: url('./assets/generobg.png');
+  background-size: cover;
+  width: 100%;
+}
+
 .generoOverlay {
   z-index: 1 !important;
   margin-top: -20px;
@@ -132,11 +142,7 @@ button:hover {
 
   }
 
-  #qr-box {
-    height: auto !important;
-    padding: 20px 10px;
 
-  }
 
   #pastEventsGrid {
     flex-wrap: wrap;
@@ -171,7 +177,7 @@ button:hover {
   }
 
   .fullHeight{
-    height: auto;
+    height: '';
   }
 }
 

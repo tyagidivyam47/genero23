@@ -39,20 +39,24 @@ body {
 }
 
 .c1{
-  left: 200px !important;
+  left: 300px !important;
   top:20px !important
 }
 .c2{
   bottom: 300px !important;
-  right:100px !important
+  right:200px !important
 }
 .c3{
   bottom: 30px !important;
-  right:220px !important
+  right:140px !important
 }
 .c4{
-  left: 200px !important;
-  bottom:50px !important
+  left: 50px !important;
+  bottom:150px !important
+}
+.c5{
+  left: 320px !important;
+  bottom:70px !important
 }
 
 .pointer{

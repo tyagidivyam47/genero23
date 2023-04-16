@@ -12,12 +12,12 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltarkup">
                 <div className="navbar-nav align-items-center" >
-                    <a className="nav-item nav-link active text-light" href="#home-carousel">HOME</a>
-                    <a className="nav-item nav-link text-light" href="#about">ABOUT</a>
-                    <a className="nav-item nav-link text-light" href="#eventPage">PAST</a>
-                    <a className="nav-item nav-link text-light" href="#queries">FAQ</a>
-                    <a className="nav-item nav-link text-light" href="#team">TEAM</a>
-                    <a className="nav-item nav-link text-light" href="#register"><button className=''>GET TICKET</button></a>
+                    <Link className="nav-item nav-link active text-light" to="/home?loaded=true=query=home-carousel">HOME</Link>
+                    <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=about">ABOUT</Link>
+                    <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=eventPage">PAST</Link>
+                    <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=queries">FAQ</Link>
+                    <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=team">TEAM</Link>
+                    <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=register"><button className=''>GET TICKET</button></Link>
                 </div>
             </div>
         </nav>

@@ -77,7 +77,6 @@ function Registration() {
                             <li> Arrive on time for the event to avoid missing out on any activities or performances.</li>
                             <li> Follow safety instructions provided by the organizers.</li>
                             <li> Show respect and courtesy towards fellow attendees, organizers, and performers.</li>
-                            <li> Avoid bringing outside food and drinks to the event as they may not be allowed inside the venue.</li>
                             <li> Alcohol and drugs are strictly prohibited at the event, and any violations will result in immediate expulsion from the event.</li>
                             <li> Dispose of waste properly and help keep the venue clean and tidy.</li>
                             <li> Have fun and enjoy the event, but be responsible and mindful of others around you.</li>

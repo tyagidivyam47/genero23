@@ -11,10 +11,10 @@ import TeamPage from './Pages/TeamPage/TeamPage';
 const MyRoutes = () => {
   return (
     <div className='App'>
-        <Navbar />
-
+      <Navbar />
         <Routes>
             <Route path='/' element={<App/>} />
+            <Route path='/home' element={<App/>} />
             <Route path="/cultural" element={<CulturalList />} />
             <Route path="/team" element={<Team/>} />
             <Route path="/teampage" element={<TeamPage/>} />

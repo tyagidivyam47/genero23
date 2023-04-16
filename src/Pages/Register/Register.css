@@ -224,8 +224,8 @@ li{
         display: block;
     }
     .ticket{
-        transform: rotate(90deg);
         margin: auto;
+        scale: 0.4;
     }
 
 

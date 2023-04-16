@@ -177,7 +177,7 @@ button:hover {
   }
 
   .fullHeight{
-    height: '';
+    height: fit-content;
   }
 }
 

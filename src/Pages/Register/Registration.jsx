@@ -70,7 +70,7 @@ function Registration() {
                             </div>
 
                         </div>
-                    </div> : <div>
+                    </div> : <div className='col-10 mx-auto'>
                         <p>Following are the rules to be followed by all the participants :</p>
                         <ul>
                             <li> Treat the campus with respect and care, and avoid littering or damaging property.</li>

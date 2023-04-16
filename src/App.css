@@ -25,6 +25,34 @@ body {
   background: url('./assets/generobg.png');
   background-size: cover;
   width: 100%;
+  position: relative;
+  background-color: red !important;
+}
+
+.homeTeamCard{
+  border-radius: 200px;
+  height: 200px;
+  width:200px;
+  object-fit: cover;
+  border:2px solid white;
+  position: absolute;
+}
+
+.c1{
+  left: 200px !important;
+  top:20px !important
+}
+.c2{
+  bottom: 300px !important;
+  right:100px !important
+}
+.c3{
+  bottom: 30px !important;
+  right:220px !important
+}
+.c4{
+  left: 200px !important;
+  bottom:50px !important
 }
 
 .pointer{
@@ -142,7 +170,16 @@ button:hover {
 
   }
 
+  .homeTeamCard{
+    position:static;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
 
+  .homeTeamCardBox{
+    flex-wrap: wrap;
+  }
 
   #pastEventsGrid {
     flex-wrap: wrap;

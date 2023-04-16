@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer'
 export default function TeamPage() {
   return (
     <div id='team'>
-      <Navbar />
+      <Navbar id='team-navbar'/>
       <Team/>
       <div className='subteam-unique'>
         {SubTeamData.map((p) => 

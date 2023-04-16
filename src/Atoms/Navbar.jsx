@@ -6,7 +6,9 @@ import { Link } from 'react-router-dom'
 function Navbar() {
     return (
         <nav className="px-3 navbar navbar-expand-lg navbar-light ">
-            <img src="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" width="50px" alt="" />
+            <a href="#home-carousel">
+                <img src="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" width="50px" alt="" />
+            </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

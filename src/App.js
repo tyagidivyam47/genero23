@@ -13,18 +13,14 @@ import TeamSection from './Pages/TeamSection';
 import Navbar from './Atoms/Navbar';
 // import TeamPage from './Pages/TeamPage/TeamPage';
 function App() {
-
-
   const { search } = useLocation();
   var s=search.split('=')
   const [showSite, setSite] = useState(s[1])
-
-  console.log(s)
   useEffect(() => {
     window.location.hash='#'+s[s.length-1]
     setTimeout(() => {
       setSite(true)
-    }, 3000)
+    }, 3000)// eslint-disable-next-line
   }, [])
   return (
     <div className="App">

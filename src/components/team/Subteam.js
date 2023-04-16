@@ -1,9 +1,8 @@
 import React from 'react'
 import Bg from '../../assets/generoImg1.png'
-
 import './team.css'
 
-export default function Subteam( {post} ) {
+export default function Subteam({post}) {
   return (
     <div>
        <div className="team-card" id='subteam'>
@@ -11,7 +10,7 @@ export default function Subteam( {post} ) {
                         <img src={Bg} alt="" />
                     </div>
                     <div className="pic">
-                        <img src="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" alt="" />
+                        <img src={post.photo} alt="img" />
                     </div>
                     <div className="info">
                         <h3>{post.name}</h3>

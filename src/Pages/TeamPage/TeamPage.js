@@ -1,6 +1,6 @@
 import React from 'react'
 import './teampage.css'
-import SubTeamData from '../../subTeamData/SubTeamData'
+import SubTeamData from '../../components/team/SubTeamData'
 import Team from '../../components/team/Team'
 import Subteam from '../../components/team/Subteam'
 export default function TeamPage() {
@@ -9,7 +9,7 @@ export default function TeamPage() {
       <Team/>
       <div className='subteam-unique'>
         {SubTeamData.map((p) => 
-          <Subteam key={p.id} post={p}/>
+           <Subteam key={p.id} post={p}/>
         )}
       </div>
     </div>

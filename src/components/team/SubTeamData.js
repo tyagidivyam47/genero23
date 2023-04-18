@@ -2,14 +2,14 @@ import ekansh from "../../assets/subTeam/Ekansh_Tyagi.jpg"
 import kalash from "../../assets/subTeam/Kalash Pachauri.jpg"
 import vansh from '../../assets/subTeam/Vansh Mishra.jpeg'
 import vidushi from "../../assets/subTeam/Vidushi Singh.jpg"
-import harsh from "../../assets/subTeam/Harsh Teotia.jpg"
 import suzal from "../../assets/subTeam/Suzal Chaudhary.png"
-// import jesika from "../../assets/subTeam/jesik"
-// import ashutosh from "../../assets/subTeam/s"
-// import shivangi from "../../assets/subTeam"
-// import shubh from "../../assets/subTeam/"
-// import arpit from "../../assets/subTeam/Arpit Jain
-// import shrey from "../../assets/subTeam"
+import jesika from "../../assets/subTeam/jesika.jpeg"
+import ashutosh from "../../assets/subTeam/ashu.jpg"
+import shivangi from "../../assets/subTeam/shivangi.jpeg"
+import shubh from "../../assets/subTeam/Shubh.jpeg"
+import arpit from "../../assets/subTeam/Arpit.jpeg"
+import shrey from "../../assets/subTeam/shrey.jpeg"
+import harshg from "../../assets/subTeam/harshg.jpeg"
 import shruti from "../../assets/subTeam/Shruti Singh.jpeg"
 import tarun from "../../assets/subTeam/Tarun Sharma.jpeg"
 import dilkhush from "../../assets/subTeam/Dilkhush Kumar.jpg"
@@ -20,7 +20,7 @@ import teotia from "../../assets/subTeam/Harsh Teotia.jpg"
 import ishika from "../../assets/subTeam/Ishika Bansal.jpeg"
 import priyanshu from "../../assets/subTeam/Priyanshu Gupta.jpg"
 import harshil from "../../assets/subTeam/Harshil Bhatt.jpg"
-import abhay from "../../assets/subTeam/Abhay_Tyagi.jpg"
+import abhay from "../../assets/subTeam/Abhay_Tyagi.PNG"
 import tushar from "../../assets/subTeam/Tushar Yadav.jpg"
 import tushar2 from "../../assets/subTeam/Tushar Chaudhary.jpg"
 import akshat from "../../assets/subTeam/Akshat Srivastava.jpg"
@@ -49,57 +49,57 @@ const SubTeamData = [
     {
         id: 4,
         name: "Vidushi Singh",
-        position: "Manager Registration",
+        position: "Manager Promotion",
         photo: vidushi
     },
     {
         id: 5,
         name: "Harsh Gupta",
         position: "Manager Sponsorship",
-        photo: harsh
+        photo: harshg
     },
-    // {
-    //     id: 6,
-    //     name: "Jesika Sharma",
-    //     position: "Manager Sponsorship",
-    //     photo: jesika
-    // },
+    {
+        id: 6,
+        name: "Jesika Sharma",
+        position: "Manager Sponsorship",
+        photo: jesika
+    },
     {
         id: 7,
         name: "Suzal Chaudhary",
         position: "Manager Sponsorship",
         photo: suzal
     },
-    // {
-    //     id: 8,
-    //     name: "Ashutosh Joshi ",
-    //     position: "Manager Literary",
-    //     photo: ashutosh
-    // },
-    // {
-    //     id: 9,
-    //     name: "Shivangi Singh",
-    //     position: "Manager Literary",
-    //     photo: shivangi
-    // },
-    // {
-    //     id: 10,
-    //     name: "Shubh Shrivastava",
-    //     position: "Manager Social Media & Publicity",
-    //     photo: shubh
-    // },
+    {
+        id: 8,
+        name: "Ashutosh Joshi ",
+        position: "Manager Literary",
+        photo: ashutosh
+    },
+    {
+        id: 9,
+        name: "Shivangi Singh",
+        position: "Manager Literary",
+        photo: shivangi
+    },
+     {
+         id: 10,
+         name: "Shubh Shrivastava",
+         position: "Manager Social Media & Publicity",
+         photo: shubh
+     },
     {
         id: 11,
         name: "Shruti Singh",
         position: "Manager Social Media & Publicity",
         photo: shruti
     },
-    // {
-    //     id: 12,
-    //     name: "Shrey Asthana",
-    //     position: "Manager Photography & Cinematography",
-    //     photo: shrey
-    // },
+    {
+        id: 12,
+        name: "Shrey Asthana",
+        position: "Manager Photography & Cinematography",
+        photo: shrey
+    },
     {
         id: 13,
         name: "Tarun Sharma",
@@ -166,15 +166,15 @@ const SubTeamData = [
         position: "Manager Discipline",
         photo: tushar
     },
-    // {
-    //     id: 24,
-    //     name: "Arpit Jain",
-    //     position: "Manager E-Gaming",
-    //     photo: 
-    // },
+    {
+        id: 24,
+        name: "Arpit Jain",
+        position: "Manager E-Gaming",
+        photo: arpit
+    },
     {
         id: 25,
-        name: "Tushar",
+        name: "Tushar Chaudhary",
         position: "Manager Production",
         photo:tushar2
     },

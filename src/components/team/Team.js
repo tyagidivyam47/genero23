@@ -44,7 +44,7 @@ export default function Team() {
                         <span>General Secretary</span>
                         <p>I am ambitious and driven. I thrive on challenge and constantly set goals for myself.</p>
                         <div className="icons">
-                            <a href="s"><LinkedInIcon/></a>
+                            <a href="https://www.linkedin.com/in/utkarsh-singh-506b2a199"><LinkedInIcon/></a>
                             <a href="utkarshsinghh__"><InstagramIcon/></a>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export default function Team() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint debitis et deleniti nulla animi modi minima quod dignissimos illum.</p>
                         <div className="icons">
                             <a href="s"><LinkedInIcon/></a>
-                            <a href="s"><InstagramIcon/></a>
+                            <a href="https://instagram.com/rohitsinghwall"><InstagramIcon/></a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ export default function Team() {
                     <div className="info">
                         <h3>Aditya Gupta</h3>
                         <span>Joint Secretary</span>
-                        <p className='adityaGupta-para'>Bringing creativity to life as Joint Secretary of my college's cultural fest. Art, and literature enthusiast with a passion for creating experiences.</p>
+                        <p className='adityaGupta-para'>Bringing creativity to life as Joint Secretary of Genero 2023. Art, dance and literature enthusiast with a passion for creating memorable experiences.</p>
                         <div className="icons">
                             <a href="	https://www.linkedin.com/in/i-am-aditya-gupta/"><LinkedInIcon/></a>
                             <a href="https://www.instagram.com/aditya_harsh_official/"><InstagramIcon/></a>
@@ -171,7 +171,7 @@ export default function Team() {
                         <img src={Siddhant} alt="" />
                     </div>
                     <div className="info">
-                        <h3>Siddhant</h3>
+                        <h3>Siddhant Chaudhary</h3>
                         <span>Treasurer</span>
                         <p>I am a hard-working and driven individual who isn’t afraid to face a challenge. </p>
                         <div className="icons">

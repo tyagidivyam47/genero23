@@ -16,13 +16,13 @@ function Home({parallax}) {
           <p className='generoTopText my-0 animate__animated animate__fadeInUp'>10TH EDITION</p>
           <h1 className=' generoText display-1 my-0 animate__animated animate__fadeInUp'>Genero'23</h1>
           <p className='generoBottomText animate__animated animate__fadeInUp'>THE annual fest of ABESEC</p>
-          <a href='#register'><button className='btn-grad animate__animated animate__fadeInUp'>register now</button></a>
+          <a href='#register' className='homeBtn1'><button className='btn-grad animate__animated animate__fadeInUp'>register now</button></a>
         </div>
 
       </div>
-      <div className='parallax-wrapper'>
+      {(parallax!=='true')?<div className='parallax-wrapper'>
 
-      {(parallax!=='true')?<Parallax pages={2} style={{ top: '0', left: '0' }} className='animation'>
+      <Parallax pages={2} style={{ top: '0', left: '0' }} className='animation'>
         <ParallaxLayer offset={0} speed={0.6}>
           <div className='animation-layer parallax' id='one'></div>
         </ParallaxLayer>
@@ -61,9 +61,9 @@ function Home({parallax}) {
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.25}>
           <div className='animation-layer parallax' id='thirteen'></div>
-        </ParallaxLayer></Parallax>:''}
+        </ParallaxLayer></Parallax>
 
-      </div>
+      </div>:''}
       <div>
       <img src={overlay} className='generoOverlay' width={'100%'} alt="" />
       </div>

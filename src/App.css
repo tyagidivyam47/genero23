@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+
+.homeBtn1{
+  display: none;
+}
 * {
   color: white !important;
   font-family: 'Poppins';
@@ -162,6 +166,9 @@ button:hover {
 
 
 @media screen and (max-width:768px) {
+  .homeBtn1{
+    display: block;
+  }
   #home-carousel {
     background-repeat: no-repeat;
     background-position: bottom;

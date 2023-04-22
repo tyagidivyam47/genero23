@@ -64,7 +64,7 @@ export default function Team() {
                     <div className="info">
                         <h3>Rohit Kumar Singh</h3>
                         <span>Joint Secretary</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint debitis et deleniti nulla animi modi minima quod dignissimos illum.</p>
+                        <p>I have a passion for creating unforgettable experiences.</p>
                         <div className="icons">
                             <a href="s"><LinkedInIcon/></a>
                             <a href="https://instagram.com/rohitsinghwall"><InstagramIcon/></a>
@@ -81,7 +81,7 @@ export default function Team() {
                     <div className="info">
                         <h3>Gaurav Malik</h3>
                         <span>Joint Secretary</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint debitis et deleniti nulla animi modi minima quod dignissimos illum.</p>
+                        <p> I have exceptional organizational skills and a talent for communication.</p>
                         <div className="icons">
                             <a href="s"><LinkedInIcon/></a>
                             <a href="s"><InstagramIcon/></a>
@@ -155,7 +155,7 @@ export default function Team() {
                     <div className="info">
                         <h3>Sidesh Bhatia</h3>
                         <span>Treasurer</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint debitis et deleniti nulla animi modi minima quod dignissimos illum.</p>
+                        <p>I do possess required skills as a treasurer.. I'm a dynamic individual. </p>
                         <div className="icons">
                             <a href="s"><LinkedInIcon/></a>
                             <a href="something"><InstagramIcon/></a>

@@ -25,6 +25,7 @@ import tushar from "../../assets/subTeam/Tushar Yadav.jpg"
 import tushar2 from "../../assets/subTeam/Tushar Chaudhary.jpg"
 import akshat from "../../assets/subTeam/Akshat Srivastava.jpg"
 import ankit from "../../assets/subTeam/Ankit Drabu.jpg"
+import saksham from "../../assets/subTeam/SakshamD.jpeg"
 
 const SubTeamData = [
     {
@@ -168,24 +169,30 @@ const SubTeamData = [
     },
     {
         id: 24,
+        name: "Saksham Dubey",
+        position: "Manager E-Gaming",
+        photo: saksham
+    },
+    {
+        id: 25,
         name: "Arpit Jain",
         position: "Manager E-Gaming",
         photo: arpit
     },
     {
-        id: 25,
+        id: 26,
         name: "Tushar Chaudhary",
         position: "Manager Production",
         photo:tushar2
     },
     {
-        id: 26,
+        id: 27,
         name: "Akshat Srivastava",
         position: "Manager Special Attraction Day 1",
         photo: akshat
     },
     {
-        id: 27,
+        id: 28,
         name: "Ankit Drabu",
         position: "Manager Special Attraction Day 2",
         photo: ankit

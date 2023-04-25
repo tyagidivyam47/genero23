@@ -11,7 +11,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className='bg-black'>
+        <div className='bg-black text-left'>
 
         <div className="footer col-11 mx-auto d-flex align-items-center flex-lg-row flex-column">
             
@@ -45,9 +45,9 @@ const Footer = () => {
                         <a href='https://www.facebook.com/genero.abesec/'><FontAwesomeIcon className='socialIcon' icon={faFacebook} /></a>
                     </div>
                     <div className='my-2'>
-                        <p className='my-0 d-block w-100 opacity-50' style={{ textTransform: 'uppercase', letterSpacing: '3px', fontSize: '12px', fontWeight: 'bold' }}>Mail us at</p>
+                        <p className='my-0 d-block w-100 opacity-50' style={{ textAlign:'left',textTransform: 'uppercase', letterSpacing: '3px', fontSize: '12px', fontWeight: 'bold' }}>Mail us at</p>
                         <a className='my-0 d-block w-100' style={{ fontSize: '13px' }} href='mailto:genero_s2023@abes.ac.in'>genero_s2023@abes.ac.in</a>
-                        <p className='my-0 d-block w-100 opacity-50 mt-2' style={{ textTransform: 'uppercase', letterSpacing: '3px', fontSize: '12px', fontWeight: 'bold' }}>Aditya Harsh</p>
+                        <p className='my-0 d-block w-100 opacity-50 mt-2' style={{ textAlign:'left',textTransform: 'uppercase', letterSpacing: '3px', fontSize: '12px', fontWeight: 'bold' }}>Aditya Harsh</p>
                         <a className='my-0 d-block w-100' style={{ fontSize: '13px' }} href='tel:+91 91693 18989'>+91 91693 18989</a>
                     </div>
                 </div>

@@ -2,6 +2,7 @@
 /*Footer*/
 a{
     color: white;
+    text-align: left;
 }
 
 a:hover{
@@ -21,6 +22,7 @@ a:hover{
 .footer-about p{
     line-height: 25px;
     margin: 10px 0px;
+    text-align: left;
 }
 
 .mt-auto{
@@ -42,15 +44,18 @@ a:hover{
 
 .smallFont{
     font-size: 13px;
+    text-align: left;
 }
 
 .foot-list h3{
     font-size: 15px;
+    text-align: left;
 }
 .ulhead{
     border-bottom: 1.5px solid red;
     width: 50%;
     padding: 5px 0px;
+    text-align: left;
 }
 
 .foot-list div a{
@@ -62,6 +67,7 @@ a:hover{
 
 
 .foot-cta h3{
+    text-align: left;
     font-size: 15px;
 }
 

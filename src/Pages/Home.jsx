@@ -11,12 +11,12 @@ function Home({parallax}) {
 
 
       <div className='homeText d-flex align-items-center justify-content-center'>
-        <div>
+        <div className='d-flex flex-column'>
 
           <p className='generoTopText my-0 animate__animated animate__fadeInUp'>10TH EDITION</p>
           <h1 className=' generoText display-1 my-0 animate__animated animate__fadeInUp'>Genero'23</h1>
           <p className='generoBottomText animate__animated animate__fadeInUp'>THE annual fest of ABESEC</p>
-          <a href='#register' className='homeBtn1'><button className='btn-grad animate__animated animate__fadeInUp'>register now</button></a>
+          <a href='#register' className='homeBtn1 mx-auto'><button className='mx-auto btn-grad animate__animated animate__fadeInUp'>register now</button></a>
         </div>
 
       </div>

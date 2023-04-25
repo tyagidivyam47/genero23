@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <nav className="px-3 navbar navbar-expand-lg navbar-light ">
+        <nav className="px-3 navbar navbar-expand-lg navbar-light " id="navbarScroll">
             <a href="#home-carousel">
                 <img src="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" width="50px" alt="" />
             </a>

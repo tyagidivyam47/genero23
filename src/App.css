@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila&display=swap');
 
 .sub-app {
   background-image: url("./assets/purple-blue-inv.jpg");
@@ -7,6 +7,18 @@
   background-repeat: no-repeat;
 
   background-color: #5f0a87;
+}
+
+
+
+
+.generoTextNumber {
+  font-family: 'Poppins';
+}
+
+@font-face {
+  font-family: Mexicana;
+  src: url('./fonts/Mexicana.ttf');
 }
 
 body {
@@ -17,12 +29,13 @@ body {
 }
 
 
-.homeBtn1{
+.homeBtn1 {
   display: none;
 }
+
 * {
   color: white !important;
-  font-family: 'Poppins';
+  font-family: 'Laila', sans-serif;
 }
 
 
@@ -47,37 +60,41 @@ body {
 }
 
 
-.homeTeamCard{
+.homeTeamCard {
   border-radius: 200px;
   height: 200px;
-  width:200px;
+  width: 200px;
   object-fit: cover;
-  border:2px solid white;
+  border: 2px solid white;
   position: absolute;
 }
 
-.c1{
+.c1 {
   left: 300px !important;
-  top:20px !important
-}
-.c2{
-  bottom: 300px !important;
-  right:200px !important
-}
-.c3{
-  bottom: 30px !important;
-  right:140px !important
-}
-.c4{
-  left: 50px !important;
-  bottom:150px !important
-}
-.c5{
-  left: 320px !important;
-  bottom:70px !important
+  top: 20px !important
 }
 
-.pointer{
+.c2 {
+  bottom: 300px !important;
+  right: 200px !important
+}
+
+.c3 {
+  bottom: 30px !important;
+  right: 140px !important
+}
+
+.c4 {
+  left: 50px !important;
+  bottom: 150px !important
+}
+
+.c5 {
+  left: 320px !important;
+  bottom: 70px !important
+}
+
+.pointer {
   cursor: pointer;
 }
 
@@ -127,8 +144,11 @@ a {
 
 
 
+
 .generoText {
-  font-family: 'Marck Script', cursive;
+  /* color: #453B3B !important; */
+  font-family: 'Mexicana';
+  font-size: 100px !important;
 }
 
 .generoTopText {
@@ -157,6 +177,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 10px;
   font-weight: 700;
+
 }
 
 #team {
@@ -180,14 +201,15 @@ button:hover {
 
 
 @media screen and (max-width:768px) {
-  .homeBtn1{
+  .homeBtn1 {
     display: block;
   }
+
   #home-carousel {
     background-repeat: no-repeat;
     background-position: bottom;
     /* background-color: #5f0a87; */
-  
+
   }
 
 
@@ -197,14 +219,14 @@ button:hover {
 
   }
 
-  .homeTeamCard{
-    position:static;
+  .homeTeamCard {
+    position: static;
     width: 150px;
     height: 150px;
     margin: 10px;
   }
 
-  .homeTeamCardBox{
+  .homeTeamCardBox {
     flex-wrap: wrap;
   }
 
@@ -212,17 +234,19 @@ button:hover {
     flex-wrap: wrap;
   }
 
-  #eventPage{
+  #eventPage {
     background-color: #9921e8;
     background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
     padding: 13vw 0px;
   }
 
-  #queries, #register{
+  #queries,
+  #register {
     background-image: url("./assets/purple-blue.jpg");
-    padding:10vw 0px;
+    padding: 10vw 0px;
   }
-  #home-carousel{
+
+  #home-carousel {
     height: 80vh;
   }
 
@@ -246,7 +270,7 @@ button:hover {
     border-radius: 10px;
   }
 
-  .fullHeight{
+  .fullHeight {
     height: fit-content;
   }
 }

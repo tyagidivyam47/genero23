@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       {(showSite)
-        ? <div>
+        ? <div className='sub-app'>
           <Home parallax={s[1]} />
           <About />
           <Events />

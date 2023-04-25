@@ -115,7 +115,7 @@ export default function Team() {
                     <div className="info">
                         <h3>Aditya Gupta</h3>
                         <span>Joint Secretary</span>
-                        <p className='adityaGupta-para'>Bringing creativity to life as Joint Secretary of Genero 2023. Art, dance and literature enthusiast with a passion for creating memorable experiences.</p>
+                        <p className='adityaGupta-para'>Bringing creativity to life with a passion for creating memorable experiences.</p>
                         <div className="icons">
                             <a href="	https://www.linkedin.com/in/i-am-aditya-gupta/"><LinkedInIcon/></a>
                             <a href="https://www.instagram.com/aditya_harsh_official/"><InstagramIcon/></a>

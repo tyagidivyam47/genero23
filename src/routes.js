@@ -7,6 +7,7 @@ import CulturalDetails from './Pages/EventsRules/Cultural/CulturalDetails';
 import CulturalList from './Pages/EventsRules/Cultural/CulturalList';
 import Team from './components/team/Team';
 import TeamPage from './Pages/TeamPage/TeamPage';
+import Footer from './Pages/Footer/Footer';
 
 const MyRoutes = () => {
   return (
@@ -18,9 +19,10 @@ const MyRoutes = () => {
             <Route path="/cultural" element={<CulturalList />} />
             <Route path="/team" element={<Team/>} />
             <Route path="/teampage" element={<TeamPage/>} />
-
             <Route path="/cultural/:id" element={<CulturalDetails />} />
         </Routes>
+        <Footer/>
+
     </div>
   )
 }

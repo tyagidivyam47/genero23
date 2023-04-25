@@ -26,14 +26,13 @@ function App() {
     <div className="App">
       {(showSite)
         ? <div>
-          <Navbar />
           <Home parallax={s[1]} />
           <About />
           <Events />
           <FAQ />
           <TeamSection />
           <Registration />
-          <Footer /></div>
+          </div>
         : <PreLoader />
       }
 

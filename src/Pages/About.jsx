@@ -2,7 +2,7 @@ import React from 'react'
 import sideImage from '../assets/generoImg.png'
 function About() {
   return (
-    <div id="about" className='col-11 pt-4 mx-auto text-dark d-lg-flex align-items-center justify-content-center fullHeight '>
+    <div id="about" className='col-11 mx-auto text-dark d-lg-flex align-items-center justify-content-center fullHeight '>
       
 
       <div className='col-lg-6 col-11 mx-lg-0 mx-auto'>

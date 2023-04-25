@@ -133,3 +133,23 @@
 		stroke-dashoffset: -351.86;
 	}
 }
+
+
+
+@keyframes animater {
+	0%{
+		opacity: 25%;
+	}
+	50%{
+		opacity: 100%;
+	}
+	100%{
+		opacity: 25%;
+	}
+	
+}
+
+
+.preload-image{
+	animation: animater 2s infinite;
+}

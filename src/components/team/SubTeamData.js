@@ -8,7 +8,7 @@ import ashutosh from "../../assets/subTeam/ashu.jpg"
 import shivangi from "../../assets/subTeam/shivangi.jpeg"
 import shubh from "../../assets/subTeam/Shubh.jpeg"
 import arpit from "../../assets/subTeam/Arpit.jpeg"
-import shrey from "../../assets/subTeam/shrey.jpeg"
+import rohit from "../../assets/subTeam/rohitCh.jpeg"
 import harshg from "../../assets/subTeam/harshg.jpeg"
 import shruti from "../../assets/subTeam/Shruti Singh.jpeg"
 import tarun from "../../assets/subTeam/Tarun Sharma.jpeg"
@@ -97,9 +97,9 @@ const SubTeamData = [
     },
     {
         id: 12,
-        name: "Shrey Asthana",
-        position: "Manager Photography & Cinematography",
-        photo: shrey
+        name: "Rohit Chaudhary",
+        position: "Manager Creative",
+        photo: rohit
     },
     {
         id: 13,

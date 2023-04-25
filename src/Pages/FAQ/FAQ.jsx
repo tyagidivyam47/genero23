@@ -2,7 +2,7 @@ import React from 'react'
 import './FAQ.css'
 function FAQ() {
     return (
-        <div id="queries" className='bg-danger d-flex justify-content-center align-items-center fullHeight '>
+        <div id="queries" className='faq-for-bg d-flex justify-content-center align-items-center fullHeight '>
             <div className="col-lg-7 col-10 mx-auto">
 
                 <h1>Frequently asked Questions</h1>

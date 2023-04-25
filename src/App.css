@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 
+.sub-app {
+  background-image: url("./assets/purple-blue-inv.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 body {
   background-color: #f0f4e5;
   color: white;
@@ -20,18 +26,24 @@ body {
 
 .fullHeight {
   height: 100vh;
-  background: url('./assets/generobg.png');
+  /* background: url('./assets/purple-blue-inv.jpg'); */
+
   background-size: cover;
   width: 100%;
 }
 
 #team {
-  background: url('./assets/generobg.png');
   background-size: cover;
   width: 100%;
   position: relative;
-  background-color: red !important;
+  /* background-color: red !important   */
+  background-image: url("./assets/purple-blue.jpg");
 }
+
+.team-bg {
+  background-image: url("assets/purple-blue.jpg");
+}
+
 
 .homeTeamCard{
   border-radius: 200px;
@@ -68,7 +80,7 @@ body {
 }
 
 #register {
-  background: url('./assets/generobg.png');
+  background: url('./assets/purple-blue.jpg');
   background-size: cover;
   width: 100%;
 }
@@ -170,6 +182,7 @@ button:hover {
     display: block;
   }
   #home-carousel {
+    /* background-image: url("./assets//purple-blue-inv.jpg"); */
     background-repeat: no-repeat;
     background-position: bottom;
   }
@@ -201,6 +214,7 @@ button:hover {
   }
 
   #queries, #register{
+    background-image: url("./assets/purple-blue.jpg");
     padding:10vw 0px;
   }
   #home-carousel{

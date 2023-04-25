@@ -16,6 +16,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+#team {
+    background-image: url("../../assets/purple-blue-inv.jpg");
+    background-size: cover;
+}
+
 
 .core-team-heading {
     font-size: 40px;

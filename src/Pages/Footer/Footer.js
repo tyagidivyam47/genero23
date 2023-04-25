@@ -47,8 +47,8 @@ const Footer = () => {
                     <div className='my-2'>
                         <p className='my-0 d-block w-100 opacity-50' style={{ textAlign:'left',textTransform: 'uppercase', letterSpacing: '3px', fontSize: '12px', fontWeight: 'bold' }}>Mail us at</p>
                         <a className='my-0 d-block w-100' style={{ fontSize: '13px' }} href='mailto:genero_s2023@abes.ac.in'>genero_s2023@abes.ac.in</a>
-                        <p className='my-0 d-block w-100 opacity-50 mt-2' style={{ textAlign:'left',textTransform: 'uppercase', letterSpacing: '3px', fontSize: '12px', fontWeight: 'bold' }}>Aditya Harsh</p>
-                        <a className='my-0 d-block w-100' style={{ fontSize: '13px' }} href='tel:+91 91693 18989'>+91 91693 18989</a>
+                        <p className='my-0 d-block w-100 opacity-50 mt-2' style={{ textAlign:'left',textTransform: 'uppercase', letterSpacing: '3px', fontSize: '12px', fontWeight: 'bold' }}>Utkarsh Singh</p>
+                        <a className='my-0 d-block w-100' style={{ fontSize: '13px' }} href='tel:+91 91693 18989'>+91 63941 61708</a>
                     </div>
                 </div>
             </div>

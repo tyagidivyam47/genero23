@@ -20,6 +20,20 @@ function About() {
           6000+ students from different
           colleges in Delhi NCR, Genero
           has been a success story</p>
+          <div className='d-flex align-items-center justify-content-between col-9'>
+            <div>
+              <h3>9+</h3>
+              <p>Editions</p>
+            </div>
+            <div>
+              <h3>40+</h3>
+              <p>Events</p>
+            </div>
+            <div>
+              <h3>5000+</h3>
+              <p>Participation</p>
+            </div>
+          </div>
         <button className="button-82-pushable py-2 animate__animated animate__fadeInUp">
           <a href="https://youtu.be/3Er4V2mwHPw">
             <span className="button-82-shadow"></span>

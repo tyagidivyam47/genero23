@@ -21,7 +21,6 @@ export default function TeamPage() {
           <Subteam key={p.id} post={p} />
         )}
       </div>
-      <Footer />
     </div>
   )
 }

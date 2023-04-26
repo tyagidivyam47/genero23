@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 // import Team from './components/team/Team';
 import Registration from './Pages/Register/Registration';
 import TeamSection from './Pages/TeamSection';
+import Navbar from './Atoms/Navbar';
 // import TeamPage from './Pages/TeamPage/TeamPage';
 function App() {
   const { search } = useLocation();
@@ -24,6 +25,7 @@ function App() {
     <div className="App">
       {(showSite)
         ? <div className='sub-app'>
+          <Navbar/>
           <Home parallax={s[1]} />
           <About />
           <Events />

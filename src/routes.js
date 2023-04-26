@@ -2,7 +2,6 @@ import React from 'react'
 import { Route, Routes } from 'react-router';
 import App from './App';
 import "./App.css";
-import Navbar from './Atoms/Navbar';
 import CulturalDetails from './Pages/EventsRules/Cultural/CulturalDetails';
 import CulturalList from './Pages/EventsRules/Cultural/CulturalList';
 import Team from './components/team/Team';
@@ -12,7 +11,6 @@ import Footer from './Pages/Footer/Footer';
 const MyRoutes = () => {
   return (
     <div className='App'>
-      <Navbar />
         <Routes>
             <Route path='/' element={<App/>} />
             <Route path='/home' element={<App/>} />

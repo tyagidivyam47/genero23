@@ -18,7 +18,7 @@ function Navbar() {
                     <a className="nav-item nav-link text-light" href="#about">ABOUT</a>
                     <a className="nav-item nav-link text-light" href="#eventPage">PAST</a>
                     <a className="nav-item nav-link text-light" href="#queries">FAQ</a>
-                    <a className="nav-item nav-link text-light" href="#team">TEAM</a>
+                    <a className="nav-item nav-link text-light" href="/teampage">TEAM</a>
                     <a className="nav-item nav-link text-light" href="#register"><button className=''>GET TICKET</button></a>
                 </div>
             </div>

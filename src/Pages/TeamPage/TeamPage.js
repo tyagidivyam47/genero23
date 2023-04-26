@@ -4,7 +4,6 @@ import SubTeamData from '../../components/team/SubTeamData'
 import Team from '../../components/team/Team'
 import Subteam from '../../components/team/Subteam'
 import Navbar from '../../Atoms/NavCopy'
-import Footer from '../Footer/Footer'
 
 
 export default function TeamPage() {

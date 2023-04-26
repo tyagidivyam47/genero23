@@ -10,27 +10,17 @@ function Home({ parallax }) {
       <div className='d-flex flex-column justify-content-start align-items-center text-light' id="innerHome">
 
 
-      <div className='homeText d-flex align-items-center justify-content-center'>
-        <div className='d-flex flex-column'>
-        {/* <span className='generoTextNumber'>23</span> */}
-          <p className='generoTopText my-0 animate__animated animate__fadeInUp'> PRESENTING YOU</p>
-          <h1 className=' generoText display-1 my-0 animate__animated animate__fadeInUp'>Genero</h1>
-          <p className='generoBottomText animate__animated animate__fadeInUp'>CULTURAL FEST OF ABESEC</p>
-          <a href='#register' className='homeBtn1 mx-auto'><button className='mx-auto btn-grad animate__animated animate__fadeInUp'>register now</button></a>
-        </div>
-
-      </div>
-      {(parallax!=='true')?<div className='parallax-wrapper'>
         <div className='homeText d-flex align-items-center justify-content-center'>
           <div className='d-flex flex-column'>
-
-            <p className='generoTopText my-0 animate__animated animate__fadeInUp'>10TH EDITION</p>
-            <h1 className=' generoText display-1 my-0 animate__animated animate__fadeInUp'>Genero'23</h1>
-            <p className='generoBottomText animate__animated animate__fadeInUp'>THE annual fest of ABESEC</p>
+            {/* <span className='generoTextNumber'>23</span> */}
+            <p className='generoTopText my-0 animate__animated animate__fadeInUp'> PRESENTING YOU</p>
+            <h1 className=' generoText display-1 my-0 animate__animated animate__fadeInUp'>Genero</h1>
+            <p className='generoBottomText animate__animated animate__fadeInUp'>CULTURAL FEST OF ABESEC</p>
             <a href='#register' className='homeBtn1 mx-auto'><button className='mx-auto btn-grad animate__animated animate__fadeInUp'>register now</button></a>
           </div>
 
         </div>
+        
         {(parallax !== 'true') ? <div className='parallax-wrapper'>
 
           <Parallax pages={2} style={{ top: '0', left: '0' }} className='animation'>
@@ -74,10 +64,8 @@ function Home({ parallax }) {
               <div className='animation-layer parallax' id='thirteen'></div>
             </ParallaxLayer></Parallax>
 
-      </div>:''}
-      <div className=''>
-      <img src={overlay} className='generoOverlay' width={'100%'} alt="" />
         </div> : ''}
+
         <div>
           <span className=' faded faded-bottom'>
             <img src={overlay} className='generoOverlay' width={'100%'} alt="" />
@@ -85,7 +73,7 @@ function Home({ parallax }) {
         </div>
       </div>
     </div>
-      )
+  )
 }
 
-      export default Home
+export default Home

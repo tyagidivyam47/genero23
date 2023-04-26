@@ -8,7 +8,7 @@ import PreLoader from './Pages/PreLoader/PreLoader';
 import { useEffect, useState } from 'react';
 // import Team from './components/team/Team';
 import Registration from './Pages/Register/Registration';
-import TeamSection from './Pages/TeamSection';
+// import TeamSection from './Pages/TeamSection';
 import Navbar from './Atoms/Navbar';
 // import Theme from './Pages/Theme/Theme';
 // import TeamPage from './Pages/TeamPage/TeamPage';
@@ -32,7 +32,7 @@ function App() {
           <About />
           <Events />
           <FAQ />
-          <TeamSection />
+          {/* <TeamSection /> */}
           <Registration />
           </div>
         : <PreLoader />

@@ -54,7 +54,7 @@ function Registration() {
                                     <div>
 
                                         <img src={qr1} width={'120px'} alt="" />
-                                        <a href='https://rzp.io/l/OLuKyJ3'>#ABESEC <i className='fa fa-external-link text-dark mx-2'></i></a>
+                                        <a href='https://rzp.io/l/OLuKyJ3' target="_blank" rel='noreferrer'>#ABESEC <i className='fa fa-external-link text-dark mx-2'></i></a>
 
                                     </div>
                                 </div>
@@ -63,7 +63,7 @@ function Registration() {
                                     <div>
 
                                         <img src={qr2} width={'120px'} alt="" />
-                                        <a href="https://rzp.io/l/9ELBp2Vi1">#NONABESEC <i className='fa fa-external-link text-dark mx-2'></i></a>
+                                        <a href="https://rzp.io/l/9ELBp2Vi1" target="_blank" rel='noreferrer'>#NONABESEC <i className='fa fa-external-link text-dark mx-2'></i></a>
 
                                     </div>
                                 </div>

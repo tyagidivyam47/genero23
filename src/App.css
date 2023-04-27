@@ -1,6 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Laila&display=swap');
 
+
+
+/* Font Faces */
+@font-face {
+  font-family: Mexicana;
+  src: url('./fonts/Mexicana.ttf');
+}
+
+@font-face {
+  font-family: SAMAN;
+  src: url('./fonts/SAMAN___.TTF');
+}
+
+
+
+/* Universal CSS */
+
+body {
+  background-color: #f0f4e5;
+  color: white;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+
+* {
+  color: white !important;
+  font-family: 'Laila', sans-serif;
+}
+
 .sub-app {
   background-image: url("./assets/purple-blue-inv.jpg");
   background-size: contain;
@@ -12,91 +42,14 @@
 
 
 
-.generoTextNumber {
-  font-family: 'Poppins';
-}
-
-@font-face {
-  font-family: Mexicana;
-  src: url('./fonts/Mexicana.ttf');
-}
-@font-face {
-  font-family: SAMAN;
-  src: url('./fonts/SAMAN___.TTF');
-}
-
-body {
-  background-color: #f0f4e5;
-  color: white;
-  z-index: 1;
-  overflow-x: hidden;
-}
-
-
-.homeBtn1 {
-  display: none;
-}
-
-* {
-  color: white !important;
-  font-family: 'Laila', sans-serif;
-}
 
 
 .fullHeight {
   height: 100vh;
-  /* background: url('./assets/purple-blue-inv.jpg'); */
-
   background-size: cover;
   width: 100%;
 }
 
-#team {
-  background-size: cover;
-  width: 100%;
-  position: relative;
-  /* background-color: red !important   */
-  background-image: url("./assets/purple-blue.jpg");
-}
-
-.team-bg {
-  background-image: url("assets/purple-blue.jpg");
-}
-
-
-.homeTeamCard {
-  border-radius: 200px;
-  height: 200px;
-  width: 200px;
-  object-fit: cover;
-  border: 2px solid white;
-  position: absolute;
-}
-
-.c1 {
-  left: 300px !important;
-  top: 20px !important
-}
-
-.c2 {
-  bottom: 300px !important;
-  right: 200px !important
-}
-
-.c3 {
-  bottom: 30px !important;
-  right: 140px !important
-}
-
-.c4 {
-  left: 50px !important;
-  bottom: 150px !important
-}
-
-.c5 {
-  left: 320px !important;
-  bottom: 70px !important
-}
 
 .pointer {
   cursor: pointer;
@@ -289,6 +242,3 @@ button:hover {
     transform: translateX(calc(-250px * 7));
   }
 }
-
-
-

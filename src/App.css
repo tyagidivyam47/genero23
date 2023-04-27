@@ -36,7 +36,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 
-  background-color: #5f0a87;
+  /* background-color: #5f0a87; */
+  background-color: #090041;
 }
 
 
@@ -56,9 +57,9 @@ body {
 }
 
 #register {
-  background: url('./assets/purple-blue.jpg');
+  /* background: url('./assets/purple-blue.jpg');
   background-size: cover;
-  width: 100%;
+  width: 100%; */
 }
 
 .generoOverlay {
@@ -157,7 +158,7 @@ button:hover {
 }
 
 #eventPage {
-  background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+  /* background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%); */
   height: 100vh;
 }
 
@@ -197,15 +198,15 @@ button:hover {
   }
 
   #eventPage {
-    background-color: #9921e8;
+    /* background-color: #9921e8; */
     height: 100vh !important;
-    background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+    /* background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%); */
     padding: 13vw 0px;
   }
 
   #queries,
   #register {
-    background-image: url("./assets/purple-blue.jpg");
+    /* background-image: url("./assets/purple-blue.jpg"); */
     padding: 10vw 0px;
   }
 
@@ -222,8 +223,8 @@ button:hover {
   }
 
   #about {
-    background-color: #a4508b;
-    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    /* background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); */
 
     height: 90vh;
   }

@@ -28,7 +28,7 @@ const CulturalList = () => {
                             <EventCard
                                 serial={index + 1}
                                 key={list.id}
-                                propStyle={{ height: '200px' }}
+                                propStyle={{height:'200px'}}
                                 imgSrc={list.imgSrc}
                                 name={list.heading}
                                 redirectLink={list.redirectLink}

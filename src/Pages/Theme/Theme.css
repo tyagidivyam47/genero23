@@ -1,0 +1,36 @@
+.theme-back{
+    background:url('https://www.holidify.com/blog/wp-content/uploads/2015/07/13896645072_c994520879_k.jpg');
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-overlay{
+    height: 100vh;
+    background-color: black;
+    width: 100vw;
+    opacity: 80%;
+    position: absolute;
+    top: 0px;
+    z-index: 30;
+}
+
+.theme-text{
+    z-index: 100;
+    text-align: center;
+}
+
+
+.theme-head{
+    font-family: 'SAMAN';
+    font-size: 100px;
+}
+
+.theme-head-span{
+    font-family: 'SAMAN';
+    color: yellow !important;
+}
+

@@ -20,6 +20,10 @@
   font-family: Mexicana;
   src: url('./fonts/Mexicana.ttf');
 }
+@font-face {
+  font-family: SAMAN;
+  src: url('./fonts/SAMAN___.TTF');
+}
 
 body {
   background-color: #f0f4e5;
@@ -139,7 +143,7 @@ a {
   width: 100%;
   top: 0;
   color: white !important;
-  z-index: 100 !important;
+  z-index: 1000 !important;
 }
 
 

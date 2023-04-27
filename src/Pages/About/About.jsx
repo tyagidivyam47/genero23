@@ -1,5 +1,5 @@
 import React from 'react'
-import sideImage from '../assets/generoImg.png'
+import sideImage from '../../assets/generoImg.png'
 function About() {
   return (
     <div id="about" className='col-11 mx-auto text-dark d-lg-flex align-items-center justify-content-center fullHeight '>

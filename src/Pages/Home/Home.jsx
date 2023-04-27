@@ -1,7 +1,7 @@
 import React from 'react'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import './parallax.css'
-import overlay from '../assets/generoOverlay.png'
+import overlay from '../../assets/generoOverlay.png'
 
 function Home({ parallax }) {
   return (

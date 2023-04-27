@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import './teampage.css'
-import SubTeamData from '../../components/team/SubTeamData'
-import Team from '../../components/team/Team'
-import Subteam from '../../components/team/Subteam'
-import Navbar from '../../Atoms/NavCopy'
+import SubTeamData from '../team/SubTeamData'
+import Team from '../team/Team'
+import Subteam from '../team/Subteam'
+import Navbar from '../../../Atoms/navbar/NavCopy'
 
 
 export default function TeamPage() {

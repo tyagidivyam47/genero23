@@ -1,13 +1,13 @@
 import './App.css';
 import { useLocation } from 'react-router-dom';
-import About from './Pages/About';
+import About from './Pages/About/About';
 import Events from './Pages/Events/Events';
 import FAQ from './Pages/FAQ/FAQ';
-import Home from './Pages/Home';
+import Home from './Pages/Home/Home';
 import PreLoader from './Pages/PreLoader/PreLoader';
 import { useEffect, useState } from 'react';
 import Registration from './Pages/Register/Registration';
-import Navbar from './Atoms/Navbar';
+import Navbar from './Atoms/navbar/Navbar';
 import Theme from './Pages/Theme/Theme';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
     }, 3000)// eslint-disable-next-line
   }, [])
 
-  
+
   return (
     <div className="App">
       {(showSite)

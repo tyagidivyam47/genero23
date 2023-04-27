@@ -1,8 +1,8 @@
 // import classes from "./Technical.module.css";
 // import TechnicalLists from "../TechnicalDetail/TechnicalLists";
-import CulturalData from "../../../EventsData/CulturalData";
+import CulturalData from "../../../data/CulturalData";
 import { useEffect } from "react";
-import EventCard from "../../../Atoms/EventCard/EventCard";
+import EventCard from "../../../Atoms/cards/eventcard/EventCard";
 
 import "./CulturalList.css"
 

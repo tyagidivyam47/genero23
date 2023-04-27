@@ -7,21 +7,21 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 // Profile Images
-import Chanchal from '../../assets/team/Chanchal.jpg'
-import Gaurav from '../../assets/team/Gaurav.jpeg'
-import Rohit from '../../assets/team/Rohit.jpeg'
-import Utkarsh from '../../assets/team/UtkarshGS.jpeg'
-import Aditya from '../../assets/team/adityaJs.png'
-import AdityaTers from '../../assets/team/AdityaTres.JPG'
-import Siddhant from '../../assets/team/Siddhant.jpg'
-import Sidesh from '../../assets/team/Sidesh.jpg'
+import Chanchal from '../../../assets/team/Chanchal.jpg'
+import Gaurav from '../../../assets/team/Gaurav.jpeg'
+import Rohit from '../../../assets/team/Rohit.jpeg'
+import Utkarsh from '../../../assets/team/UtkarshGS.jpeg'
+import Aditya from '../../../assets/team/adityaJs.png'
+import AdityaTers from '../../../assets/team/AdityaTres.JPG'
+import Siddhant from '../../../assets/team/Siddhant.jpg'
+import Sidesh from '../../../assets/team/Sidesh.jpg'
 
 // Background Images
-import Raja from '../../assets/team/raja.png'
-import Elep from '../../assets/team/elephant.png'
-import Palace from '../../assets/team/palace.png'
-import Queen from '../../assets/team/queen.png'
-import Fort from '../../assets/team/fort.png'
+import Raja from '../../../assets/team/raja.png'
+import Elep from '../../../assets/team/elephant.png'
+import Palace from '../../../assets/team/palace.png'
+import Queen from '../../../assets/team/queen.png'
+import Fort from '../../../assets/team/fort.png'
 
 
 export default function Team() {

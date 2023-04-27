@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-/* * {
-    margin: 0;
-    padding: 9;
-    text-transform: capitalize;
-    transition: all 0.2s linear;
-    font-family: sans-serif;
-} */
+
 
 .team {
     margin: 0;
@@ -17,7 +11,7 @@
 }
 
 #team {
-    background-image: url("../../assets/purple-blue-inv.jpg");
+    background-image: url("../../../assets/purple-blue-inv.jpg");
     background-size: cover;
 }
 

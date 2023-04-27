@@ -2,11 +2,9 @@ import React from 'react'
 import { Route, Routes } from 'react-router';
 import App from './App';
 import "./App.css";
-// import CulturalDetails from './Pages/EventsRules/Cultural/CulturalDetails';
-import CulturalList from './Pages/EventsRules/Cultural/CulturalList';
-// import Team from './components/team/Team';
-import TeamPage from './Pages/TeamPage/TeamPage';
-import Footer from './Pages/Footer/Footer';
+import CulturalList from './Pages/Events/Cultural/CulturalList';
+import TeamPage from './Pages/Team/TeamPage/TeamPage';
+import Footer from './Atoms/footer/Footer';
 
 const MyRoutes = () => {
   return (

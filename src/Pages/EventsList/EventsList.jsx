@@ -13,7 +13,9 @@ const EventsList = () => {
 
         <div className='bd'>
             <Navbar />
-            <h1 style={{textAlign:"center"}}>Events</h1>
+
+            <div className="event-padded">
+
             <div className='grid-container'>
                 <EventCard
                     key={"list.id"}
@@ -55,7 +57,7 @@ const EventsList = () => {
                     redirectLink="/events/cultural"
                 />
             </div>
-
+            </div>
         </div>
     )
 }

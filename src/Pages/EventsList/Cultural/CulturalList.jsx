@@ -17,20 +17,25 @@ const CulturalList = () => {
     return (
         <div className="bd">
             <Navbar />
-            <h1 style={{textAlign:"center"}}>Cultural</h1>
-            
-            <div className="grid-container">
-                {CulturalData.map((list) => {
-                    // {console.log(list.heading)}
-                    return (
-                        <EventCard
-                            key={list.id}
-                            imgSrc={list.imgSrc}
-                            name={list.heading}
-                            redirectLink={list.redirectLink}
-                        />
-                    );
-                })}
+
+            <div className="event-padded">
+                <h1 style={{ textAlign: "center" }}>Cultural</h1>
+
+                <div className="grid-container w-100">
+                    {CulturalData.map((list, index) => {
+                        // {console.log(list.heading)}
+                        return (
+                            <EventCard
+                                serial={index + 1}
+                                key={list.id}
+                                propStyle={{ height: '200px' }}
+                                imgSrc={list.imgSrc}
+                                name={list.heading}
+                                redirectLink={list.redirectLink}
+                            />
+                        );
+                    })}
+                </div>
             </div>
         </div>
     );

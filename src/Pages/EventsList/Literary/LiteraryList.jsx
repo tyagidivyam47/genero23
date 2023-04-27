@@ -17,20 +17,26 @@ const LiteraryList = () => {
     return (
         <div className="bd">
             <Navbar />
+
+            <div className="event-padded">
+
             <h1 style={{textAlign:"center"}}>Literary</h1>
             
             <div className="grid-container">
-                {LiteraryData.map((list) => {
+                {LiteraryData.map((list,index) => {
                     // {console.log(list.heading)}
                     return (
                         <EventCard
                             key={list.id}
+                            serial={index+1}
                             imgSrc={list.imgSrc}
+                            propStyle={{height:'200px'}}
                             name={list.heading}
                             redirectLink={list.redirectLink}
                         />
                     );
                 })}
+            </div>
             </div>
         </div>
     );

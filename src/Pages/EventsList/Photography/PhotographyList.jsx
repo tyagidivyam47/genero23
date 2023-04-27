@@ -17,20 +17,24 @@ const PhotographyList = () => {
     return (
         <div className="bd">
             <Navbar />
-            <h1 style={{ textAlign: "center" }}>Photography</h1>
+            <div className="event-padded">
 
+            <h1 style={{ textAlign: "center" }}>Photography</h1>
             <div className="grid-container">
-                {PhotographyData.map((list) => {
+                {PhotographyData.map((list,index) => {
                     // {console.log(list.heading)}
                     return (
                         <EventCard
                             key={list.id}
+                            serial={index+1}
                             imgSrc={list.imgSrc}
+                            propStyle={{height:'200px'}}
                             name={list.heading}
                             redirectLink={list.redirectLink}
                         />
                     );
                 })}
+            </div>
             </div>
         </div>
     );

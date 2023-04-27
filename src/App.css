@@ -41,8 +41,6 @@ body {
 
 .fullHeight {
   height: 100vh;
-  /* background: url('./assets/purple-blue-inv.jpg'); */
-
   background-size: cover;
   width: 100%;
 }

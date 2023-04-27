@@ -1,17 +1,36 @@
 .main-wrapper2 {
     display: flex;
-    /* width: 300px; */
 }
 
+.card-serial{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-serial-number{
+    color: black !important;
+    margin: 0;
+    padding: 0;
+}
 .team-card2 {
     height: 500px;
-    /* width: 400px; */
+    width: 250px;
+    border: 0.5px dashed lightblue;
     margin: 20px;
-    box-shadow: 0 3px 5px #000;
-    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    border-radius: 20px;
     overflow: hidden;
     text-align: center;
     background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
 }
 
 .bg-img2{
@@ -22,11 +41,17 @@
     transform: scale(1.2);
 }
 
+
+
+.info2 h2{
+    font-size: 20px ;
+}
+
 .info2 {
     /* margin-top: -400px; */
     color: purple;
     z-index: 1;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .bg-img2 img {

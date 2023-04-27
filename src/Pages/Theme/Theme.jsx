@@ -6,7 +6,9 @@ function Theme() {
             <div className='theme-overlay'></div>
             <div className='theme-text'>
                 <h1 className='theme-head'>indias <span className='theme-head-span'>hidden</span> hues</h1>
+                <a href='https://instagram.com/genero.abesec'>
                 <button className=''>See What's Happening on Instagram</button>
+                </a>
             </div>
         </div>
     )

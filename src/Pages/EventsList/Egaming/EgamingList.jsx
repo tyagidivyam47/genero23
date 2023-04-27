@@ -1,12 +1,13 @@
 // import classes from "./Technical.module.css";
 // import TechnicalLists from "../TechnicalDetail/TechnicalLists";
-import CulturalData from "../../../EventsData/CulturalData";
+import EgamingData from "../../../EventsData/EgamingData";
 import { useEffect } from "react";
-import EventCard from "../../../Atoms/EventCard/EventCard";
+import EventCard from "../../../Atoms/EventCard1/EventCard";
 
-import "./CulturalList.css"
+import "./EgamingList.css"
+import Navbar from "../../../Atoms/NavCopy";
 
-const CulturalList = () => {
+const EgamingList = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -14,18 +15,18 @@ const CulturalList = () => {
     // console.log(CulturalData);
 
     return (
-        <div className="">
-            <div style={{ width: "100vw" }} >
-                <h1 style={{ color: "black", textAlign: "center" }}>Cultural</h1>
-            </div>
-            <div className=" eventSlider d-flex justify-content-center">
-                {CulturalData.map((list) => {
+        <div className="bd">
+            <Navbar />
+            <h1 style={{textAlign:"center"}}>Egaming</h1>
+            
+            <div className="grid-container">
+                {EgamingData.map((list) => {
                     // {console.log(list.heading)}
                     return (
                         <EventCard
                             key={list.id}
                             imgSrc={list.imgSrc}
-                            heading={list.heading}
+                            name={list.heading}
                             redirectLink={list.redirectLink}
                         />
                     );
@@ -35,4 +36,4 @@ const CulturalList = () => {
     );
 };
 
-export default CulturalList;
+export default EgamingList;

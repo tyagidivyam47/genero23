@@ -4,13 +4,13 @@ import './EventCard.css'
 const EventCard = (props) => {
     console.log(props);
     return (
-        <div className="main-wrapper1">
+        <div className="main-wrapper2">
             <Link to={props.redirectLink}>
-                <div className="team-card">
-                    <div className="bg-img1">
+                <div className="team-card2">
+                    <div className="bg-img2">
                         <img src={props.imgSrc} alt="'" />
                     </div>
-                    <div className="info1">
+                    <div className="info2">
                         <h2>{props.name}</h2>
                     </div>
                 </div>

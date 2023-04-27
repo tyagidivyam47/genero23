@@ -156,6 +156,11 @@ button:hover {
   margin-left: auto;
 }
 
+#eventPage {
+  background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+  height: 100vh;
+}
+
 
 @media screen and (max-width:768px) {
   .homeBtn1 {
@@ -193,6 +198,7 @@ button:hover {
 
   #eventPage {
     background-color: #9921e8;
+    height: 100vh !important;
     background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
     padding: 13vw 0px;
   }

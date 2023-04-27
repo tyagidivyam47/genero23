@@ -6,13 +6,12 @@ import FAQ from './Pages/FAQ/FAQ';
 import Home from './Pages/Home';
 import PreLoader from './Pages/PreLoader/PreLoader';
 import { useEffect, useState } from 'react';
-// import Team from './components/team/Team';
 import Registration from './Pages/Register/Registration';
-// import TeamSection from './Pages/TeamSection';
 import Navbar from './Atoms/Navbar';
 import Theme from './Pages/Theme/Theme';
-// import TeamPage from './Pages/TeamPage/TeamPage';
+
 function App() {
+
   const { search } = useLocation();
   var s=search.split('=')
   const [showSite, setSite] = useState(s[1])
@@ -22,6 +21,8 @@ function App() {
       setSite(true)
     }, 3000)// eslint-disable-next-line
   }, [])
+
+  
   return (
     <div className="App">
       {(showSite)
@@ -32,7 +33,6 @@ function App() {
           <Theme />
           <Events />
           <FAQ />
-          {/* <TeamSection /> */}
           <Registration />
           </div>
         : <PreLoader />

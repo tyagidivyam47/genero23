@@ -1,17 +1,16 @@
 .bd {
     background: url("../../assets//purple-blue-inv.jpg");
-    /* width: 100vw; */
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 5rem;
 
-    /* background-color: #5f0a87; */
 }
 
 .grid-container {
-    display: grid;
+    max-width: 80vw !important;
+    margin: auto;
+    display: flex;
     justify-content: center;
-    gap: 10px 200px;
-    grid-template-columns: auto auto auto;
     padding: 10px;
+    flex-wrap: wrap;
 }

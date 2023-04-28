@@ -1,11 +1,12 @@
 .container-history {
     width: 100%;
-    height: auto;
+    min-height: 100vh;
     padding-left: 8%;
     padding-right: 8%;
-    /* box-sizing: border-box; */
     display: flex;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
 
 .row-history {
@@ -25,6 +26,7 @@
     color: #fff;
     font-size: 100px;
     font-weight: 700;
+    line-height: 100px;
     /* font-family: Mexicana;
     src: url('../../fonts/Mexicana.ttf'); */
     font-family: 'Poppins', sans-serif;
@@ -48,7 +50,7 @@
 
 .card-history {
     width: 200px;
-    height: 230px;
+    height: 210px;
     display: inline-block;
     border-radius: 10px;
     padding: 10px 0 0 0;

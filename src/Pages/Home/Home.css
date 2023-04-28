@@ -1,5 +1,9 @@
 
 .homeBtn1 {
     display: none;
-  }
+}
+
+.generoOverlay{
+  border-bottom: 2px solid white;
+}
   

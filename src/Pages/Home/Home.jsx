@@ -7,14 +7,14 @@ import overlay from '../../assets/generoOverlay.png'
 function Home({ parallax }) {
   return (
     <div id="home-carousel" className='d-flex align-items-center justify-content-center fullHeight'>
-
+      
       <div className='d-flex flex-column justify-content-start align-items-center text-light' id="innerHome">
 
 
         <div className='homeText d-flex align-items-center justify-content-center'>
           <div className='d-flex flex-column'>
             {/* <span className='generoTextNumber'>23</span> */}
-            <p className='generoTopText my-0 animate__animated animate__fadeInUp'> PRESENTING YOU</p>
+            <p className='generoTopText my-0 animate__animated animate__fadeInUp'>पेSH KARते हैं</p>
             <h1 className=' generoText display-1 my-0 animate__animated animate__fadeInUp'>Genero</h1>
             <p className='generoBottomText animate__animated animate__fadeInUp'>CULTURAL FEST OF ABESEC</p>
             <a href='#register' className='homeBtn1 mx-auto'><button className='mx-auto btn-grad animate__animated animate__fadeInUp'>register now</button></a>

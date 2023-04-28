@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 import Registration from './Pages/Register/Registration';
 import Navbar from './Atoms/navbar/Navbar';
 import Theme from './Pages/Theme/Theme';
+import History from './Pages/History/History';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Navbar/>
           <Home parallax={s[1]} />
           <About />
+          <History/>
           <Theme />
           <Events />
           <FAQ />

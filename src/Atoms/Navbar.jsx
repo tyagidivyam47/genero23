@@ -16,6 +16,7 @@ function Navbar() {
                 <div className="navbar-nav align-items-center" >
                     <a className="nav-item nav-link active text-light" href="#home-carousel">HOME</a>
                     <a className="nav-item nav-link text-light" href="#about">ABOUT</a>
+                    <a className="nav-item nav-link text-light" href="/events">EVENTS</a>
                     <a className="nav-item nav-link text-light" href="#eventPage">PAST</a>
                     <a className="nav-item nav-link text-light" href="#queries">FAQ</a>
                     <Link className="nav-item nav-link text-light" to="/teampage">TEAM</Link>

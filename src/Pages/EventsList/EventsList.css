@@ -1,0 +1,18 @@
+.bd {
+    background: url("../../assets//purple-blue-inv.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.event-padded{
+    padding-top: 50px !important;
+
+}
+.grid-container {
+    max-width: 80vw !important;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+}

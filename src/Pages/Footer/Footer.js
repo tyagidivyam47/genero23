@@ -6,6 +6,7 @@ import {
     faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import './Footer.css';
+import { Link } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 
 
@@ -32,7 +33,7 @@ const Footer = () => {
                         <a href='https://drive.google.com/file/d/1kx7sKbX8WTmZ_m4x9WlsmI-ERI1V-bM8/view?usp=sharing'>Sponsorship Brochure</a>
                         <a href="https://drive.google.com/file/d/1O05zyCmPEg-muoht9DzlBuTJDyAP7lB3/view?usp=share_link">Cultural Rules</a>
                         <a href="https://drive.google.com/file/d/1K1qs5Er882QJR5Rq48n1UuUscbelfz96/view?usp=share_link">Event Details</a>
-                        {/* <Link to="/cultural">Events</Link> */}
+                        <Link to="/events">Events</Link>
                     </div>
                 </div>
 

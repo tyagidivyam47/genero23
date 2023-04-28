@@ -16,9 +16,10 @@ function Navbar() {
                 <div className="navbar-nav align-items-center" >
                     <Link className="nav-item nav-link active text-light" to="/home?loaded=true=query=home-carousel">HOME</Link>
                     <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=about">ABOUT</Link>
+                    <Link className="nav-item nav-link text-light" to="/events">EVENTS</Link>
                     <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=eventPage">PAST</Link>
                     <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=queries">FAQ</Link>
-                    <Link className="nav-item nav-link text-light" to="#">TEAM</Link>
+                    <Link className="nav-item nav-link text-light" to="/teampage">TEAM</Link>
                     <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=register"><button className=''>GET TICKET</button></Link>
                 </div>
             </div>

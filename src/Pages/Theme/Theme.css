@@ -1,5 +1,5 @@
 .theme-back{
-    background:url('https://www.holidify.com/blog/wp-content/uploads/2015/07/13896645072_c994520879_k.jpg');
+    background-color: #090041;
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -8,9 +8,12 @@
     justify-content: center;
 }
 
+.theme-head-top{
+    letter-spacing: 3px;
+}
+
 .theme-overlay{
     height: 100vh;
-    background-color: black;
     width: 100vw;
     opacity: 80%;
     position: absolute;
@@ -21,12 +24,21 @@
 .theme-text{
     z-index: 100;
     text-align: center;
+    rotate: -3deg;
+}
+
+@media screen and (max-width:768px) {
+    .theme-text{
+        rotate: 0deg;
+    }
 }
 
 
 .theme-head{
     font-family: 'SAMAN';
     font-size: 100px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .theme-head-span{
@@ -34,3 +46,16 @@
     color: yellow !important;
 }
 
+
+.fest-date{
+    font-family: 'SAMAN';
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.theme-hr{
+    background-color: white;
+    height: 3px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}

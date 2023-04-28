@@ -25,17 +25,17 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App" id='canvas1'>
       {(showSite)
         ? <div className='sub-app'>
           <Navbar/>
           <Home parallax={s[1]} />
           <About />
           <History/>
-          <Theme />
           <Events />
-          <FAQ />
+          <Theme />
           <Registration />
+          <FAQ />
           </div>
         : <PreLoader />
       }

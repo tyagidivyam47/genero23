@@ -10,22 +10,22 @@ function FAQ() {
                 <div className=''>
 
                     <div className="faq-drawer">
-                        <input className="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label className="faq-drawer__title" htmlFor="faq-drawer">What is the theme of the college fest?</label>
+                        <input className="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label className="faq-drawer__title" htmlFor="faq-drawer">What is the theme of Genero 2023?</label>
                         <div className="faq-drawer__content-wrapper">
                             <div className="faq-drawer__content">
                                 <p>
-                                    The theme of genero'23 is India's  Hidden Hues. It represents different type of cultures, traditions and people of india.
+                                    The theme of genero'23 is India's Hidden Hues. It represents different cultures, traditions and people of india.
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     <div className="faq-drawer">
-                        <input className="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label className="faq-drawer__title" htmlFor="faq-drawer-2">Can students from other colleges also participate in the events?</label>
+                        <input className="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label className="faq-drawer__title" htmlFor="faq-drawer-2">Can students from other colleges also participate in Genero'23?</label>
                         <div className="faq-drawer__content-wrapper">
                             <div className="faq-drawer__content">
                                 <p>
-                                    Yes, students from other colleges can participate in genero'23.  </p>
+                                    Yes, students from other colleges can also participate in genero'23.  </p>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ function FAQ() {
                         <div className="faq-drawer__content-wrapper">
                             <div className="faq-drawer__content">
                                 <p>
-                                    The location of the college fest is ABES Engineering college campus. Keep the excitement high, we will announce the dates soon. We recommend checking the college's website or social media pages for updates.
+                                    The location of the college fest is ABES Engineering college campus, and the dates for Genero'23 is on 12th and 13th of May 2023. 
                                 </p>
                             </div>
                         </div>

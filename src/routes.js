@@ -5,6 +5,7 @@ import "./App.css";
 import CulturalList from './Pages/Events/Cultural/CulturalList';
 import TeamPage from './Pages/Team/TeamPage/TeamPage';
 import Footer from './Atoms/footer/Footer';
+import G15 from './Pages/History/G15';
 
 const MyRoutes = () => {
   return (
@@ -14,6 +15,7 @@ const MyRoutes = () => {
             <Route path='/home' element={<App/>} />
             <Route path="/cultural" element={<CulturalList />} />
             <Route path="/teampage" element={<TeamPage/>} />
+            <Route path="/2015" element={<G15/>} />
         </Routes>
         <Footer/>
 

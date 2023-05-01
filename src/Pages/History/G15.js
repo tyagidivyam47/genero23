@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./G15.css";
 import purple from "../../assets/purple-blue-inv.jpg" 
 import Navbar from '../../Atoms/navbar/NavCopy';
 
 const G15 = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
   return (
+    
     <>
     <Navbar/>
 

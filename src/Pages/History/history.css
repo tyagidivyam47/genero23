@@ -36,6 +36,7 @@
     color: #fff;
     /* font-size: 11px; */
     /* line-height: 15px; */
+    padding-top: 5%;
 }
 
 .history-sub-para {
@@ -79,6 +80,17 @@
     object-fit: cover;
 }
 
+.history-button {
+    /* display: flex;
+    justify-content: flex-start; */
+    margin-right: auto;
+}
+
+.history-link { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -90,6 +102,8 @@
         color: #fff;
         font-size: 60px;
         font-weight: 700;
+
+        line-height: 70px;
         
     }
 
@@ -106,5 +120,13 @@
         width: 100%;
         object-fit: cover;
     }
+
+    .history-button {
+        padding: 2px 0 14px 0;
+
+        display: flex;
+        margin: auto;
+    }
+
 
 }

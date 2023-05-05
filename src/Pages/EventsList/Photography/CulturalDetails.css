@@ -1,0 +1,150 @@
+.ambaSection {
+    /* padding: 2rem 1.5rem; */
+    height: 100vh !important;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.tech {
+    width: 100%;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.headingBox {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.5rem 1rem;
+}
+
+.scrollBox {
+    height: 80vh;
+    overflow-y: auto;
+    padding: 1rem 1.4rem;
+    width: 60%;
+}
+
+.scrollBox::-webkit-scrollbar {
+    width: 7px;
+}
+
+.scrollBox::-webkit-scrollbar-thumb {
+    background: rgba(110, 109, 109, 0.726);
+}
+
+.ambassadar p{
+    font-size: 12px;
+}
+.imgBox {
+    margin: 2rem auto;
+    padding: 0 4rem;
+    flex-basis: 40%;
+}
+
+.heading {
+    font-size: 30px;
+    text-align: left;
+    padding: 10px 0px;
+    border-bottom: 1.5px solid black;
+
+}
+
+.para {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.imgBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    width: 100%;
+    margin: auto;
+}
+
+.btn_2 {
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
+    border: none;
+    font-weight: 600;
+    color: #fff;
+    transition: all .3s;
+}
+
+.btn_2:hover {
+    cursor: pointer;
+    /* background-image: linear-gradient(to top left, #09B326, #32B4ED); */
+    background-position: right center;
+    transition: all .3s;
+}
+
+.backdrop {
+    width: 65%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.758);
+    padding: 4rem 5rem;
+}
+
+.bkdHeadingBox {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.fieldBox {
+    margin: 0 auto;
+    background-color: red;
+}
+
+.fees {
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+
+.amount {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.cont {
+    font-size: 2.3rem;
+}
+
+.bkdHeading {
+    font-size: 3rem;
+}
+
+.inputBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    justify-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .inputBox {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tech {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .scrollBox {
+        order: 2;
+    }
+
+    .imgBox {
+        flex-basis: 90%;
+        order: 1;
+    }
+
+    .btn_2 {
+        align-self: center;
+    }
+}

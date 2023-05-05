@@ -1,0 +1,17 @@
+.cultural {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* gap: 3rem; */
+    max-width: 95%;
+    margin: 3rem auto;
+    padding: 3rem 6rem;
+}
+
+.eventSlider{
+    width: 100vw;
+    margin: 20px auto;
+    overflow: scroll;
+    padding: 10px;
+}

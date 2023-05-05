@@ -10,6 +10,7 @@ import Registration from './Pages/Register/Registration';
 import Navbar from './Atoms/navbar/Navbar';
 import Theme from './Pages/Theme/Theme';
 import History from './Pages/History/History';
+import EventsList from './Pages/EventsList/EventsList';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
           <History/>
           <Events />
           <Theme />
+          <EventsList />
           <Registration />
           <FAQ />
           </div>

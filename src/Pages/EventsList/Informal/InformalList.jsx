@@ -2,10 +2,10 @@
 // import TechnicalLists from "../TechnicalDetail/TechnicalLists";
 import InformalData from "../../../EventsData/InformalData";
 import { useEffect } from "react";
-import EventCard from "../../../Atoms/EventCard1/EventCard";
+import EventCard from "../../../Atoms/cards/eventcard/EventCard";
 
 import "./InformalList.css"
-import Navbar from "../../../Atoms/NavCopy";
+import Navbar from "../../../Atoms/navbar/NavCopy";
 
 const InformalList = () => {
     useEffect(() => {

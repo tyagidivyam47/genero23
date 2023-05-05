@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
-import Navbar from '../../Atoms/NavCopy'
+// import Navbar from '../Atoms/navbar/NavCopy'
 
 import './EventsList.css';
-import EventCard from '../../Atoms/EventCard/EventCard';
+import EventCard from "../../Atoms/cards/eventcard/EventCard";
 
 const EventsList = () => {
     useEffect(() => {
@@ -11,8 +11,8 @@ const EventsList = () => {
 
     return (
 
-        <div className='bd'>
-            <Navbar />
+        <div>
+            {/* <Navbar /> */}
 
             <div className="event-padded">
 

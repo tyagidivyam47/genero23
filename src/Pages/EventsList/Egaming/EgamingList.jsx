@@ -2,7 +2,7 @@
 // import TechnicalLists from "../TechnicalDetail/TechnicalLists";
 import EgamingData from "../../../EventsData/EgamingData";
 import { useEffect } from "react";
-import EventCard from "../../../Atoms/cards/eventcard/EventCard";
+import EventCard from "../../../Atoms/cards/EventCard1/EventCard";
 
 import "./EgamingList.css"
 import Navbar from "../../../Atoms/navbar/NavCopy";

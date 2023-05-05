@@ -3,10 +3,15 @@ import { Route, Routes } from 'react-router';
 import App from './App';
 import "./App.css";
 import CulturalList from './Pages/EventsList/Cultural/CulturalList';
+import CulturalDetails from './Pages/EventsList/Cultural/CulturalDetails';
 import EgamingList from './Pages/EventsList/Egaming/EgamingList';
+import EgamingDetails from './Pages/EventsList/Egaming/EgamingDetails';
 import InformalList from './Pages/EventsList/Informal/InformalList';
+import InformalDetails from './Pages/EventsList/Informal/InformalDetails';
 import PhotographyList from './Pages/EventsList/Photography/PhotographyList';
+import PhotographyDetails from './Pages/EventsList/Photography/PhotographyDetails';
 import LiteraryList from './Pages/EventsList/Literary/LiteraryList';
+import LiteraryDetails from './Pages/EventsList/Literary/LiteraryDetails';
 import TeamPage from './Pages/Team/TeamPage/TeamPage';
 import Footer from './Atoms/footer/Footer';
 import G15 from './Pages/History/G15';
@@ -26,11 +31,11 @@ const MyRoutes = () => {
         <Route path="/events/informal" element={<InformalList />} />
         <Route path="/events/photography" element={<PhotographyList />} />
         <Route path="/events/literary" element={<LiteraryList />} />
-        {/* <Route path="/cultural/:id" element={<CulturalDetails />} />
+        <Route path="/cultural/:id" element={<CulturalDetails />} />
         <Route path="/egaming/:id" element={<EgamingDetails />} />
         <Route path="/informal/:id" element={<InformalDetails />} />
         <Route path="/literary/:id" element={<LiteraryDetails />} />
-        <Route path="/photography/:id" element={<PhotographyDetails />} /> */}
+        <Route path="/photography/:id" element={<PhotographyDetails />} />
       </Routes>
       <Footer />
 

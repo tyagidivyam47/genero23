@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useParams } from 'react-router';
 import "./CulturalDetails.css";
 import EgamingData from "../../../EventsData/EgamingData";
-import Navbar from '../../../Atoms/NavCopy';
+import Navbar from "../../../Atoms/navbar/NavCopy";
 
 const EgamingDetails = () => {
 
@@ -17,7 +17,7 @@ const EgamingDetails = () => {
     console.log(cultural);
 
     return (
-        <div style={{ background: "#1e0e46" }}>
+        <div style={{ background: "rgb(20, 45, 123)" }}>
             <Navbar />
             <section className="ambaSection">
                 <div className="ambassadar">

@@ -46,156 +46,181 @@ const SubTeamData = [
 
     },
     {
-        id: 12,
-        name: "Rohit Chaudhary",
-        position: "Manager Creative",
-        photo: rohit
-    },
-    {
         id: 3,
         name: "Vansh Mishra",
         position: "Manager Promotion",
-        photo: vansh
+        photo: vansh,
+        num: "8787031973"
     },
     {
         id: 4,
         name: "Vidushi Singh",
         position: "Manager Promotion",
-        photo: vidushi
+        photo: vidushi,
+        num: "7985950034"
     },
-    {
-        id: 5,
-        name: "Harsh Gupta",
-        position: "Manager Sponsorship",
-        photo: harshg
-    },
+    // {
+    //     id: 5,
+    //     name: "Harsh Gupta",
+    //     position: "Manager Sponsorship",
+    //     photo: harshg,
+    //     num: ""
+    // },
     {
         id: 6,
         name: "Jesika Sharma",
         position: "Manager Sponsorship",
-        photo: jesika
+        photo: jesika,
+        num: "9810265818"
     },
     {
         id: 7,
         name: "Suzal Chaudhary",
         position: "Manager Sponsorship",
-        photo: suzal
+        photo: suzal,
+        num: "8826482211"
     },
 
-     {
-         id: 10,
-         name: "Shubh Shrivastava",
-         position: "Manager Social Media & Publicity",
-         photo: shubh
-     },
+    {
+        id: 10,
+        name: "Shubh Shrivastava",
+        position: "Manager Social Media & Publicity",
+        photo: shubh,
+        num: "8700892071"
+    },
     {
         id: 11,
         name: "Shruti Singh",
         position: "Manager Social Media & Publicity",
-        photo: shruti
+        photo: shruti,
+        num: "8887548366"
     },
-    
+    {
+        id: 12,
+        name: "Rohit Chaudhary",
+        position: "Manager Creative",
+        photo: rohit,
+        num: "8882167794"
+    },
+
     {
         id: 13,
         name: "Tarun Sharma",
         position: "Manager Photography & Cinematography",
-        photo: tarun
+        photo: tarun,
+        num: "9871723469"
     },
     {
         id: 14,
         name: "Dilkhush Kumar",
         position: "Manager Decoration",
-        photo: dilkhush
+        photo: dilkhush,
+        num: "8789907471"
     },
     {
         id: 15,
         name: "Akansha Sharma",
         position: "Manager Decoration",
-        photo: akansha
-    },
-    {
-        id: 17,
-        name: "Kalash Pachauri",
-        position: "Manager Registration",
-        photo: kalash
+        photo: akansha,
+        num: "9958920424"
     },
     {
         id: 16,
         name: "Ekansh Tyagi",
         position: "Manager Registration",
-        photo: ekansh
+        photo: ekansh,
+        num: "8178905894"
+    },
+    {
+        id: 17,
+        name: "Kalash Pachauri",
+        position: "Manager Registration",
+        photo: kalash,
+        num: "7505750925"
     },
     {
         id: 18,
         name: "Harsh Teotia",
         position: "Manager Informal",
-        photo: teotia
+        photo: teotia,
+        num: "9520159593"
     },
     {
         id: 19,
         name: "Ishika Bansal",
         position: "Manager Informal",
-        photo: ishika
+        photo: ishika,
+        num: "7455975301"
     },
     {
         id: 20,
         name: "Priyanshu Gupta",
         position: "Manager Hospitality",
-        photo: priyanshu
+        photo: priyanshu,
+        num: "7455975301"
     },
     {
         id: 21,
         name: "Harshil Bhatt",
         position: "Manager Hospitality",
-        photo: harshil
+        photo: harshil,
+        num: "9557022856"
     },
     {
         id: 22,
         name: "Abhay Tyagi",
         position: "Manage Discipline",
-        photo: abhay
+        photo: abhay,
+        num: "8218317472"
     },
     {
         id: 23,
         name: "Tushar Yadav",
         position: "Manager Discipline",
-        photo: tushar
+        photo: tushar,
+        num: "9811745401"
     },
     {
         id: 24,
         name: "Saksham Dubey",
         position: "Manager E-Gaming",
-        photo: saksham
+        photo: saksham,
+        num: "8077487577"
     },
     {
         id: 25,
         name: "Arpit Jain",
         position: "Manager E-Gaming",
-        photo: arpit
+        photo: arpit,
+        num: "8826432832"
     },
     {
         id: 26,
         name: "Tushar Chaudhary",
         position: "Manager Production",
-        photo:tushar2
+        photo: tushar2,
+        num: "8467038878"
     },
     {
         id: 27,
         name: "Akshat Srivastava",
         position: "Manager Special Attraction Day 1",
-        photo: akshat
+        photo: akshat,
+        num: "8115733068"
     },
     {
         id: 28,
         name: "Ankit Drabu",
         position: "Manager Special Attraction Day 2",
-        photo: ankit
+        photo: ankit,
+        num: "7838677463"
     },
     {
         id: 29,
         name: "Pulkit Kapoor",
         position: "Manager MBA",
-        photo: pulkit
+        photo: pulkit,
+        num: "7838677463"
     },
 ];
 

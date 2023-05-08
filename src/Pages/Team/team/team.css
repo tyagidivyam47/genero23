@@ -35,7 +35,11 @@
     flex-wrap: wrap;
 }
 
-.team-card-GS {
+.team-desc {
+    margin-bottom: 0;
+}
+
+.team-card {
     height: 500px;
     width: 290px;
     margin: 20px;
@@ -97,7 +101,7 @@
     font-size: 20px;
     text-decoration: none;
     color: #e74c3c;
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 0 5px;
 }
 
@@ -146,3 +150,8 @@
     height: 400px;
 }
 
+.phone-icon {
+    padding: 0 10px 0 0;
+    width: 25px;
+    height: 25px;
+}

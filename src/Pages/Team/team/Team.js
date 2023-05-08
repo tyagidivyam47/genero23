@@ -13,7 +13,7 @@ import Rohit from '../../../assets/team/Rohit.jpeg'
 import Utkarsh from '../../../assets/team/UtkarshGS.jpeg'
 import Aditya from '../../../assets/team/adityaJs.png'
 import AdityaTers from '../../../assets/team/AdityaTres.JPG'
-import Siddhant from '../../../assets/team/Siddhant.jpg'
+import Siddhant from '../../../assets/team/sid.jpeg'
 import Sidesh from '../../../assets/team/Sidesh.jpg'
 
 // Background Images
@@ -42,11 +42,12 @@ export default function Team() {
                     <div className="info">
                         <h3>Utkarsh Singh</h3>
                         <span>General Secretary</span>
-                        <p>I am ambitious and driven. I thrive on challenge and constantly set goals for myself.</p>
+                        <p className='team-desc'>I am ambitious and driven. I thrive on challenge and constantly set goals for myself.</p>
+                        <span>+91 63941 61708</span>
                         <div className="icons">
                             <a href="https://www.linkedin.com/in/utkarsh-singh-506b2a199"><LinkedInIcon/></a>
-                            <a href="utkarshsinghh__"><InstagramIcon/></a>
-                        </div>
+                            <a href="utkarshsinghh__"><InstagramIcon/></a> 
+                        </div> 
                     </div>
                 </div>
               
@@ -64,7 +65,8 @@ export default function Team() {
                     <div className="info">
                         <h3>Rohit Kumar Singh</h3>
                         <span>Joint Secretary</span>
-                        <p>I have a passion for creating unforgettable experiences.</p>
+                        <p className='team-desc'>I have a passion for creating unforgettable experiences.</p>
+                        <span>+91 91693 18989</span>
                         <div className="icons">
                             <a href="s"><LinkedInIcon/></a>
                             <a href="https://instagram.com/rohitsinghwall"><InstagramIcon/></a>
@@ -81,7 +83,8 @@ export default function Team() {
                     <div className="info">
                         <h3>Gaurav Malik</h3>
                         <span>Joint Secretary</span>
-                        <p> I have exceptional organizational skills and a talent for communication.</p>
+                        <p className='team-desc'> I have exceptional organizational skills and a talent for communication.</p>
+                        <span>+91 72920 80190</span>
                         <div className="icons">
                             <a href="s"><LinkedInIcon/></a>
                             <a href="s"><InstagramIcon/></a>
@@ -98,7 +101,8 @@ export default function Team() {
                     <div className="info">
                         <h3>Chanchal Malik</h3>
                         <span>Joint Secretary</span>
-                        <p>I'm a dynamic and versatile individual with a plethora of talents and skills.</p>
+                        <p className='team-desc'>I'm a dynamic and versatile individual with a plethora of talents and skills.</p>
+                        <span>+91 89205 08347</span>
                         <div className="icons">
                             <a href="	https://www.linkedin.com/in/chanchal-malik-9a271a204"><LinkedInIcon/></a>
                             <a href="	https://instagram.com/_titan.nick_?igshid=ZDdkNTZiNTM="><InstagramIcon/></a>
@@ -115,7 +119,8 @@ export default function Team() {
                     <div className="info">
                         <h3>Aditya Gupta</h3>
                         <span>Joint Secretary</span>
-                        <p className='adityaGupta-para'>Bringing creativity to life with a passion for creating memorable experiences.</p>
+                        <p className='team-desc'>Bringing creativity to life with a passion for creating memorable experiences.</p>
+                        <span>+91 91693 18989</span>
                         <div className="icons">
                             <a href="	https://www.linkedin.com/in/i-am-aditya-gupta/"><LinkedInIcon/></a>
                             <a href="https://www.instagram.com/aditya_harsh_official/"><InstagramIcon/></a>
@@ -137,7 +142,8 @@ export default function Team() {
                     <div className="info">
                         <h3>Aditya Kumar Singh</h3>
                         <span>Treasurer</span>
-                        <p>	The bigger and challenging the task, better the craze to solve it.</p>
+                        <p className='team-desc'>	The bigger and challenging the task, better the craze to solve it.</p>
+                        <span>+91 96606 77927</span>
                         <div className="icons">
                             <a href="	https://www.linkedin.com/in/aditya-singh-968a231a9"><LinkedInIcon/></a>
                             <a href="https://instagram.com/alone13241423?igshid=ZDdkNTZiNTM="><InstagramIcon/></a>
@@ -155,7 +161,8 @@ export default function Team() {
                     <div className="info">
                         <h3>Sidesh Bhatia</h3>
                         <span>Treasurer</span>
-                        <p>I do possess required skills as a treasurer.. I'm a dynamic individual. </p>
+                        <p className='team-desc'>I do possess required skills as a treasurer.. I'm a dynamic individual. </p>
+                        <span>+91 89571 51010</span>
                         <div className="icons">
                             <a href="s"><LinkedInIcon/></a>
                             <a href="something"><InstagramIcon/></a>
@@ -173,7 +180,8 @@ export default function Team() {
                     <div className="info">
                         <h3>Siddhant Chaudhary</h3>
                         <span>Treasurer</span>
-                        <p>I am a hard-working and driven individual who isn’t afraid to face a challenge. </p>
+                        <p className='team-desc'>I am a hard-working and driven individual who isn’t afraid to face a challenge. </p>
+                        <span>+91 72176 75539</span>
                         <div className="icons">
                             <a href="https://www.linkedin.com/in/siddhant-singh-3a56081b3"><LinkedInIcon/></a>
                             <a href="something"><InstagramIcon/></a>

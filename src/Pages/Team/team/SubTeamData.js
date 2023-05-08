@@ -26,20 +26,30 @@ import tushar2 from "../../../assets/subTeam/Tushar Chaudhary.jpg"
 import akshat from "../../../assets/subTeam/Akshat Srivastava.jpg"
 import ankit from "../../../assets/subTeam/Ankit Drabu.jpg"
 import saksham from "../../../assets/subTeam/SakshamD.jpeg"
+import pulkit from '../../../assets/subTeam/pulkit.jpeg'
 
 const SubTeamData = [
     {
         id: 1,
-        name: "Ekansh Tyagi",
-        position: "Manager Registration",
-        photo: ekansh
+        name: "Deepti Kashiv",
+        position: "Manager Cultural",
+        photo: deepti,
+        num: "9319970379"
 
     },
     {
         id: 2,
-        name: "Kalash Pachauri",
-        position: "Manager Registration",
-        photo: kalash
+        name: "Diwakar Kumar",
+        position: "Manager Cultural",
+        photo: diwakar,
+        num: "9560462832"
+
+    },
+    {
+        id: 12,
+        name: "Rohit Chaudhary",
+        position: "Manager Creative",
+        photo: rohit
     },
     {
         id: 3,
@@ -71,18 +81,7 @@ const SubTeamData = [
         position: "Manager Sponsorship",
         photo: suzal
     },
-    {
-        id: 8,
-        name: "Ashutosh Joshi ",
-        position: "Manager Literary",
-        photo: ashutosh
-    },
-    {
-        id: 9,
-        name: "Shivangi Singh",
-        position: "Manager Literary",
-        photo: shivangi
-    },
+
      {
          id: 10,
          name: "Shubh Shrivastava",
@@ -95,12 +94,7 @@ const SubTeamData = [
         position: "Manager Social Media & Publicity",
         photo: shruti
     },
-    {
-        id: 12,
-        name: "Rohit Chaudhary",
-        position: "Manager Creative",
-        photo: rohit
-    },
+    
     {
         id: 13,
         name: "Tarun Sharma",
@@ -120,16 +114,16 @@ const SubTeamData = [
         photo: akansha
     },
     {
-        id: 16,
-        name: "Diwakar Kumar",
-        position: "Manager Cultural",
-        photo: diwakar
+        id: 17,
+        name: "Kalash Pachauri",
+        position: "Manager Registration",
+        photo: kalash
     },
     {
-        id: 17,
-        name: "Deepti Kashiv",
-        position: "Manager Cultural",
-        photo: deepti
+        id: 16,
+        name: "Ekansh Tyagi",
+        position: "Manager Registration",
+        photo: ekansh
     },
     {
         id: 18,
@@ -196,6 +190,12 @@ const SubTeamData = [
         name: "Ankit Drabu",
         position: "Manager Special Attraction Day 2",
         photo: ankit
+    },
+    {
+        id: 29,
+        name: "Pulkit Kapoor",
+        position: "Manager MBA",
+        photo: pulkit
     },
 ];
 

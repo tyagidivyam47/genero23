@@ -19,7 +19,7 @@ export default function history() {
                     <a href='#eventPage' className='history-button'><button>View Gallery</button></a>
                 </div>
                     <div className="col-history">
-                <Link to="/2015" className='history-link'>
+                <Link to="/home" className='history-link'>
                         <div className="card-history">
                             <h5 className='history-sub-heading'>GENERO 2015</h5>
                             <div className="history-image-class">

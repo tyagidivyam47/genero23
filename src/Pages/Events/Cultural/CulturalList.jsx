@@ -1,12 +1,19 @@
 // import classes from "./Technical.module.css";
 // import TechnicalLists from "../TechnicalDetail/TechnicalLists";
+<<<<<<<< HEAD:src/Pages/Events/Cultural/CulturalList.jsx
 import CulturalData from "../../../data/CulturalData";
 import { useEffect } from "react";
 import EventCard from "../../../Atoms/cards/eventcard/EventCard";
+========
+import EgamingData from "../../../EventsData/EgamingData";
+import { useEffect } from "react";
+import EventCard from "../../../Atoms/EventCard1/EventCard";
+>>>>>>>> main:src/Pages/EventsList/Egaming/EgamingList.jsx
 
-import "./CulturalList.css"
+import "./EgamingList.css"
+import Navbar from "../../../Atoms/NavCopy";
 
-const CulturalList = () => {
+const EgamingList = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -14,25 +21,30 @@ const CulturalList = () => {
     // console.log(CulturalData);
 
     return (
-        <div className="">
-            <div style={{ width: "100vw" }} >
-                <h1 style={{ color: "black", textAlign: "center" }}>Cultural</h1>
-            </div>
-            <div className=" eventSlider d-flex justify-content-center">
-                {CulturalData.map((list) => {
+        <div className="bd">
+            <Navbar />
+
+            <div className="event-padded">
+
+            <h1 style={{textAlign:"center"}}>Egaming</h1>
+            <div className="grid-container">
+                {EgamingData.map((list,index) => {
                     // {console.log(list.heading)}
                     return (
                         <EventCard
                             key={list.id}
+                            serial={index+1}
                             imgSrc={list.imgSrc}
-                            heading={list.heading}
+                            propStyle={{height:'200px'}}
+                            name={list.heading}
                             redirectLink={list.redirectLink}
                         />
                     );
                 })}
             </div>
+            </div>
         </div>
     );
 };
 
-export default CulturalList;
+export default EgamingList;

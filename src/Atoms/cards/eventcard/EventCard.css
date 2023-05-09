@@ -1,19 +1,38 @@
-.card {
-    color: black !important;
-    box-shadow: 0 8px 7px 0px rgba(0, 0, 0, 0.2);
-    width: 20% !important;
-    height: auto;
-    margin: 10px 20px !important;
-    text-align: center;
-    padding: 20px 0px;
+.main-wrapper1 {
+    display: flex;
+    /* width: 300px; */
 }
 
+.team-card {
+    height: 500px;
+    /* width: 400px; */
+    margin: 20px;
+    box-shadow: 0 3px 5px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #222;
+}
 
-.img {
-    width: 70% !important;
+.bg-img1{
+    transition: 0.5s;
+}
+
+.team-card:hover .bg-img1 {
+    transform: scale(1.2);
+}
+
+.info1 {
+    margin-top: -120px;
+    color: purple;
+    z-index: 100 !important;
+}
+
+.bg-img1 img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
     object-fit: cover;
-    margin: auto;
-    
 }
 
 .textBox {
@@ -27,18 +46,7 @@
     justify-content: flex-end;
 }
 
-.head{
+.head {
     font-size: 25px;
     margin-bottom: 10px;
-}
-.btn_1 {
-    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    color: #fff;
-    transition: all .3s;
-    text-decoration: none;
-    list-style: none;
-    justify-self: flex-end;
 }

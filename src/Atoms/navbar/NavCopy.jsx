@@ -20,7 +20,7 @@ function Navbar() {
                     <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=theme">THIS YEAR</Link>
                     <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=eventsList">EVENTS</Link>
                     <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=queries">FAQ</Link>
-                    <Link className="nav-item nav-link text-light" to="#">TEAM</Link>
+                    <Link className="nav-item nav-link text-light" to="/teampage">TEAM</Link>
                     <Link className="nav-item nav-link text-light" to="/home?loaded=true=query=register"><button className=''>GET TICKET</button></Link>
                 </div>
             </div>

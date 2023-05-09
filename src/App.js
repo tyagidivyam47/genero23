@@ -15,10 +15,10 @@ import EventsList from './Pages/EventsList/EventsList';
 function App() {
 
   const { search } = useLocation();
-  var s=search.split('=')
+  var s = search.split('=')
   const [showSite, setSite] = useState(s[1])
   useEffect(() => {
-    window.location.hash='#'+s[s.length-1]
+    window.location.hash = '#' + s[s.length - 1]
     setTimeout(() => {
       setSite(true)
     }, 3000)// eslint-disable-next-line
@@ -29,7 +29,7 @@ function App() {
     <div className="App" id='canvas1'>
       {(showSite)
         ? <div className='sub-app'>
-          <Navbar/>
+          <Navbar />
           <Home parallax={s[1]} />
           <About />
           <History/>

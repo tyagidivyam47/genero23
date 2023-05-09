@@ -1,25 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Laila&display=swap');
 
-.sub-app {
-  background-image: url("./assets/purple-blue-inv.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  background-color: #5f0a87;
-}
 
 
-
-
-.generoTextNumber {
-  font-family: 'Poppins';
-}
-
+/* Font Faces */
 @font-face {
   font-family: Mexicana;
   src: url('./fonts/Mexicana.ttf');
 }
+
+@font-face {
+  font-family: SAMAN;
+  src: url('./fonts/SAMAN___.TTF');
+}
+
+
+
+/* Universal CSS */
 
 body {
   background-color: #f0f4e5;
@@ -28,15 +25,51 @@ body {
   overflow-x: hidden;
 }
 
-
-.homeBtn1 {
-  display: none;
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
 }
+
+::-webkit-scrollbar
+{
+	width: 10px;
+  /* min-height: 50px; */
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(28,58,148)));
+}
+
+
 
 * {
   color: white !important;
   font-family: 'Laila', sans-serif;
+  /* color:  rgb(20, 45, 123); */
 }
+
+.sub-app {
+  background-image: url("./assets/purple-blue-inv.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  /* background-color: #5f0a87; */
+  background-color: #090041;
+}
+
+
+
+
 
 
 .fullHeight {
@@ -45,61 +78,15 @@ body {
   width: 100%;
 }
 
-#team {
-  background-size: cover;
-  width: 100%;
-  position: relative;
-  /* background-color: red !important   */
-  background-image: url("./assets/purple-blue.jpg");
-}
-
-.team-bg {
-  background-image: url("assets/purple-blue.jpg");
-}
-
-
-.homeTeamCard {
-  border-radius: 200px;
-  height: 200px;
-  width: 200px;
-  object-fit: cover;
-  border: 2px solid white;
-  position: absolute;
-}
-
-.c1 {
-  left: 300px !important;
-  top: 20px !important
-}
-
-.c2 {
-  bottom: 300px !important;
-  right: 200px !important
-}
-
-.c3 {
-  bottom: 30px !important;
-  right: 140px !important
-}
-
-.c4 {
-  left: 50px !important;
-  bottom: 150px !important
-}
-
-.c5 {
-  left: 320px !important;
-  bottom: 70px !important
-}
 
 .pointer {
   cursor: pointer;
 }
 
 #register {
-  background: url('./assets/purple-blue.jpg');
+  /* background: url('./assets/purple-blue.jpg');
   background-size: cover;
-  width: 100%;
+  width: 100%; */
 }
 
 .generoOverlay {
@@ -137,7 +124,7 @@ a {
   width: 100%;
   top: 0;
   color: white !important;
-  z-index: 100 !important;
+  z-index: 1000 !important;
 }
 
 
@@ -197,6 +184,11 @@ button:hover {
   margin-left: auto;
 }
 
+#eventPage {
+  /* background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%); */
+  height: 100vh;
+}
+
 
 @media screen and (max-width:768px) {
   .homeBtn1 {
@@ -233,14 +225,15 @@ button:hover {
   }
 
   #eventPage {
-    background-color: #9921e8;
-    background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+    /* background-color: #9921e8; */
+    height: 100vh !important;
+    /* background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%); */
     padding: 13vw 0px;
   }
 
   #queries,
   #register {
-    background-image: url("./assets/purple-blue.jpg");
+    /* background-image: url("./assets/purple-blue.jpg"); */
     padding: 10vw 0px;
   }
 
@@ -257,10 +250,7 @@ button:hover {
   }
 
   #about {
-    background-color: #a4508b;
-    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
-
-    height: 90vh;
+    height: auto;
   }
 
   .navbar-collapse {
@@ -283,6 +273,3 @@ button:hover {
     transform: translateX(calc(-250px * 7));
   }
 }
-
-
-

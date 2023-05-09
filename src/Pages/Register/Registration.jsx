@@ -72,7 +72,7 @@ function Registration() {
                         </div>
                     </div> : <div className='col-10 mx-auto'>
                         <p>Following are the rules to be followed by all the participants :</p>
-                        <ul>
+                        <ol>
                             <li> Treat the campus with respect and care, and avoid littering or damaging property.</li>
                             <li> Arrive on time for the event to avoid missing out on any activities or performances.</li>
                             <li> Follow safety instructions provided by the organizers.</li>
@@ -80,7 +80,7 @@ function Registration() {
                             <li> Alcohol and drugs are strictly prohibited at the event, and any violations will result in immediate expulsion from the event.</li>
                             <li> Dispose of waste properly and help keep the venue clean and tidy.</li>
                             <li> Have fun and enjoy the event, but be responsible and mindful of others around you.</li>
-                        </ul>
+                        </ol>
                     </div>}
                 </div>
             </div>

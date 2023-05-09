@@ -8,10 +8,6 @@
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="apple-touch-icon" href="https://i.ibb.co/51ZNnWz/Genero23-01-1.png" />
-  <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
 
@@ -50,6 +46,86 @@
       })
     })
   </SCRIPT>
+  <script>
+    window.onload = function () {
+
+      var canvas = document.getElementById('c');
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      if (canvas.getContext) {
+        var c = canvas.getContext('2d'),
+          w = canvas.width,
+          h = canvas.height;
+
+        c.strokeStyle = 'red';
+        c.fillStyle = 'snow';
+        c.lineWidth = 10;
+
+        var point_number = 200,
+          points = [];
+
+        Point = function () {
+          this.x = Math.random() * w;
+          this.y = Math.random() * h;
+
+          this.vecX = (Math.random() - 0.5);
+          this.vecY = (Math.random() - 0.5);
+
+          this.r = 1;
+
+          this.speed = 10;
+        }
+
+        function init() {
+          for (var i = 0; i < point_number; i++) {
+            points.push(new Point());
+          }
+        }
+
+        function draw() {
+          c.fillStyle = 'rgba(' + Math.ceil(Math.random() * 254) + "," + Math.ceil(Math.random() * 254) + "," + Math.ceil(Math.random() * 254) + "," + 1 + ")";
+
+          c.beginPath();
+          for (var i = 0; i < point_number / 2; i++) {
+            c.arc(points[i].x, points[i].y, Math.random() * 30, 0, Math.PI * 2, true);
+          }
+          c.closePath();
+          c.fill();
+
+          c.fillStyle = 'rgba(' + Math.ceil(Math.random() * 254) + "," + Math.ceil(Math.random() * 254) + "," + Math.ceil(Math.random() * 254) + "," + 1 + ")";
+          c.beginPath();
+          for (var i = point_number / 2; i < point_number; i++) {
+            c.arc(points[i].x, points[i].y, Math.random() * 30, 0, Math.PI * 2, true);
+          }
+          c.fill();
+        }
+
+        function next_point() {
+          for (var i = 0; i < points.length; i++) {
+            points[i].x += points[i].vecX * points[i].speed;
+            points[i].y += points[i].vecY * points[i].speed;
+
+            if (points[i].x > w || points[i].x < 0) {
+              points[i].vecX = -points[i].vecX;
+            }
+            if (points[i].y > h || points[i].y < 0) {
+              points[i].vecY = -points[i].vecY;
+            }
+
+          }
+        }
+
+        init();
+        setInterval(function () {
+          c.clearRect(0, 0, w, h);
+          draw();
+          next_point();
+        }, 1);
+      }
+
+    }
+  </script>
 </body>
 
 </html>

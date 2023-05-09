@@ -1,0 +1,132 @@
+.container-history {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-history {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col-history { 
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.history-heading {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    /* font-family: Mexicana;
+    src: url('../../fonts/Mexicana.ttf'); */
+    font-family: 'Poppins', sans-serif;
+}
+
+.history-para {
+    color: #fff;
+    /* font-size: 11px; */
+    /* line-height: 15px; */
+    padding-top: 5%;
+}
+
+.history-sub-para {
+    color: black !important;
+}
+
+.history-sub-heading {
+    color: black !important;
+    font-weight: 600 !important;
+    text-align: center;
+}
+
+.card-history {
+    width: 200px;
+    height: 210px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-color: antiquewhite;
+    transition: 0.5s ease;
+
+    background-color: rgb(159, 159, 255);
+    overflow: hidden;
+}
+
+.history-image-class {
+    overflow-y: hidden;
+}
+
+.card-history:hover {
+    transform: translateY(-10px);
+}
+
+
+.history-img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.history-button {
+    /* display: flex;
+    justify-content: flex-start; */
+    margin-right: auto;
+}
+
+.history-link { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 600px) {
+    .row-history { 
+        flex-direction: column;
+    }
+
+    .history-heading {
+        color: #fff;
+        font-size: 60px;
+        font-weight: 700;
+
+        line-height: 70px;
+        
+    }
+
+    .card-history {
+        width: 130px;
+        height: 180px;  
+    }
+
+    .history-sub-heading {
+        font-size: 14px;
+    }
+
+    .history-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .history-button {
+        padding: 2px 0 14px 0;
+
+        display: flex;
+        margin: auto;
+    }
+
+
+}

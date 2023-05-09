@@ -2,10 +2,10 @@
 // import TechnicalLists from "../TechnicalDetail/TechnicalLists";
 import PhotographyData from "../../../EventsData/PhotographyData";
 import { useEffect } from "react";
-import EventCard from "../../../Atoms/EventCard1/EventCard";
+import EventCard from "../../../Atoms/cards/EventCard1/EventCard";
 
 import "./PhotographyList.css"
-import Navbar from "../../../Atoms/NavCopy";
+import Navbar from "../../../Atoms/navbar/NavCopy";
 
 const PhotographyList = () => {
     useEffect(() => {

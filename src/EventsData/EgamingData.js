@@ -12,7 +12,7 @@ const EgamingData = [
             "4. In case of any damage to the equipment the player will have to pay for the damage.",
             "5. VR headsets and Controllers would be provided.",
         ],
-
+        spocDetails:'Aaryaman Giri | 7060370719 ',
         paymentLink: "",
         redirectLink: "/egaming/VRArena",
     },
@@ -29,7 +29,7 @@ const EgamingData = [
             "4. All the matches will be bo1(best of 1) only the semifinals and finals will be bo3(bestof 3).",
             "5. If a player is found using cheats or hacks their team will be disqualified and theopponent team will be declared match winners.",
         ],
-
+        spocDetails:'Anvesh Mishra | 8081058725',
         paymentLink: "",
         redirectLink: "/egaming/KillzoneCombat",
     },
@@ -45,7 +45,7 @@ const EgamingData = [
             "3. Breaching of rules would cause the team to forfeit from the match, while further violation of rules will lead to its disqualification from the tournament.",
             "4. In case of any damage to the equipment the player will have to pay for the damage",
         ],
-
+        spocDetails:'Aaryaman Giri | 7060370719 ',
         paymentLink: "",
         redirectLink: "/egaming/ConsoleQuest",
     },
@@ -70,7 +70,7 @@ const EgamingData = [
             "12. No use of mods or hacks, in case of a player is found doing so they and their respective team will be disqualified.",
 
         ],
-
+        spocDetails:'Anvesh Mishra | 8081058725',
         paymentLink: "",
         redirectLink: "/egaming/GunsNGlory",
     },

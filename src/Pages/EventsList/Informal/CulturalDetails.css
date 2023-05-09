@@ -137,6 +137,11 @@
 
     .scrollBox {
         order: 2;
+        height: auto !important;
+        width: 100% !important;
+    }
+    .ambaSection{
+        height: auto !important;
     }
 
     .imgBox {

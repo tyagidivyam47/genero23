@@ -13,7 +13,7 @@ const PhotographyData = [
             "5. More than 1 team is allowed from each College",
           
         ],
-
+        spocDetails:'Atif| +91-6398 374 775',
         paymentLink: "",
         redirectLink: "/photography/CameraCrusade",
     },
@@ -40,7 +40,7 @@ const PhotographyData = [
             "4. The participants have to sincerely follow each and every instruction given by our team members.",
 
         ],
-
+        spocDetails:'Anshika| +91-73809 29080',
         paymentLink: "",
         redirectLink: "/photography/Facesofnation",
     },
@@ -59,7 +59,7 @@ const PhotographyData = [
             "6. Reel must not contain any inappropriate or offensive material or language",
 
         ],
-
+        spocDetails:'Yash| +91-95060 12261',
         paymentLink: "",
         redirectLink: "/photography/VideoVoyage",
     },

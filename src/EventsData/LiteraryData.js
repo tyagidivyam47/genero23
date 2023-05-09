@@ -11,7 +11,7 @@ const LiteraryData = [
 
 
 
-
+        spocDetails:'Kaartikeya Srivastava +91 9289372754',
         rules: [
             "1. Primary language used must be English however use of vernacular is permissible.",
             "2. Delegates in the council should wear preferably Indian formal.",
@@ -41,7 +41,7 @@ const LiteraryData = [
             "8. The winners would be decided by the jury.",
 
         ],
-
+        spocDetails:'BHUMIKA ARORA +91 9718832409',
         paymentLink: "",
         redirectLink: "/literary/TurnCoat",
     },
@@ -78,7 +78,7 @@ const LiteraryData = [
             "5. If the time limit exceeds then marks will be deducted.",
 
         ],
-
+        spocDetails:'Shubhansh Saraswat +91 6394087585',
         paymentLink: "",
         redirectLink: "/literary/Justaminute",
     },
@@ -95,7 +95,7 @@ const LiteraryData = [
             "4. Closing Statements: After the rebuttals, each team will be given one minute for closing statements. The con team will present their argument first, followed by the pro team.",
            
         ],
-
+        spocDetails:'Sami Khan +91 9557753031',
         paymentLink: "",
         redirectLink: "/literary/ConventionalDebate",
     },
@@ -112,7 +112,7 @@ const LiteraryData = [
            
             "4. Time allotted per person: 5 minutes.",
         ],
-
+        spocDetails:'INJILA ALI +91 91616 00576',
         paymentLink: "",
         redirectLink: "/literary/TalesfromtheHeart",
     },
@@ -128,7 +128,7 @@ const LiteraryData = [
             "3. The prompts should be written in English only. The prompt should stay under 100 words",
    
         ],
-
+        spocDetails:'GEETIKA PARASHAR +91 6397147364',
         paymentLink: "",
         redirectLink: "/literary/PromptWrite",
     },

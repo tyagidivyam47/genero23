@@ -14,7 +14,7 @@ const InformalData = [
             "6. The tasks will be designed to test the contestants' ability to work as a team, perform under pressure, and to demonstrate leadership qualities.",
             
         ],
-
+        spocDetails:'Fahad Hashmi (9027218506)',
         paymentLink: "",
         redirectLink: "/informal/Roadies",
     },
@@ -30,7 +30,7 @@ const InformalData = [
             "3. The rope must be pulled underarm and nobody’s elbow must go below the knee, otherwise, a foul will be called.",
             
         ],
-
+        spocDetails:'Ujjwal Jain(9027544907)',
         paymentLink: "",
         redirectLink: "/informal/PowerPull",
     },
@@ -60,7 +60,7 @@ const InformalData = [
             "17. In this round, couples are challenged to figure out a word or phrase by reading the lips of the player who is uttering it. All that while wearing headphones and listening to music.",
 
         ],
-
+        spocDetails:'Shiwatvi(8765666401)',
         paymentLink: "",
         redirectLink: "/informal/MysteryEncounter",
     },
@@ -78,7 +78,7 @@ const InformalData = [
             "5. If the advantage chance does not match with the 1st card, then the life card will not be flipped in the original post.",
            
         ],
-
+        spocDetails:'Ansh Verma(7060045092)',
         paymentLink: "",
         redirectLink: "/informal/FunkyKingdom",
     },
@@ -97,7 +97,7 @@ const InformalData = [
             "6. Players who are freezers must select one player to go and freeze the other players in the group. • Referees have the final say in all disputes.",
            
         ],
-
+        spocDetails:'Shubhangi Sharma (8860719321)',
         paymentLink: "",
         redirectLink: "/informal/Catchmeifyoucan",
     },
@@ -115,7 +115,7 @@ const InformalData = [
             "5. There may be some variations or twists that can be added to make it more challenging and exciting.",
             
         ],
-
+        spocDetails:'Tina Yadav (9369334549)',
         paymentLink: "",
         redirectLink: "/informal/RhytmicShuffle",
     },
@@ -135,7 +135,7 @@ const InformalData = [
 
             
         ],
-
+        spocDetails:': Aditya Singh(8266898710)',
         paymentLink: "",
         redirectLink: "/informal/HulaHoopHurdle",
     },
@@ -153,7 +153,7 @@ const InformalData = [
             "3. The participant will be awarded according to where the head of the wheel stops.",
             
         ],
-
+        spocDetails:'Aditya Singh(8266898710)',
         paymentLink: "",
         redirectLink: "/informal/LuckyRoyale",
     },
@@ -178,7 +178,7 @@ const InformalData = [
 
             
         ],
-
+        spocDetails:' Shivam Goel(8445051809)',
         paymentLink: "",
         redirectLink: "/informal/LostFortune",
     },
@@ -202,7 +202,7 @@ const InformalData = [
 
             
         ],
-
+        spocDetails:'Yash Grover(7505313280)',
         paymentLink: "",
         redirectLink: "/informal/LostFortune",
     },
@@ -232,7 +232,7 @@ const InformalData = [
 
             
         ],
-
+        spocDetails:'Yash Grover(7505313280)',
         paymentLink: "",
         redirectLink: "/informal/LaserTag",
     },
@@ -262,7 +262,7 @@ const InformalData = [
 
             
         ],
-
+        spocDetails:'Kriti Jain(9634052388)',
         paymentLink: "",
         redirectLink: "/informal/ArtOfWisdom",
     },

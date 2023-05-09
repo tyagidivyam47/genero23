@@ -1,7 +1,7 @@
 const CulturalData = [
     {
         id: 2,
-        name: "NrutyamS",
+        name: "Inter College Dance Competition (Group)",
         imgSrc: "https://i.ibb.co/51ZNnWz/Genero23-01-1.png",
         heading: "Nrutyam(Solo)",
         headingPara: "Get ready to experience the vibrant and colorful world of Indian culture with our Inter College Solo Dance Competition! This year's fest is themed around the rich traditions ofIndia, and we invite dancers from all backgrounds to showcase their skills in acelebration of this fascinating culture. From classical Indian dance styles likeBharatanatyam and Kathak, to Bollywood-inspired routines that fuse traditional moveswith modern flair, our Solo Dance Competition offers a platform for dancers to expressthemselves creatively while honoring the beauty and diversity of Indian culture. (Day 1 : 11Am - 12Pm)",

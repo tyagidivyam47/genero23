@@ -14,7 +14,7 @@ const CulturalData = [
             "6. All the participants will receive a participation certificate.",
             "7. The decision of the judges will be final and abiding to all.",
         ],
-
+        spocDetails:'Yukit Pujari 9582999038',
         paymentLink: "",
         redirectLink: "/cultural/NrutyamS",
     },
@@ -33,7 +33,7 @@ const CulturalData = [
             "6. All the participants will receive a participation certificate.",
             "7. The decision of the judges will be final and abiding to all.",
         ],
-
+        spocDetails:'Yukit Pujari 9582999038',
         paymentLink: "",
         redirectLink: "/cultural/NrutyamG",
     },
@@ -52,7 +52,7 @@ const CulturalData = [
             "6. Judge’s decision will be final and abiding.",
             "7. Winners will be awarded and all the participants will be awarded participation certificates.",
         ],
-
+        spocDetails:'Prem 8409402119',
         paymentLink: "",
         redirectLink: "/cultural/SurLayTaalS",
     },
@@ -72,7 +72,7 @@ const CulturalData = [
             "7. Winners will be awarded and all the participants will be awarded participation,certificates."
 
         ],
-
+        spocDetails:'Prem 8409402119',
         paymentLink: "",
         redirectLink: "/cultural/SurLayTaalG",
     },
@@ -92,7 +92,7 @@ const CulturalData = [
             "7. Teams are expected to perform at an open-air venue, on a circular stage with an audience on all sides. Use of fire/water/smoke machines on stage/near the stage is not permitted.",
             "8. The language of performance must be Hindi/English, regional languages could be used for a maximum of 15-20% of the performance."
         ],
-
+        spocDetails:'Sachin Sharma 9528994077',
         paymentLink: "",
         redirectLink: "/cultural/vyang",
     },
@@ -123,7 +123,7 @@ const CulturalData = [
             "14. Submit the music of your competitive performances to the stage committee at the registration counter immediately after arriving on the college premises.Pen drives are allowed."
 
         ],
-
+        spocDetails:'Simran Sejwar 8383926810',
         paymentLink: "",
         redirectLink: "/cultural/Jalsa",
     },
@@ -147,7 +147,7 @@ const CulturalData = [
             "9. Obscenity, foul language, and acts offensive to any genre of people are strictly prohibited.",
             "10. All the participants will receive a participant certificate",
         ],
-
+        spocDetails:'Sachin Sharma 9528994077',
         paymentLink: "",
         redirectLink: "/cultural/Swaang",
     },
@@ -166,7 +166,7 @@ const CulturalData = [
             "6. The event will consist of a single round of performances.",
             "7. All the participants will receive a participation certificate",
         ],
-
+        spocDetails:'Kartikeya Mishra 7617029704',
         paymentLink: "",
         redirectLink: "/cultural/Tarana",
     },
@@ -197,7 +197,7 @@ const CulturalData = [
             "17. Extra points will be awarded if you perform two different decades of songs.",
             "18. Rapping is not allowed.",
         ],
-
+        spocDetails:'Ayush Malik 8368191862',
         paymentLink: "",
         redirectLink: "/cultural/Decibels",
     },
@@ -218,7 +218,7 @@ const CulturalData = [
             "8. All the participants will receive a participation certificate.",
 
         ],
-
+        spocDetails:'Shivanshi 9208706233',
         paymentLink: "",
         redirectLink: "/cultural/Chitrakala",
     },
@@ -239,7 +239,7 @@ const CulturalData = [
             "8. We will provide blank A4-size white sheets of paper to all the participants.",
 
         ],
-
+        spocDetails:'Avisha Tiwari	8077246032',
         paymentLink: "",
         redirectLink: "/cultural/Rangilo",
     },
@@ -266,7 +266,7 @@ const CulturalData = [
             "13. All the participants will receive a participant certificate.",
 
         ],
-
+        spocDetails:'Shubh Agrahari	72751 56657',
         paymentLink: "",
         redirectLink: "/cultural/Rangdet-shirt",
     },
@@ -289,7 +289,7 @@ const CulturalData = [
             "7. Participants have to reach 30 minutes prior.",
             "8. All the participants will receive a participation certificate.",
         ],
-
+        spocDetails:'Simran Sejwar	8383926810',
         paymentLink: "",
         redirectLink: "/cultural/Libaaz",
     },
@@ -306,7 +306,7 @@ const CulturalData = [
             "4. There should be no damage to the props, sticks should be returned in proper condition otherwise a penalty would be imposed upon the participant.",
             "5. A penalty will be imposed for vulgar actions, extreme aggression, or doing any act which is inappropriate or harmful.",
         ],
-
+        spocDetails:'Gautmi Khanna	9213728600',
         paymentLink: "",
         redirectLink: "/cultural/Raas",
     },
@@ -327,7 +327,7 @@ const CulturalData = [
             "8. Supervised the exhibits and the supervisor should have the knowledge about the artifacts to answer the questions.",
             "9. Craft projects can be made from a kit of your original design but should be reflective of your skill level",
         ],
-
+        spocDetails:'Avisha Tiwari	8077246032',
         paymentLink: "",
         redirectLink: "/cultural/Karigari",
     },
@@ -347,7 +347,7 @@ const CulturalData = [
             "7. The decision of the judges will be final and binding.",
             "8. All the participants will receive a participation certificate.",
         ],
-
+        spocDetails:'Ekta Verma	9838681726',
         paymentLink: "",
         redirectLink: "/cultural/Parchhayi",
     },
@@ -368,7 +368,7 @@ const CulturalData = [
             "8. Contestants must report 30 minutes prior to event time.",
 
         ],
-
+        spocDetails:'Gautmi Khanna	9213728600',
         paymentLink: "",
         redirectLink: "/cultural/Mukabala",
     },
@@ -389,7 +389,7 @@ const CulturalData = [
             "8. All the participants will receive a participation certificate.",
 
         ],
-
+        spocDetails:'Shivanshi	9208706233',
         paymentLink: "",
         redirectLink: "/cultural/Mukhote",
     },
@@ -406,7 +406,7 @@ const CulturalData = [
             "4. The amount of water will be limited; wasting water can lead to negative markings.",
             "5. All the participants will receive a participation certificate.",
         ],
-
+        spocDetails:'Kartikeya Mishra 7617029704',
         paymentLink: "",
         redirectLink: "/cultural/Mratika",
     },

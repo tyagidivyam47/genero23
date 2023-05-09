@@ -38,21 +38,8 @@ const PhotographyDetails = () => {
                                 {cultural[0].rules.map((map) => {
                                     return <p style={{ color: "black" }} className="para">{map}</p>;
                                 })}
-                                <a
-                                    href="https://rzp.io/l/OLuKyJ3"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <button className="btn_2 btn btn-primary">Register as ABESEC Student !</button>
-                                </a>
-                                <a
-                                    href="https://rzp.io/l/9ELBp2Vi1"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    style={{ marginTop: "4px" }}
-                                >
-                                    <button className="btn_2 btn btn-primary">Register as NONABESEC Student !</button>
-                                </a>
+                                <p>For Registrations, Contact {cultural[0].spocDetails}</p>
+
                             </div>
                         </div>
                     </div>

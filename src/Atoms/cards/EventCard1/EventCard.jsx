@@ -4,7 +4,7 @@ import './EventCard.css'
 const EventCard = (props) => {
     console.log(props);
     return (
-        <div className="main-wrapper2">
+        <div className="main-wrapper2" >
             <Link to={props.redirectLink}>
                 <div className="team-card2" style={props.propStyle}>
                     {/* <div className="bg-img2">
@@ -13,8 +13,7 @@ const EventCard = (props) => {
 
                     <div className="info2">
                         <div className="card-serial">
-
-                        <h3 className='card-serial-number'>{props.serial}</h3>
+                            <h3 className='card-serial-number'>{props.serial}</h3>
                         </div>
                         <h2>{props.name}</h2>
                     </div>

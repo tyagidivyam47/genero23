@@ -15,7 +15,7 @@ const EventsList = () => {
             {/* <Navbar /> */}
 
             <div className="event-padded">
-            <h1 style={{ textAlign: "center", marginTop:"30px" }} className='pastHead'>Events</h1>
+                <h1 style={{ textAlign: "center", marginTop: "30px" }} className='pastHead'>Events</h1>
 
 
                 <div className='grid-container'>

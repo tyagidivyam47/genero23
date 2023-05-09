@@ -35,6 +35,7 @@ const InformalDetails = () => {
                                 <p style={{ color: "black" }} className="para">{cultural[0].headingPara}</p>
                                 <h3 className="heading">Rules</h3>
 
+
                                 {cultural[0].rules.map((map) => {
                                     return <p style={{ color: "black" }} className="para">{map}</p>;
                                 })}

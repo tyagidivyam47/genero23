@@ -79,11 +79,11 @@
     margin-top: 30px;
 }
 
-.header-right img{
+.header-right1 img{
     width: 100%;
     height: 45vh;
     border-radius: 15px;
-    border: 2px solid gold;
+
     
     
     
@@ -96,12 +96,17 @@
 
 
 .header-section h1{
-    color: gold;
+    color: gold !important;
+    font-weight:bolder;
 }
 
 
 .social-icons{
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+   
 
 }
 .social-icons a{
@@ -111,9 +116,10 @@
     color: grey;
     display: inline-block;
     transition: transform 0.5s;
+    
 }
 .social-icons a:hover{
-    color: yellow;
+    color: yellow !important;
     transform: translateY(-5px);
 }
 

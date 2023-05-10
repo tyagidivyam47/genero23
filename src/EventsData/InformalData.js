@@ -12,9 +12,9 @@ const InformalData = [
             "4. the participant's strength, endurance, intelligence, and problem-solving skills. After each challenge, the team with the lowest score will be eliminated from the competition",
             "5. The team with the highest score in each challenge will be given immunity from elimination in the next round.",
             "6. The tasks will be designed to test the contestants' ability to work as a team, perform under pressure, and to demonstrate leadership qualities.",
-            
+
         ],
-        spocDetails:'Fahad Hashmi (9027218506)',
+        spocDetails: 'Fahad Hashmi (9027218506)',
         paymentLink: "",
         redirectLink: "/informal/Roadies",
     },
@@ -28,9 +28,9 @@ const InformalData = [
             "1. At the start of the pull, the center line of the rope should be immediately above the line marked on the ground.",
             "2. Both teams pull the rope, the winner being the team who manages to pull the mark on the rope closest to their opponents over the center line",
             "3. The rope must be pulled underarm and nobody’s elbow must go below the knee, otherwise, a foul will be called.",
-            
+
         ],
-        spocDetails:'Ujjwal Jain(9027544907)',
+        spocDetails: 'Ujjwal Jain(9027544907)',
         paymentLink: "",
         redirectLink: "/informal/PowerPull",
     },
@@ -53,14 +53,14 @@ const InformalData = [
             "10. 3 couples would be selected from each slot, i.e. 18 out of 30 would qualify for this round",
             "11. Round-2:DANCE REVOLUTION",
             "12. In this round, 2 couples would be shown a dance clip. they will copy the steps",
-            "13. The couple who would dance in the most accurate way like the clip, would qualify",            
+            "13. The couple who would dance in the most accurate way like the clip, would qualify",
             "14. ROUND 3:BACK BALOON RACE",
             "15. In this round, there will be a race between the couples where they have put a balloon between their backs and have to compete against the other qualified couples. No physical touch is allowed in this round.",
             "16. FINAL ROUND-THE WHISPER CHALLENGE",
             "17. In this round, couples are challenged to figure out a word or phrase by reading the lips of the player who is uttering it. All that while wearing headphones and listening to music.",
 
         ],
-        spocDetails:'Shiwatvi(8765666401)',
+        spocDetails: 'Shiwatvi(8765666401)',
         paymentLink: "",
         redirectLink: "/informal/MysteryEncounter",
     },
@@ -70,15 +70,8 @@ const InformalData = [
         imgSrc: "https://i.ibb.co/51ZNnWz/Genero23-01-1.png",
         heading: "Funky Kingdom",
         headingPara: "Step into a world of fun and excitement at the Funky Kingdom in our cultural fest! This special zone is designed to transport you to a land of arcade games, where you can let loose and unleash your inner child. With classic games like Archery, Dart, Turn Ball, and many more. The Funky Kingdom promises to have something for everyone. So come and immerse yourself in this world of retro-futuristic fun, where the only limit is your imagination. Whether you're a seasoned gamer or just looking for a little adventure, the Funky Kingdom is the place to be for a truly unforgettable cultural fest experience!",
-        rules: [
-            "1. It will be a tile-matching competition between 2 players, who will match all the same pair first and will be the winner",
-            "2. At a time, only a single flip of the tile is allowed.",
-            "3. If the 2nd tile match with the 1st one then it will be counted, otherwise, the 1st and 2nd tile will again be flipped to their original position",
-            "4. Every player will get 1 chance to play until one wins.",
-            "5. If the advantage chance does not match with the 1st card, then the life card will not be flipped in the original post.",
-           
-        ],
-        spocDetails:'Ansh Verma(7060045092)',
+        rules: [],
+        spocDetails: 'Ansh Verma(7060045092)',
         paymentLink: "",
         redirectLink: "/informal/FunkyKingdom",
     },
@@ -95,9 +88,9 @@ const InformalData = [
             "4. By touching them and yelling unfreeze, the runner’s team can defrost any of their teammates",
             "5. Players need to complete the task within the given time period (90 secs).",
             "6. Players who are freezers must select one player to go and freeze the other players in the group. • Referees have the final say in all disputes.",
-           
+
         ],
-        spocDetails:'Shubhangi Sharma (8860719321)',
+        spocDetails: 'Shubhangi Sharma (8860719321)',
         paymentLink: "",
         redirectLink: "/informal/Catchmeifyoucan",
     },
@@ -113,9 +106,9 @@ const InformalData = [
             "3. When the music stops, players have to sit on a chair, and in each round two players will be eliminated.",
             "4. After each round two chairs will be removed",
             "5. There may be some variations or twists that can be added to make it more challenging and exciting.",
-            
+
         ],
-        spocDetails:'Tina Yadav (9369334549)',
+        spocDetails: 'Tina Yadav (9369334549)',
         paymentLink: "",
         redirectLink: "/informal/RhytmicShuffle",
     },
@@ -133,9 +126,9 @@ const InformalData = [
             "5. If any part of the body other than the legs of team members touched the ground, the respective team will be disqualified.",
             "5. More hurdles will be added on the day of the even",
 
-            
+
         ],
-        spocDetails:': Aditya Singh(8266898710)',
+        spocDetails: ': Aditya Singh(8266898710)',
         paymentLink: "",
         redirectLink: "/informal/HulaHoopHurdle",
     },
@@ -151,9 +144,9 @@ const InformalData = [
             "1. Participants will get only one chance to spin.",
             "2. If the head of the rotating wheel coincides with two sections of the rotating wheel, the participant will not get another spin.",
             "3. The participant will be awarded according to where the head of the wheel stops.",
-            
+
         ],
-        spocDetails:'Aditya Singh(8266898710)',
+        spocDetails: 'Aditya Singh(8266898710)',
         paymentLink: "",
         redirectLink: "/informal/LuckyRoyale",
     },
@@ -176,9 +169,9 @@ const InformalData = [
             "8. It will be a first come, first win event.",
             "9. If 2/3 teams reach the last stage at the same time then we will be having tie-breaker round. This round will be disclosed on the day of the event",
 
-            
+
         ],
-        spocDetails:' Shivam Goel(8445051809)',
+        spocDetails: ' Shivam Goel(8445051809)',
         paymentLink: "",
         redirectLink: "/informal/LostFortune",
     },
@@ -200,9 +193,9 @@ const InformalData = [
             "8. It will be a first come, first win event.",
             "9. If 2/3 teams reach the last stage at the same time then we will be having tie-breaker round. This round will be disclosed on the day of the event",
 
-            
+
         ],
-        spocDetails:'Yash Grover(7505313280)',
+        spocDetails: 'Yash Grover(7505313280)',
         paymentLink: "",
         redirectLink: "/informal/LostFortune",
     },
@@ -230,9 +223,9 @@ const InformalData = [
             "14. Photography and videography policy: Participants may take photos and videos of themselves and their team only. No photos or videos of other players or the laser tag facility are allowed without permission from the organizers.",
 
 
-            
+
         ],
-        spocDetails:'Yash Grover(7505313280)',
+        spocDetails: 'Yash Grover(7505313280)',
         paymentLink: "",
         redirectLink: "/informal/LaserTag",
     },
@@ -258,11 +251,11 @@ const InformalData = [
             "2. Each team will get a stack of newspapers, scissors, and glue. Additional materials like tape and decorations can be brought by the team itself.",
             "3. Participants will have 1 hour to create their designs.",
             "4. One member of the team will have to become the model and wear the dress",
-            
 
-            
+
+
         ],
-        spocDetails:'Kriti Jain(9634052388)',
+        spocDetails: 'Kriti Jain(9634052388)',
         paymentLink: "",
         redirectLink: "/informal/ArtOfWisdom",
     },

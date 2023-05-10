@@ -11,6 +11,7 @@ import Navbar from './Atoms/navbar/Navbar';
 import Theme from './Pages/Theme/Theme';
 import History from './Pages/History/History';
 import EventsList from './Pages/EventsList/EventsList';
+import Special from './Pages/SA/Special';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
           <History/>
           <Events />
           <Theme />
+          <Special />
           <EventsList />
           <Registration />
           <FAQ />

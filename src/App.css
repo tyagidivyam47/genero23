@@ -79,6 +79,8 @@ body {
 }
 
 
+
+
 .pointer {
   cursor: pointer;
 }
@@ -87,6 +89,8 @@ body {
   /* background: url('./assets/purple-blue.jpg');
   background-size: cover;
   width: 100%; */
+  height: fit-content !important;
+  margin-top: 10vw;
 }
 
 .generoOverlay {
@@ -234,7 +238,7 @@ button:hover {
   #queries,
   #register {
     /* background-image: url("./assets/purple-blue.jpg"); */
-    padding: 10vw 0px;
+    /* padding: 10vw 0px; */
   }
 
   #home-carousel {

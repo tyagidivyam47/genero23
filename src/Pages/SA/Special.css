@@ -1,0 +1,17 @@
+.sa-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sa-container div h1{
+    font-size: 100px;
+    margin: auto;
+}
+.sa-container div{
+    text-align: center;
+}
+
+.sa-container img{
+    width: 100%;
+}

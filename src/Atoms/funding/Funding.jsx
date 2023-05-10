@@ -1,8 +1,7 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import SponsorshipData from '../../Pages/Sponsors/SponsorshipData'
-import { useParams } from 'react-router'; 
+// import { useParams } from 'react-router'; 
 import './funding.css'
-
 
 
 const Funding=()=> {

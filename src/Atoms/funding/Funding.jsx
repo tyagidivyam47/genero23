@@ -14,15 +14,15 @@ const Funding=()=> {
       return (
        
     
-        <div  id='snew'>
-            <h1 className="topic">OUR SPONSORS</h1>
+        <div  id='snew' className='sponsorshipsnew'>
+            <h1 className="topic sponsor-heading" >OUR SPONSORS</h1>
 
            {SponsorshipData.map((item)=>{
           console.log(item);
           return (
 
             <section >
-            <div className="container header-section flex">
+            <div className="sponsor header-section flexnew">
                 
                 <div className="header-left">
                     <h1 className="new" data-text="DECATHLON">{item.name}</h1>
@@ -33,7 +33,7 @@ const Funding=()=> {
                   
                 </div>
                 <div className="header-right">
-                    <img src="" alt=" "/>
+                    <img src={item.imgSrc} alt=" "/>
                     <div className="social-icons">
                 <a href={item.Insta}><i className="fa-brands fa-square-instagram"></i></a>
                 <a href={item.twitter}><i className="fa-brands fa-twitter-square"></i></a>

@@ -1,58 +1,37 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color:darkblue;
-}
-:root{
-    --primary-text-color:white;
-    --secondary-text-color:white;
-    --accent-color:goldenrod;
-   
-    --padding-inline-section:20px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300;400;500;700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.social-icons a{
+    text-decoration: none;
+    display: inline-block;
 
 }
-body{
-    font-family: 'Poppins', sans-serif;
-    color: var(--primary-text-color);
-}
-h1 {
-    font-size: 3rem;
-    
 
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 600;
 }
-h2{
-    font-size: 2rem;
-}
-h3{
-    font-size: 1.5rem;
-}
-p{
+.header-left p{
     font-family: 'Poppins',sans-serif;
     font-size: 1.25rem;
     color: var(--secondary-text-color);
     line-height: 1.8rem;
 
 }
+.sponsor-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 600px;
+}
 
-a{
-    text-decoration: none;
-    display: inline-block;
-
+.new h1{
+    font-size: 3rem;
 }
-ul{
-    list-style:none;
-}
-.small-bold-text{
-    font-size: 1rem;
-    font-weight: 600;
-}
-.container{
+.sponsor{
     max-width: auto;
     margin-inline: auto;
     padding-inline:var(--padding-inline-section) ;
 }
-.flex{
+.flexnew{
     display: flex;
     align-items: center;
 }
@@ -68,7 +47,7 @@ ul{
 
 
 
-section1{
+.section1{
     padding: 50px var(--padding-inline-section);
 
 }
@@ -83,15 +62,18 @@ section1{
 }
 .header-left h1{
     margin-top: 20px;
+    color: yellow;
 
 
 }
-.new{
-    color: gold;
-    
-}
+
+
+
+
 .topic {
-    color: gold;
+    color: gold !important;
+    font-weight: 700;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -108,8 +90,7 @@ section1{
 }
 .header-right img:hover{
     transform: scale(1.1);
-    
-    
+    transition: ease-in-out 0.5s;
 }
 
 
@@ -137,16 +118,21 @@ section1{
 }
 
 #snew{
-    margin-top: 80px;
+    padding-top: 80px;
+    background-color: darkblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sponsorshipsnew {
+    font-family: 'Poppins', sans-serif;
+
 }
 
 
 
 @media screen and (max-width:991px){
-    h3{
-        font-size: 1.2rem;
-    }
-     h1{
+    
+    .new h1{
         color: goldenrod;
     }
     
@@ -158,7 +144,7 @@ section1{
         
         
     }
-    .container1{
+    .sponsor{
         justify-content: center;
     }
 
@@ -187,24 +173,18 @@ section1{
 
 }
 @media screen  and (max-width: 479px) {
-    :root{
-        -padding-inline-section:10px;
-    }
+    
     .new h1{
         font-size: 2rem;
         color: gold;
     
     }
-    h2{
-        font-size: 1.5rem;
-    }
-    h3{
-        font-size: 1.2rem;
-    }
-    p{
+    
+   
+    .header-left p{
         font-size: 1rem;
     }
    
 
 
-} */
+} 

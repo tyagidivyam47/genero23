@@ -1,11 +1,12 @@
+import decathlon from '../../Atoms/funding/decathlon.jpg'
+
 const SponsorshipData = [
     {
         id:2,
         name: "Decathlon",
-        imgSrc: "https://i.ibb.co/51ZNnWz/Genero23-01-1.png",
-        imgSrc: "",
+        imgSrc: decathlon,
         heading:"Decathlon",
-        Content:"lorem lorem lorem lorem",
+        Content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum quas ullam reiciendis eligendi incidunt in sed, quidem repudiandae tempora enim aliquid ad?",
         Insta:"https://www.instagram.com/decathlonsportsindia/?hl=en&__coig_restricted=1",
         twitter:"",
         LinkedIn:"",

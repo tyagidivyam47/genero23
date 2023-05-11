@@ -5,6 +5,7 @@ const EventCard = (props) => {
     console.log(props);
     return (
         <div className="main-wrapper2" >
+            <div className='overlay'></div>
             <Link to={props.redirectLink}>
                 <div className="team-card2" style={props.propStyle}>
                     {/* <div className="bg-img2">

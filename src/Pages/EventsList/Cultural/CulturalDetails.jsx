@@ -17,7 +17,7 @@ const CulturalDetails = () => {
     console.log(cultural);
 
     return (
-        <div style={{background:"rgb(20, 45, 123)"}}>
+        <div style={{ background: "rgb(20, 45, 123)" }}>
             <Navbar />
 
             <section className="ambaSection">
@@ -33,18 +33,18 @@ const CulturalDetails = () => {
                         <div className="scrollBox">
                             <div className="headingBox">
                                 <h3 className="heading">{cultural[0].heading}</h3>
-                                <p style={{color:"black"}} className="para">{cultural[0].headingPara}</p>
+                                <p style={{ color: "black" }} className="para">{cultural[0].headingPara}</p>
                                 <h3 className="heading">Rules</h3>
 
                                 {cultural[0].rules.map((map) => {
-                                    return <p style={{color:"black"}} className="para">{map}</p>;
+                                    return <p style={{ color: "black" }} className="para">{map}</p>;
                                 })}
 
                                 <p>For Registrations, Contact {cultural[0].spocDetails}</p>
                             </div>
                         </div>
                     </div>
-                    <p style={{textAlign:"center"}}>scroll to view more</p>
+                    <p style={{ textAlign: "center" }}>scroll to view more</p>
                 </div>
             </section>
         </div>

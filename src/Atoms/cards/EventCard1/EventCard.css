@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0;
 }
-.team-card2 {
+/* .team-card2 {
     height: 500px;
     width: 250px;
     border: 0.5px dashed lightblue;
@@ -26,13 +26,54 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    border-radius: 20px;
     overflow: hidden;
     text-align: center;
-    background: linear-gradient(to right, #232526, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #232526, #414345); 
 
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.5s;
+} */
+.team-card2 {
+    height: 500px;
+    width: 250px;
+    border: 0.5px dashed lightblue;
+    margin: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    /*background: linear-gradient(to right, #232526, #414345);
+    W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/background: url("../../../assets/events/c-rayban-CIXoFys3gsw-unsplash.jpg") no-repeat center;
+    object-fit: cover;
+    /* position: absolute; */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
+.overlay{
+    background-color: black;
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 21px;
+    border-radius: 20px;
+    opacity: .5;
+    border: solid;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+
 
 .bg-img2{
     transition: 0.5s;
@@ -40,6 +81,10 @@
 
 .team-card:hover .bg-img2 {
     transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
 
 

@@ -104,7 +104,7 @@ export const eventsData = {
         },
         {
             "S.no.": 18,
-            time: "11:00 AM - 12:00 Noon",
+            time: "11:00 AM - 12:00 PM",
             event: "Inter College Solo Dance\n(Nrutyam)",
             venue: "Stadium"
         },
@@ -128,7 +128,7 @@ export const eventsData = {
         },
         {
             "S.no.": 22,
-            time: "12:00 Noon - 1:30 PM",
+            time: "12:00 PM - 1:30 PM",
             event: "Inter College Solo Singing\n(Sur Lay Tal)",
             venue: "Stadium"
         },

@@ -58,8 +58,8 @@ body{
 .schedule-events{
     width: 70%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding: 20px 0px;
     flex-wrap: wrap;
 }
 
@@ -101,12 +101,21 @@ body{
     background-color: rgb(0, 0, 0);
     padding: 5px;
     display: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+option{
+    font-size: 10px;
+    padding: 2px;
+    width: 100%;
 }
 
 
 @media screen and (max-width:768px) {
     .schedule-box{
         min-height: 100vh;
+        height: auto;
     }
     .schedule-tab-container{
         width: 100%;
@@ -124,6 +133,7 @@ body{
     }
     .schedule-events{
         width: 100%;
+        min-height: 65vh;
     }
     
     .schedule-div{

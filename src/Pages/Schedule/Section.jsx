@@ -12,12 +12,15 @@ function Section({ eventObj }) {
             return 1;
         })
         setTimelines(new Set([...timeData]))
+        
         console.log(timelines)
+        // eslint-disable-next-line
     }, [eventObj])
 
     useEffect(e => {
         const eventsFromTime = eventObj.filter(event => event.time === selected)
         setEvents(eventsFromTime)
+    // eslint-disable-next-line
     }, [selected])
     return (
         <div className='schedule-contain'>

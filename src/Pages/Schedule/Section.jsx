@@ -1,26 +1,29 @@
 import React, { useEffect, useState } from 'react'
-function Section({ eventObj }) {
+function Section(props) {
     const [timelines, setTimelines] = useState([])
-    const [selected, setSelected] = useState(timelines[0])
+    const [selected, setSelected] = useState(props.default)
     const [events, setEvents] = useState([])
 
 
     useEffect(e => {
+        console.log(selected, props.default)
+        setSelected(props.default)
+        setEvents([])
         var timeData = []
-        eventObj.map(elem => {
+        props.eventObj.map(elem => {
             timeData.push(elem.time)
             return 1;
         })
         setTimelines(new Set([...timeData]))
-        
+
         console.log(timelines)
         // eslint-disable-next-line
-    }, [eventObj])
+    }, [props.eventObj])
 
     useEffect(e => {
-        const eventsFromTime = eventObj.filter(event => event.time === selected)
+        const eventsFromTime = props.eventObj.filter(event => event.time === selected)
         setEvents(eventsFromTime)
-    // eslint-disable-next-line
+        // eslint-disable-next-line
     }, [selected])
     return (
         <div className='schedule-contain'>

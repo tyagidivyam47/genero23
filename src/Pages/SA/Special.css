@@ -1,15 +1,27 @@
 .sa-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    /* border-bottom: 5px solid white; */
 }
 
 .sa-container div h1{
-    font-size: 100px;
+    font-size: 90px;
     margin: auto;
 }
 .sa-container div{
     text-align: center;
+    width: 70%;
+    
+}
+
+.sa-head{
+    font-family: 'Poppins';
+}
+
+.sa-head span{
+    font-family: 'Poppins';
+    color: yellow !important;
 }
 
 .sa-container img{

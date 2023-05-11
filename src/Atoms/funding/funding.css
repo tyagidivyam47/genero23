@@ -3,8 +3,12 @@
 
 .social-icons a{
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
 
+}
+
+.social-icons{
+    text-align: left;
 }
 
 .small-bold-text{
@@ -107,7 +111,7 @@
 .social-icons{
     margin-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     
    
 

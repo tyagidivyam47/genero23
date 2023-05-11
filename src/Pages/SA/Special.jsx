@@ -4,16 +4,8 @@ import SpecialAttraction from '../../assets/events/SA.png'
 function Special() {
   return (
     <div className='sa-container'>
-        <div>
-            <h1>SpecialAttractions</h1>
-            <p style={{
-                width:'70%',
-                margin:'10px auto'
-            }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae quaerat, eveniet nostrum possimus officia soluta. Architecto minus eos culpa ab!</p>
-            <button>Get SA Tickets</button>
-        </div>
-        <div>
-
+        <div className=''>
+        <h1 className='sa-head'>DJ, <span>Stars</span> & Theatre</h1>
         <img alt="" src={SpecialAttraction} />
         </div>
     </div>

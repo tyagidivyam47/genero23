@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './Schedule.css'
 import Section from './Section'
 import { eventsData } from './eventsData'
 import Navbar from '../../Atoms/navbar/NavCopy'
-import Footer from '../../Atoms/footer/Footer'
 function Schedule() {
 
     const [selected, setSelected] = useState(0)

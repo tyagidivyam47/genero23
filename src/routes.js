@@ -13,7 +13,6 @@ import PhotographyDetails from './Pages/EventsList/Photography/PhotographyDetail
 import LiteraryList from './Pages/EventsList/Literary/LiteraryList';
 import LiteraryDetails from './Pages/EventsList/Literary/LiteraryDetails';
 import TeamPage from './Pages/Team/TeamPage/TeamPage';
-import Footer from './Atoms/footer/Footer';
 import G15 from './Pages/History/G15';
 import Sponsorship from './Pages/Sponsors/Sponsorship';
 

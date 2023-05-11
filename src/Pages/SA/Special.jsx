@@ -14,7 +14,7 @@ function Special() {
         </div>
         <div>
 
-        <img src={SpecialAttraction} />
+        <img alt="" src={SpecialAttraction} />
         </div>
     </div>
   )

@@ -9,6 +9,7 @@ function Section({ eventObj }) {
         var timeData=[]
         eventObj.map(elem => {
             timeData.push(elem.time)
+            return 1;
         })
 
         setTimelines(new Set([...timeData]))

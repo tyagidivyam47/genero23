@@ -7,7 +7,7 @@ function Schedule() {
 
     const [selected, setSelected] = useState(0)
     return (
-        <div>
+        <div style={{height:'100vh', overflow:'hidden'}}>
             <Navbar />
             <div className='schedule-box'>
                 <div>

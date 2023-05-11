@@ -15,6 +15,7 @@ import LiteraryDetails from './Pages/EventsList/Literary/LiteraryDetails';
 import TeamPage from './Pages/Team/TeamPage/TeamPage';
 import Footer from './Atoms/footer/Footer';
 import G15 from './Pages/History/G15';
+import Sponsorship from './Pages/Sponsors/Sponsorship';
 
 const MyRoutes = () => {
   return (
@@ -25,6 +26,7 @@ const MyRoutes = () => {
         {/* <Route path="/cultural" element={<CulturalList />} /> */}
         <Route path="/teampage" element={<TeamPage />} />
         <Route path="/2015" element={<G15 />} />
+        <Route path="/sponsor" element={<Sponsorship />} />
 
         <Route path="/events/cultural" element={<CulturalList />} />
         <Route path="/events/egaming" element={<EgamingList />} />
@@ -37,7 +39,6 @@ const MyRoutes = () => {
         <Route path="/literary/:id" element={<LiteraryDetails />} />
         <Route path="/photography/:id" element={<PhotographyDetails />} />
       </Routes>
-      <Footer />
 
     </div>
   )

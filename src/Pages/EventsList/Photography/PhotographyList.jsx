@@ -3,7 +3,7 @@
 import PhotographyData from "../../../EventsData/PhotographyData";
 import { useEffect } from "react";
 import EventCard from "../../../Atoms/cards/EventCard1/EventCard";
-
+import Footer from "../../../Atoms/footer/Footer";
 import "./PhotographyList.css"
 import Navbar from "../../../Atoms/navbar/NavCopy";
 
@@ -36,6 +36,8 @@ const PhotographyList = () => {
                 })}
             </div>
             </div>
+
+            <Footer />
         </div>
     );
 };

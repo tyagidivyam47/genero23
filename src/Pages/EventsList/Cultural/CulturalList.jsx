@@ -6,6 +6,7 @@ import EventCard from "../../../Atoms/cards/EventCard1/EventCard";
 
 import "./CulturalList.css"
 import Navbar from "../../../Atoms/navbar/NavCopy";
+import Footer from "../../../Atoms/footer/Footer";
 
 const CulturalList = () => {
     useEffect(() => {
@@ -37,6 +38,8 @@ const CulturalList = () => {
                     })}
                 </div>
             </div>
+            
+            <Footer />
         </div>
     );
 };

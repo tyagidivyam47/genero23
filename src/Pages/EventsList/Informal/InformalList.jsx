@@ -6,6 +6,7 @@ import EventCard from "../../../Atoms/cards/EventCard1/EventCard";
 
 import "./InformalList.css"
 import Navbar from "../../../Atoms/navbar/NavCopy";
+import Footer from "../../../Atoms/footer/Footer";
 
 const InformalList = () => {
     useEffect(() => {
@@ -20,23 +21,25 @@ const InformalList = () => {
 
             <div className="event-padded">
 
-            <h1 style={{textAlign:"center"}}>Informal</h1>
-            <div className="grid-container">
-                {InformalData.map((list,index) => {
-                    // {console.log(list.heading)}
-                    return (
-                        <EventCard
-                            key={list.id}
-                            imgSrc={list.imgSrc}
-                            serial={index+1}
-                            propStyle={{height:'200px'}}
-                            name={list.heading}
-                            redirectLink={list.redirectLink}
-                        />
-                    );
-                })}
+                <h1 style={{ textAlign: "center" }}>Informal</h1>
+                <div className="grid-container">
+                    {InformalData.map((list, index) => {
+                        // {console.log(list.heading)}
+                        return (
+                            <EventCard
+                                key={list.id}
+                                imgSrc={list.imgSrc}
+                                serial={index + 1}
+                                propStyle={{ height: '200px' }}
+                                name={list.heading}
+                                redirectLink={list.redirectLink}
+                            />
+                        );
+                    })}
+                </div>
             </div>
-            </div>
+
+            <Footer />
         </div>
     );
 };

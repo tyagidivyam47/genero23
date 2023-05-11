@@ -6,6 +6,7 @@ import EventCard from "../../../Atoms/cards/EventCard1/EventCard";
 
 import "./LiteraryList.css"
 import Navbar from "../../../Atoms/navbar/NavCopy";
+import Footer from "../../../Atoms/footer/Footer";
 
 const LiteraryList = () => {
     useEffect(() => {
@@ -37,6 +38,8 @@ const LiteraryList = () => {
                     );
                 })}
             </div>
+
+            <Footer />
             </div>
         </div>
     );

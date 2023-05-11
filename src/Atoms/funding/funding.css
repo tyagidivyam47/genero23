@@ -86,10 +86,8 @@
     width: 100%;
     height: 45vh;
     border-radius: 15px;
-
-    
-    
-    
+    border: 2px solid;
+    background: wheat;
 }
 
 

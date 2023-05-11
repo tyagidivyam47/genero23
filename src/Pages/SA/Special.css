@@ -1,17 +1,46 @@
 .sa-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    /* border-bottom: 5px solid white; */
 }
 
 .sa-container div h1{
-    font-size: 100px;
+    font-size: 90px;
     margin: auto;
 }
 .sa-container div{
     text-align: center;
+    width: 70%;
+    
+}
+
+.sa-head{
+    font-family: 'Poppins';
+}
+
+.sa-head span{
+    font-family: 'Poppins';
+    color: yellow !important;
 }
 
 .sa-container img{
     width: 100%;
 }
+
+@media screen and (max-width:768px) {
+    .sa-container{
+        flex-direction: column;
+    }
+    .sa-container div{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .sa-container div h1{
+        font-size: 40px;
+    }
+    .sa-container div p{
+        width: 100% !important;
+        margin: auto;
+    }
+}   

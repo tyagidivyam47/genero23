@@ -30,15 +30,16 @@ const Funding = () => {
                 <p>{item.Content}
 
                 </p>
+                <div className="social-icons"   >
+                  <a href={item.Insta}><i className="fa-brands fa-square-instagram"></i></a>
+                  <a href={item.twitter}><i className="fa-brands fa-twitter-square"></i></a>
+                  <a href={item.LinkedIn}><i className="fa-brands fa-linkedin"></i></a>
+                  <a href={item.Website}><i className="fa fa-globe"></i></a>
+                </div>
 
               </div>
               <div className="header-right1">
                 <img src={item.imgSrc} alt=" " />
-                <div className="social-icons  "   >
-                  <a href={item.Insta}><i className="fa-brands fa-square-instagram"></i></a>
-                  <a href={item.twitter}><i className="fa-brands fa-twitter-square"></i></a>
-                  <a href={item.LinkedIn}><i className="fa-brands fa-linkedin"></i></a>
-                </div>
               </div>
             </div>
 

@@ -1,41 +1,43 @@
 import React, { useEffect, useState } from 'react'
-function Section({ eventObj }) {
+function Section(props) {
     const [timelines, setTimelines] = useState([])
-    const [selected, setSelected] = useState('')
+    const [selected, setSelected] = useState(props.default)
     const [events, setEvents] = useState([])
 
 
     useEffect(e => {
-        var timeData=[]
-        eventObj.map(elem => {
+        console.log(selected, props.default)
+        setSelected(props.default)
+        setEvents([])
+        var timeData = []
+        props.eventObj.map(elem => {
             timeData.push(elem.time)
+            return 1;
         })
-
         setTimelines(new Set([...timeData]))
 
         console.log(timelines)
-
-        const eventsFromTime = eventObj.filter(event => event.time === timelines[0])
-        setEvents(eventsFromTime)
-    }, [eventObj])
+        // eslint-disable-next-line
+    }, [props.eventObj])
 
     useEffect(e => {
-        const eventsFromTime = eventObj.filter(event => event.time === selected)
+        const eventsFromTime = props.eventObj.filter(event => event.time === selected)
         setEvents(eventsFromTime)
+        // eslint-disable-next-line
     }, [selected])
     return (
         <div className='schedule-contain'>
             <div className='schedule-times'>
                 {
                     Array.from(timelines).map(elem => {
-                        return <p className={`section-time ${selected===elem?'selected':''}`} onClick={() => setSelected(elem)}>{elem}</p>
+                        return <p className={`section-time ${selected === elem ? 'selected' : ''}`} onClick={() => setSelected(elem)}>{elem}</p>
                     })
                 }
             </div>
-            <select className='schedule-dropdown'>
+            <select className='schedule-dropdown' onChange={(e) => setSelected(e.target.value)}>
                 {
                     Array.from(timelines).map(elem => {
-                        return <option className={`section-time ${selected===elem?'selected':''}`} onClick={() => setSelected(elem)}>{elem}</option>
+                        return <option value={elem} className={`section-time ${selected === elem ? 'selected' : ''}`}>{elem}</option>
                     })
                 }
             </select>

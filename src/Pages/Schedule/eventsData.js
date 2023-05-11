@@ -8,7 +8,7 @@ export const eventsData = {
         {
             "S.no.": 2,
             time: "9:30 AM - 11:00 AM",
-            event: "Inter College Group Dance\n(Nrutyam)",
+            event: "Inter College Group Dance(Nrutyam)",
             venue: "Stadium"
         },
         {
@@ -21,18 +21,18 @@ export const eventsData = {
             "S.no.": 4,
             time: "9:30 AM - 4:00 PM",
             event: "VR Gaming (VR Arena)",
-            venue: "KC Block Room number 5 &amp; 6"
+            venue: "KC Block Room number 5 & 6"
         },
         {
             "S.no.": 5,
             time: "9:30 AM - 4:00 PM",
             event: "PS4 Gaming (Console Quest)",
-            venue: "KC Block Room number 1 &amp; 2"
+            venue: "KC Block Room number 1 & 2"
         },
         {
             "S.no.": 6,
             time: "10:00 AM - 1:00 PM",
-            event: "Inter College Nukkad Natak\n(Vyang)",
+            event: "Inter College Nukkad Natak(Vyang)",
             venue: "Blackstone"
         },
         {
@@ -56,14 +56,14 @@ export const eventsData = {
         {
             "S.no.": 10,
             time: "10:00 AM - 4:00 PM",
-            event: "Valorant Tournament \n(Killzone Combat)",
+            event: "Valorant Tournament (Killzone Combat)",
             venue: "KC Block Lab 2"
         },
         {
             "S.no.": 11,
             time: "10:00 AM - 3:30 PM",
             event: "Roadies",
-            venue: "KC Block Room number 3 &amp; 4 \n(10:00 AM - 1:00 PM)",
+            venue: "KC Block Room number 3 & 4 (10:00 AM - 1:00 PM)",
             venue2: "Amphitheatre (2:00 PM - 3:30 PM)"
         },
         {
@@ -104,8 +104,8 @@ export const eventsData = {
         },
         {
             "S.no.": 18,
-            time: "11:00 AM - 12:00 Noon",
-            event: "Inter College Solo Dance\n(Nrutyam)",
+            time: "11:00 AM - 12:00 PM",
+            event: "Inter College Solo Dance(Nrutyam)",
             venue: "Stadium"
         },
         {
@@ -123,20 +123,20 @@ export const eventsData = {
         {
             "S.no.": 21,
             time: "11:00 AM - 2:00 PM",
-            event: "Inter College Photo Walk\n(Camera Crusade)",
-            venue: "Aryabhatta Block LT 1 &amp; LT 2"
+            event: "Inter College Photo Walk(Camera Crusade)",
+            venue: "Aryabhatta Block LT 1 & LT 2"
         },
         {
             "S.no.": 22,
-            time: "12:00 Noon - 1:30 PM",
-            event: "Inter College Solo Singing\n(Sur Lay Tal)",
+            time: "12:00 PM - 1:30 PM",
+            event: "Inter College Solo Singing(Sur Lay Tal)",
             venue: "Stadium"
         },
         {
             "S.no.": 23,
             time: "12:30 PM - 5:00 PM",
-            event: "Asmita Theatre Show 1\n(12:30 PM - 2:30 PM)",
-            event2: "Asmita Theatre Show 2\n(3:00 PM - 5:00 PM)",
+            event: "Asmita Theatre Show 1(12:30 PM - 2:30 PM)",
+            event2: "Asmita Theatre Show 2(3:00 PM - 5:00 PM)",
             venue: "Raman Block Auditorium"
         },
         {
@@ -160,7 +160,7 @@ export const eventsData = {
         {
             "S.no.": 27,
             time: "1:30 PM - 2:30 PM",
-            event: "Inter College Group Singing\n(Sur Lay Tal)",
+            event: "Inter College Group Singing(Sur Lay Tal)",
             venue: "Stadium"
         },
         {
@@ -180,7 +180,7 @@ export const eventsData = {
         {
             serial: 1,
             time: "9:30 AM - 12:30 PM",
-            event: "Inter College Skit\n(Swaang)",
+            event: "Inter College Skit(Swaang)",
             venue: "Raman Block Auditorium"
         },
         {
@@ -204,7 +204,7 @@ export const eventsData = {
         {
             serial: 5,
             time: "10:00 AM - 2:00 PM",
-            event: "Inter College Battle of Bands\n(Decibels)",
+            event: "Inter College Battle of Bands(Decibels)",
             venue: "Stadium"
         },
         {
@@ -216,7 +216,7 @@ export const eventsData = {
         {
             serial: 7,
             time: "10:00 AM - 4:00 PM",
-            event: "Call of Duty Mobile Tournament \n(Guns N Glory)",
+            event: "Call of Duty Mobile Tournament (Guns N Glory)",
             venue: "KC Block Lab 2"
         },
         {
@@ -283,18 +283,18 @@ export const eventsData = {
             serial: 18,
             time: "11:00 AM - 2:00 PM",
             event: "Prompt Write (Srijan)",
-            venue: "Aryabhatta Block LT 1 &amp; LT 2"
+            venue: "Aryabhatta Block LT 1 & LT 2"
         },
         {
             serial: 19,
             time: "1:00 PM - 4:00 PM",
-            event: "Inter College Fashion Show\n(Jalsa)",
+            event: "Inter College Fashion Show(Jalsa)",
             venue: "Raman Block Auditorium"
         },
         {
             serial: 20,
             time: "1:00 PM - 4:00 PM",
-            event: "Art &amp; Craft (Art of Wisdom)",
+            event: "Art & Craft (Art of Wisdom)",
             venue: "Ramanujan Block Badminton Court"
         },
         {

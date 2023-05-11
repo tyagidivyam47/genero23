@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.schedule-head{
+    font-size: 50px;
+    text-align: center;
+}
+
+.schedule-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    background-color: black;
+    height: 100vh;
+    padding-top: 70px;
+    overflow: none;
+}
+
+.schedule-tab-container{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    margin: auto;
+}
+.schedule-tab{
+    margin: auto;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.selected{
+    border-bottom: 2px solid white;
+    
+}
+
+/* Section Css */
+.schedule-contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+    padding: 2rem;
+}
+
+.schedule-times{
+    width: 30%;
+    height: 70vh;
+    overflow: scroll;
+}
+
+.schedule-events{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.schedule-times p{
+    width:fit-content;
+    padding: 5px;
+}
+
+.schedule-div{
+    border:1px solid rgb(0, 255, 174);
+    padding: 10px;
+    border-radius: 10px;
+    width: 320px;
+    margin: 20px;
+    height: 120px;
+}
+
+.eventName{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+.eventVenue{
+    font-size: 17px;
+    padding: 0;
+    margin: 10px 0px;
+}
+.eventVenue i{
+    margin-right: 5px;
+}
+
+.section-time{
+    cursor: pointer;
+}
+
+.schedule-dropdown{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    display: none;
+}
+
+
+@media screen and (max-width:768px) {
+    .schedule-box{
+        min-height: 100vh;
+    }
+    .schedule-tab-container{
+        width: 100%;
+    }
+
+    .schedule-times{
+        display: none;
+    }
+    .schedule-dropdown{
+        display: block;
+    }
+    .schedule-contain{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .schedule-events{
+        width: 100%;
+    }
+    
+    .schedule-div{
+        width: 100% !important;
+        height: fit-content !important;
+        margin: 10px auto;
+    }
+}

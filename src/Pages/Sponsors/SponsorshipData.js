@@ -113,7 +113,7 @@ const SponsorshipData = [
 
 },
 {
-    id:9,
+    id:10,
     name: "APPWARS TECHNOLOGIES",
     imgSrc: appwars,
     heading:"Decathlon",
@@ -124,7 +124,7 @@ const SponsorshipData = [
 
 },
 {
-    id:9,
+    id:11,
     name: "REALME MUSIC",
     imgSrc: realmemusic,
     heading:"Decathlon",
@@ -135,7 +135,7 @@ const SponsorshipData = [
 
 },
 {
-    id:9,
+    id:12,
     name: "GHAZIABAD ACCESSORIES FACTORY",
     imgSrc: gzbacce,
     heading:"Decathlon",
@@ -146,7 +146,7 @@ const SponsorshipData = [
 
 },
 {
-    id:9,
+    id:13,
     name: "REALME",
     imgSrc: realme,
     heading:"Decathlon",
@@ -161,3 +161,4 @@ const SponsorshipData = [
 ]
 
 export default SponsorshipData;
+

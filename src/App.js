@@ -12,6 +12,7 @@ import Theme from './Pages/Theme/Theme';
 import History from './Pages/History/History';
 import EventsList from './Pages/EventsList/EventsList';
 import Special from './Pages/SA/Special';
+import Footer from './Atoms/footer/Footer';
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
           <EventsList />
           <Registration />
           <FAQ />
+          <Footer />
           </div>
         : <PreLoader />
       }

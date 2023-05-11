@@ -4,6 +4,7 @@ import SubTeamData from '../team/SubTeamData'
 import Team from '../team/Team'
 import Subteam from '../team/Subteam'
 import Navbar from '../../../Atoms/navbar/NavCopy'
+import Footer from '../../../Atoms/footer/Footer'
 
 
 export default function TeamPage() {
@@ -20,6 +21,7 @@ export default function TeamPage() {
           <Subteam key={p.id} post={p} />
         )}
       </div>
+      <Footer/>
     </div>
   )
 }
